@@ -1,0 +1,219 @@
+[
+  {
+    "Author": "Asteria Nocturna",
+    "Name": "Divination.AetheryteLinkInChat",
+    "Punchline": "Quick teleport for Mob Hunting",
+    "Description": "Add a link to teleport to the nearest aetheryte into map link in chat.",
+    "Changelog": "35ceb48: ⚙️ Deploy FaloopIntegration \"0.1.0-beta.1902.bd0d1fa.20240221\"\nbd0d1fa: restore solution\n362db02: update IoC for latest Dalamud\nc29f704: Merge pull request #540 from SlashNephy/dependabot/go_modules/packages/DownloadCounter/golang.org/x/crypto-0.17.0\n\nBump golang.org/x/crypto from 0.15.0 to 0.17.0 in /packages/DownloadCounter\nc400ffb: fix(deps): update dependency i18next to v23.8.3\nfddc2f6: chore(deps): update dependency wrangler to v3.28.3\n7326f0c: fix(deps): update dependency swr to v2.2.5\n85f3813: chore(deps): lock file maintenance\na573b2a: chore(deps): update dependency vite to v5.1.3\n8188690: chore(deps): update dependency wrangler to v3.28.2\n18d81db: chore(deps): update dependency wrangler to v3.28.1\n7ec5a7c: chore(deps): update dependency vite to v5.1.1\n9c0778d: chore(deps): update dependency @cloudflare/workers-types to v4.20240208.0\n4bc14ed: chore(deps): lock file maintenance\n1fd06ff: chore(deps): update react monorepo\n08617d7: chore(deps): update dependency @slashnephy/eslint-config to v2.3.14\neecabd0: chore(deps): update dependency prettier to v3.2.5\ne8742b6: fix(deps): update dependency @tabler/icons-react to v2.47.0\nc8e37ea: chore(deps): lock file maintenance\nf3b1726: fix(deps): update dependency i18next to v23.8.2\nfb16cb3: chore(deps): update dependency wrangler to v3.26.0\n7ba3c65: chore(deps): update dependency @vitejs/plugin-react-swc to v3.6.0\n2351a2d: chore(deps): update yarn to v4.1.0\n9385580: chore(deps): update dependency @cloudflare/workers-types to v4.20240129.0\n7d1c9c6: chore(deps): update dependency @slashnephy/eslint-config to v2.3.10\ne5dcf4a: chore(deps): update dependency wrangler to v3.25.0\n6631f91: fix(deps): update dependency i18next to v23.7.20\n8be4368: chore(deps): lock file maintenance\nc7ad1d6: chore(deps): update dependency @slashnephy/eslint-config to v2.3.9\n9f86534: fix(deps): update dependency i18next to v23.7.18",
+    "Tags": [
+      "teleporter"
+    ],
+    "CategoryTags": [
+      "utility"
+    ],
+    "InternalName": "AetheryteLinkInChat",
+    "AssemblyVersion": "0.1.0.1723",
+    "RepoUrl": "https://github.com/SlashNephy/Divination",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 9,
+    "LastUpdate": 1708532198,
+    "DownloadLinkInstall": "https://https://xiv.starry.blue/plugins/stable/AetheryteLinkInChat/latest.zip"
+  },
+  {
+    "Author": "Asteria Nocturna",
+    "Name": "Divination.Calculator",
+    "Punchline": "/calc 33 - 4",
+    "Description": "Simple plugin to just add /calc command.",
+    "Changelog": "c9fdee9: ⚙️ Deploy PerfectComplex \"0.1.0-beta.1902.bd0d1fa.20240221\"\nec730c3: ⚙️ Deploy Voiceroid2Talker \"0.1.0-beta.1902.bd0d1fa.20240221\"\n42ccc6b: ⚙️ Deploy InstanceIDViewer \"0.1.0-beta.1902.bd0d1fa.20240221\"\n51213c5: ⚙️ Deploy AetheryteLinkInChat \"0.1.0-beta.1902.bd0d1fa.20240221\"\n35ceb48: ⚙️ Deploy FaloopIntegration \"0.1.0-beta.1902.bd0d1fa.20240221\"\nbd0d1fa: restore solution\n362db02: update IoC for latest Dalamud\nc29f704: Merge pull request #540 from SlashNephy/dependabot/go_modules/packages/DownloadCounter/golang.org/x/crypto-0.17.0\n\nBump golang.org/x/crypto from 0.15.0 to 0.17.0 in /packages/DownloadCounter\nc400ffb: fix(deps): update dependency i18next to v23.8.3\nfddc2f6: chore(deps): update dependency wrangler to v3.28.3\n7326f0c: fix(deps): update dependency swr to v2.2.5\n85f3813: chore(deps): lock file maintenance\na573b2a: chore(deps): update dependency vite to v5.1.3\n8188690: chore(deps): update dependency wrangler to v3.28.2\n18d81db: chore(deps): update dependency wrangler to v3.28.1\n7ec5a7c: chore(deps): update dependency vite to v5.1.1\n9c0778d: chore(deps): update dependency @cloudflare/workers-types to v4.20240208.0\n4bc14ed: chore(deps): lock file maintenance\n1fd06ff: chore(deps): update react monorepo\n08617d7: chore(deps): update dependency @slashnephy/eslint-config to v2.3.14\neecabd0: chore(deps): update dependency prettier to v3.2.5\ne8742b6: fix(deps): update dependency @tabler/icons-react to v2.47.0\nc8e37ea: chore(deps): lock file maintenance\nf3b1726: fix(deps): update dependency i18next to v23.8.2\nfb16cb3: chore(deps): update dependency wrangler to v3.26.0\n7ba3c65: chore(deps): update dependency @vitejs/plugin-react-swc to v3.6.0\n2351a2d: chore(deps): update yarn to v4.1.0\n9385580: chore(deps): update dependency @cloudflare/workers-types to v4.20240129.0\n7d1c9c6: chore(deps): update dependency @slashnephy/eslint-config to v2.3.10\ne5dcf4a: chore(deps): update dependency wrangler to v3.25.0",
+    "Tags": [
+      "utility"
+    ],
+    "CategoryTags": [
+      "utility"
+    ],
+    "InternalName": "Calculator",
+    "AssemblyVersion": "0.1.0.1255",
+    "RepoUrl": "https://github.com/SlashNephy/Divination",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 9,
+    "LastUpdate": 1708532198,
+    "DownloadLinkInstall": "https://https://xiv.starry.blue/plugins/stable/Calculator/latest.zip"
+  },
+  {
+    "Author": "Asteria Nocturna",
+    "Name": "Divination.Debugger",
+    "Punchline": "You don't need this unless you are developer.",
+    "Description": "Tiny tool to inspect game...",
+    "Changelog": "3f964c8: ⚙️ Deploy DiscordIntegration \"0.1.0-beta.1902.bd0d1fa.20240221\"\ne7581a6: ⚙️ Deploy Calculator \"0.1.0-beta.1902.bd0d1fa.20240221\"\nc9fdee9: ⚙️ Deploy PerfectComplex \"0.1.0-beta.1902.bd0d1fa.20240221\"\nec730c3: ⚙️ Deploy Voiceroid2Talker \"0.1.0-beta.1902.bd0d1fa.20240221\"\n42ccc6b: ⚙️ Deploy InstanceIDViewer \"0.1.0-beta.1902.bd0d1fa.20240221\"\n51213c5: ⚙️ Deploy AetheryteLinkInChat \"0.1.0-beta.1902.bd0d1fa.20240221\"\n35ceb48: ⚙️ Deploy FaloopIntegration \"0.1.0-beta.1902.bd0d1fa.20240221\"\nbd0d1fa: restore solution\n362db02: update IoC for latest Dalamud\nc29f704: Merge pull request #540 from SlashNephy/dependabot/go_modules/packages/DownloadCounter/golang.org/x/crypto-0.17.0\n\nBump golang.org/x/crypto from 0.15.0 to 0.17.0 in /packages/DownloadCounter\nc400ffb: fix(deps): update dependency i18next to v23.8.3\nfddc2f6: chore(deps): update dependency wrangler to v3.28.3\n7326f0c: fix(deps): update dependency swr to v2.2.5\n85f3813: chore(deps): lock file maintenance\na573b2a: chore(deps): update dependency vite to v5.1.3\n8188690: chore(deps): update dependency wrangler to v3.28.2\n18d81db: chore(deps): update dependency wrangler to v3.28.1\n7ec5a7c: chore(deps): update dependency vite to v5.1.1\n9c0778d: chore(deps): update dependency @cloudflare/workers-types to v4.20240208.0\n4bc14ed: chore(deps): lock file maintenance\n1fd06ff: chore(deps): update react monorepo\n08617d7: chore(deps): update dependency @slashnephy/eslint-config to v2.3.14\neecabd0: chore(deps): update dependency prettier to v3.2.5\ne8742b6: fix(deps): update dependency @tabler/icons-react to v2.47.0\nc8e37ea: chore(deps): lock file maintenance\nf3b1726: fix(deps): update dependency i18next to v23.8.2\nfb16cb3: chore(deps): update dependency wrangler to v3.26.0\n7ba3c65: chore(deps): update dependency @vitejs/plugin-react-swc to v3.6.0\n2351a2d: chore(deps): update yarn to v4.1.0\n9385580: chore(deps): update dependency @cloudflare/workers-types to v4.20240129.0",
+    "Tags": [
+      "Development",
+      "Debug"
+    ],
+    "CategoryTags": [
+      "utility"
+    ],
+    "InternalName": "Debugger",
+    "AssemblyVersion": "0.1.0.1718",
+    "RepoUrl": "https://github.com/SlashNephy/Divination",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 9,
+    "LastUpdate": 1708532198,
+    "DownloadLinkInstall": "https://https://xiv.starry.blue/plugins/stable/Debugger/latest.zip"
+  },
+  {
+    "Author": "Asteria Nocturna",
+    "Name": "Divination.DiscordIntegration",
+    "Punchline": "Fully-customizable Discord Rich Presence",
+    "Description": "Dalamud Plugin to support Rich Presence for FFXIV.",
+    "Changelog": "e7581a6: ⚙️ Deploy Calculator \"0.1.0-beta.1902.bd0d1fa.20240221\"\nc9fdee9: ⚙️ Deploy PerfectComplex \"0.1.0-beta.1902.bd0d1fa.20240221\"\nec730c3: ⚙️ Deploy Voiceroid2Talker \"0.1.0-beta.1902.bd0d1fa.20240221\"\n42ccc6b: ⚙️ Deploy InstanceIDViewer \"0.1.0-beta.1902.bd0d1fa.20240221\"\n51213c5: ⚙️ Deploy AetheryteLinkInChat \"0.1.0-beta.1902.bd0d1fa.20240221\"\n35ceb48: ⚙️ Deploy FaloopIntegration \"0.1.0-beta.1902.bd0d1fa.20240221\"\nbd0d1fa: restore solution\n362db02: update IoC for latest Dalamud\nc29f704: Merge pull request #540 from SlashNephy/dependabot/go_modules/packages/DownloadCounter/golang.org/x/crypto-0.17.0\n\nBump golang.org/x/crypto from 0.15.0 to 0.17.0 in /packages/DownloadCounter\nc400ffb: fix(deps): update dependency i18next to v23.8.3\nfddc2f6: chore(deps): update dependency wrangler to v3.28.3\n7326f0c: fix(deps): update dependency swr to v2.2.5\n85f3813: chore(deps): lock file maintenance\na573b2a: chore(deps): update dependency vite to v5.1.3\n8188690: chore(deps): update dependency wrangler to v3.28.2\n18d81db: chore(deps): update dependency wrangler to v3.28.1\n7ec5a7c: chore(deps): update dependency vite to v5.1.1\n9c0778d: chore(deps): update dependency @cloudflare/workers-types to v4.20240208.0\n4bc14ed: chore(deps): lock file maintenance\n1fd06ff: chore(deps): update react monorepo\n08617d7: chore(deps): update dependency @slashnephy/eslint-config to v2.3.14\neecabd0: chore(deps): update dependency prettier to v3.2.5\ne8742b6: fix(deps): update dependency @tabler/icons-react to v2.47.0\nc8e37ea: chore(deps): lock file maintenance\nf3b1726: fix(deps): update dependency i18next to v23.8.2\nfb16cb3: chore(deps): update dependency wrangler to v3.26.0\n7ba3c65: chore(deps): update dependency @vitejs/plugin-react-swc to v3.6.0\n2351a2d: chore(deps): update yarn to v4.1.0\n9385580: chore(deps): update dependency @cloudflare/workers-types to v4.20240129.0\n7d1c9c6: chore(deps): update dependency @slashnephy/eslint-config to v2.3.10",
+    "Tags": [
+      "Discord"
+    ],
+    "CategoryTags": [
+      "social"
+    ],
+    "InternalName": "DiscordIntegration",
+    "AssemblyVersion": "0.1.0.1255",
+    "RepoUrl": "https://github.com/SlashNephy/Divination",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 9,
+    "LastUpdate": 1708532198,
+    "DownloadLinkInstall": "https://https://xiv.starry.blue/plugins/stable/DiscordIntegration/latest.zip",
+    "LoadRequiredState": 2,
+    "AcceptsFeedback": true
+  },
+  {
+    "Author": "Asteria Nocturna",
+    "Name": "Divination.FaloopIntegration",
+    "Punchline": "Faloop notification in chat",
+    "Description": "Provide simple integration with Faloop. Mob notification in chat.",
+    "Changelog": "bd0d1fa: restore solution\n362db02: update IoC for latest Dalamud\nc29f704: Merge pull request #540 from SlashNephy/dependabot/go_modules/packages/DownloadCounter/golang.org/x/crypto-0.17.0\n\nBump golang.org/x/crypto from 0.15.0 to 0.17.0 in /packages/DownloadCounter\nc400ffb: fix(deps): update dependency i18next to v23.8.3\nfddc2f6: chore(deps): update dependency wrangler to v3.28.3\n7326f0c: fix(deps): update dependency swr to v2.2.5\n85f3813: chore(deps): lock file maintenance\na573b2a: chore(deps): update dependency vite to v5.1.3\n8188690: chore(deps): update dependency wrangler to v3.28.2\n18d81db: chore(deps): update dependency wrangler to v3.28.1\n7ec5a7c: chore(deps): update dependency vite to v5.1.1\n9c0778d: chore(deps): update dependency @cloudflare/workers-types to v4.20240208.0\n4bc14ed: chore(deps): lock file maintenance\n1fd06ff: chore(deps): update react monorepo\n08617d7: chore(deps): update dependency @slashnephy/eslint-config to v2.3.14\neecabd0: chore(deps): update dependency prettier to v3.2.5\ne8742b6: fix(deps): update dependency @tabler/icons-react to v2.47.0\nc8e37ea: chore(deps): lock file maintenance\nf3b1726: fix(deps): update dependency i18next to v23.8.2\nfb16cb3: chore(deps): update dependency wrangler to v3.26.0\n7ba3c65: chore(deps): update dependency @vitejs/plugin-react-swc to v3.6.0\n2351a2d: chore(deps): update yarn to v4.1.0\n9385580: chore(deps): update dependency @cloudflare/workers-types to v4.20240129.0\n7d1c9c6: chore(deps): update dependency @slashnephy/eslint-config to v2.3.10\ne5dcf4a: chore(deps): update dependency wrangler to v3.25.0\n6631f91: fix(deps): update dependency i18next to v23.7.20\n8be4368: chore(deps): lock file maintenance\nc7ad1d6: chore(deps): update dependency @slashnephy/eslint-config to v2.3.9\n9f86534: fix(deps): update dependency i18next to v23.7.18\n24b503f: ⚙️ Deploy FaloopIntegration \"0.1.0-beta.1871.2ac64c1.20240122\"",
+    "Tags": [
+      "mobhunt"
+    ],
+    "CategoryTags": [
+      "social",
+      "utility"
+    ],
+    "InternalName": "FaloopIntegration",
+    "AssemblyVersion": "0.1.0.1790",
+    "RepoUrl": "https://github.com/SlashNephy/Divination",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 9,
+    "LastUpdate": 1708532198,
+    "DownloadLinkInstall": "https://https://xiv.starry.blue/plugins/stable/FaloopIntegration/latest.zip",
+    "LoadRequiredState": 2,
+    "AcceptsFeedback": true
+  },
+  {
+    "Author": "Horoscope developers",
+    "Name": "Divination.InstanceIDViewer",
+    "Description": "show instance id in chat when instance changed",
+    "Changelog": "51213c5: ⚙️ Deploy AetheryteLinkInChat \"0.1.0-beta.1902.bd0d1fa.20240221\"\n35ceb48: ⚙️ Deploy FaloopIntegration \"0.1.0-beta.1902.bd0d1fa.20240221\"\nbd0d1fa: restore solution\n362db02: update IoC for latest Dalamud\nc29f704: Merge pull request #540 from SlashNephy/dependabot/go_modules/packages/DownloadCounter/golang.org/x/crypto-0.17.0\n\nBump golang.org/x/crypto from 0.15.0 to 0.17.0 in /packages/DownloadCounter\nc400ffb: fix(deps): update dependency i18next to v23.8.3\nfddc2f6: chore(deps): update dependency wrangler to v3.28.3\n7326f0c: fix(deps): update dependency swr to v2.2.5\n85f3813: chore(deps): lock file maintenance\na573b2a: chore(deps): update dependency vite to v5.1.3\n8188690: chore(deps): update dependency wrangler to v3.28.2\n18d81db: chore(deps): update dependency wrangler to v3.28.1\n7ec5a7c: chore(deps): update dependency vite to v5.1.1\n9c0778d: chore(deps): update dependency @cloudflare/workers-types to v4.20240208.0\n4bc14ed: chore(deps): lock file maintenance\n1fd06ff: chore(deps): update react monorepo\n08617d7: chore(deps): update dependency @slashnephy/eslint-config to v2.3.14\neecabd0: chore(deps): update dependency prettier to v3.2.5\ne8742b6: fix(deps): update dependency @tabler/icons-react to v2.47.0\nc8e37ea: chore(deps): lock file maintenance\nf3b1726: fix(deps): update dependency i18next to v23.8.2\nfb16cb3: chore(deps): update dependency wrangler to v3.26.0\n7ba3c65: chore(deps): update dependency @vitejs/plugin-react-swc to v3.6.0\n2351a2d: chore(deps): update yarn to v4.1.0\n9385580: chore(deps): update dependency @cloudflare/workers-types to v4.20240129.0\n7d1c9c6: chore(deps): update dependency @slashnephy/eslint-config to v2.3.10\ne5dcf4a: chore(deps): update dependency wrangler to v3.25.0\n6631f91: fix(deps): update dependency i18next to v23.7.20\n8be4368: chore(deps): lock file maintenance\nc7ad1d6: chore(deps): update dependency @slashnephy/eslint-config to v2.3.9",
+    "Tags": [
+      "Discord"
+    ],
+    "CategoryTags": [
+      "social"
+    ],
+    "InternalName": "InstanceIDViewer",
+    "AssemblyVersion": "0.1.0.1902",
+    "TestingAssemblyVersion": "0.1.0.1902",
+    "IsTestingExclusive": true,
+    "RepoUrl": "https://github.com/SlashNephy/Divination",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 9,
+    "LastUpdate": 1708532198,
+    "DownloadLinkTesting": "https://https://xiv.starry.blue/plugins/testing/InstanceIDViewer/latest.zip",
+    "LoadRequiredState": 2,
+    "AcceptsFeedback": true
+  },
+  {
+    "Author": "Asteria Nocturna",
+    "Name": "Divination.PerfectComplex",
+    "Changelog": "ec730c3: ⚙️ Deploy Voiceroid2Talker \"0.1.0-beta.1902.bd0d1fa.20240221\"\n42ccc6b: ⚙️ Deploy InstanceIDViewer \"0.1.0-beta.1902.bd0d1fa.20240221\"\n51213c5: ⚙️ Deploy AetheryteLinkInChat \"0.1.0-beta.1902.bd0d1fa.20240221\"\n35ceb48: ⚙️ Deploy FaloopIntegration \"0.1.0-beta.1902.bd0d1fa.20240221\"\nbd0d1fa: restore solution\n362db02: update IoC for latest Dalamud\nc29f704: Merge pull request #540 from SlashNephy/dependabot/go_modules/packages/DownloadCounter/golang.org/x/crypto-0.17.0\n\nBump golang.org/x/crypto from 0.15.0 to 0.17.0 in /packages/DownloadCounter\nc400ffb: fix(deps): update dependency i18next to v23.8.3\nfddc2f6: chore(deps): update dependency wrangler to v3.28.3\n7326f0c: fix(deps): update dependency swr to v2.2.5\n85f3813: chore(deps): lock file maintenance\na573b2a: chore(deps): update dependency vite to v5.1.3\n8188690: chore(deps): update dependency wrangler to v3.28.2\n18d81db: chore(deps): update dependency wrangler to v3.28.1\n7ec5a7c: chore(deps): update dependency vite to v5.1.1\n9c0778d: chore(deps): update dependency @cloudflare/workers-types to v4.20240208.0\n4bc14ed: chore(deps): lock file maintenance\n1fd06ff: chore(deps): update react monorepo\n08617d7: chore(deps): update dependency @slashnephy/eslint-config to v2.3.14\neecabd0: chore(deps): update dependency prettier to v3.2.5\ne8742b6: fix(deps): update dependency @tabler/icons-react to v2.47.0\nc8e37ea: chore(deps): lock file maintenance\nf3b1726: fix(deps): update dependency i18next to v23.8.2\nfb16cb3: chore(deps): update dependency wrangler to v3.26.0\n7ba3c65: chore(deps): update dependency @vitejs/plugin-react-swc to v3.6.0\n2351a2d: chore(deps): update yarn to v4.1.0\n9385580: chore(deps): update dependency @cloudflare/workers-types to v4.20240129.0\n7d1c9c6: chore(deps): update dependency @slashnephy/eslint-config to v2.3.10\ne5dcf4a: chore(deps): update dependency wrangler to v3.25.0\n6631f91: fix(deps): update dependency i18next to v23.7.20",
+    "Tags": [
+      "[Tag]"
+    ],
+    "CategoryTags": [
+      "ui",
+      "utility"
+    ],
+    "InternalName": "PerfectComplex",
+    "AssemblyVersion": "0.1.0.1255",
+    "RepoUrl": "https://github.com/SlashNephy/Divination",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 9,
+    "LastUpdate": 1708532198,
+    "DownloadLinkInstall": "https://https://xiv.starry.blue/plugins/stable/PerfectComplex/latest.zip",
+    "LoadRequiredState": 2,
+    "AcceptsFeedback": true
+  },
+  {
+    "Author": "Asteria Nocturna",
+    "Name": "Divination.PowerUtils",
+    "Punchline": "Save Energy!",
+    "Description": "Add /power save, /power balance, /power perf, /monitoroff commands for power management",
+    "Changelog": "ce8f53d: ⚙️ Deploy Voiceroid2Talker \"0.1.0-beta.1687.8e7ac38.20231116\"\nba84d17: ⚙️ Deploy PerfectComplex \"0.1.0-beta.1687.8e7ac38.20231116\"\n988cf8f: ⚙️ Deploy Calculator \"0.1.0-beta.1687.8e7ac38.20231116\"\n9e6d0b2: ⚙️ Deploy InstanceIDViewer \"0.1.0-beta.1687.8e7ac38.20231116\"\n7d67831: ⚙️ Deploy TwitterIntegration \"0.1.0-beta.1687.8e7ac38.20231116\"\n8e7ac38: updade DalamudApiLevel to 9\n0bb4991: chore(deps): update dependency @slashnephy/prettier-config to v1.0.42\ne6bfeca: fix(deps): update module github.com/pressly/goose/v3 to v3.16.0\n7301899: 🧹 yarn format\n3d54b3b: broaden expept\n1de6f2e: ⚙️ Deploy FaloopIntegration \"0.1.0-beta.1681.7768787.20231114\"\n7768787: chore(deps): update dependency anglesharp to v1.0.6\n4984b81: fix(deps): update dependency i18next-browser-languagedetector to v7.2.0\nc534b18: chore(deps): update dependency @slashnephy/eslint-config to v2.0.59\ndbe3d51: fix(deps): update module github.com/labstack/gommon to v0.4.1\n182dac8: chore(deps): update dependency @slashnephy/prettier-config to v1.0.41\nc96c860: chore(deps): update dependency @slashnephy/eslint-config to v2.0.58\n07ffb1b: chore(deps): lock file maintenance\n2f56dd4: chore(deps): update dependency @slashnephy/prettier-config to v1.0.40\nb9d71c6: chore(deps): update dependency @slashnephy/eslint-config to v2.0.57\n9dc2b42: chore(deps): update react monorepo\nc0e7c60: fix(deps): update module github.com/labstack/echo/v4 to v4.11.3\n340dd74: chore(deps): update golang docker tag to v1.21.4\n8d70f9e: chore(deps): update dependency @slashnephy/prettier-config to v1.0.39\n9e006ed: chore(deps): update dependency @slashnephy/eslint-config to v2.0.56\n03d38a2: chore(deps): update dependency @slashnephy/eslint-config to v2.0.55\nd0ec55b: chore(deps): update dependency @slashnephy/prettier-config to v1.0.38\n0ad9633: chore(deps): update dependency @slashnephy/eslint-config to v2.0.54\n2299b8e: chore(deps): update dependency eslint to v8.53.0\ndceb921: chore(deps): update dependency @slashnephy/prettier-config to v1.0.37",
+    "Tags": [
+      "Command"
+    ],
+    "CategoryTags": [
+      "utility"
+    ],
+    "InternalName": "PowerUtils",
+    "AssemblyVersion": "0.1.0.1687",
+    "TestingAssemblyVersion": "0.1.0.1687",
+    "IsTestingExclusive": true,
+    "RepoUrl": "https://github.com/SlashNephy/Divination",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 9,
+    "LastUpdate": 1708532198,
+    "DownloadLinkTesting": "https://https://xiv.starry.blue/plugins/testing/PowerUtils/latest.zip",
+    "LoadRequiredState": 2,
+    "AcceptsFeedback": true
+  },
+  {
+    "Author": "Asteria Nocturna",
+    "Name": "Divination.TwitterIntegration",
+    "Punchline": "Tweet in FFXIV chat.",
+    "Description": "Dalamud Plugin to add tweet function and Twitter timeline in FFXIV chat",
+    "Changelog": "8e7ac38: updade DalamudApiLevel to 9\n0bb4991: chore(deps): update dependency @slashnephy/prettier-config to v1.0.42\ne6bfeca: fix(deps): update module github.com/pressly/goose/v3 to v3.16.0\n7301899: 🧹 yarn format\n3d54b3b: broaden expept\n1de6f2e: ⚙️ Deploy FaloopIntegration \"0.1.0-beta.1681.7768787.20231114\"\n7768787: chore(deps): update dependency anglesharp to v1.0.6\n4984b81: fix(deps): update dependency i18next-browser-languagedetector to v7.2.0\nc534b18: chore(deps): update dependency @slashnephy/eslint-config to v2.0.59\ndbe3d51: fix(deps): update module github.com/labstack/gommon to v0.4.1\n182dac8: chore(deps): update dependency @slashnephy/prettier-config to v1.0.41\nc96c860: chore(deps): update dependency @slashnephy/eslint-config to v2.0.58\n07ffb1b: chore(deps): lock file maintenance\n2f56dd4: chore(deps): update dependency @slashnephy/prettier-config to v1.0.40\nb9d71c6: chore(deps): update dependency @slashnephy/eslint-config to v2.0.57\n9dc2b42: chore(deps): update react monorepo\nc0e7c60: fix(deps): update module github.com/labstack/echo/v4 to v4.11.3\n340dd74: chore(deps): update golang docker tag to v1.21.4\n8d70f9e: chore(deps): update dependency @slashnephy/prettier-config to v1.0.39\n9e006ed: chore(deps): update dependency @slashnephy/eslint-config to v2.0.56\n03d38a2: chore(deps): update dependency @slashnephy/eslint-config to v2.0.55\nd0ec55b: chore(deps): update dependency @slashnephy/prettier-config to v1.0.38\n0ad9633: chore(deps): update dependency @slashnephy/eslint-config to v2.0.54\n2299b8e: chore(deps): update dependency eslint to v8.53.0\ndceb921: chore(deps): update dependency @slashnephy/prettier-config to v1.0.37\ne34fcd2: chore(deps): update dependency @slashnephy/eslint-config to v2.0.53\n2cbd5e4: chore(deps): update dependency @slashnephy/prettier-config to v1.0.36\n05c4a68: chore(deps): update dependency @slashnephy/eslint-config to v2.0.52\n8b391fd: chore(deps): lock file maintenance\nf722cb1: chore(deps): update dependency @types/react to v18.2.34",
+    "Tags": [
+      "Twitter"
+    ],
+    "CategoryTags": [
+      "social"
+    ],
+    "InternalName": "TwitterIntegration",
+    "AssemblyVersion": "0.1.0.1255",
+    "RepoUrl": "https://github.com/SlashNephy/Divination",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 9,
+    "LastUpdate": 1708532198,
+    "DownloadLinkInstall": "https://https://xiv.starry.blue/plugins/stable/TwitterIntegration/latest.zip"
+  },
+  {
+    "Author": "Asteria Nocturna",
+    "Name": "Divination.Voiceroid2Talker",
+    "Punchline": "Text-to-Speech for Voiceroid2",
+    "Description": "Add /voiceroid2 command into FFXIV. Require SimpleVoiceroid2Proxy (https://github.com/SlashNephy/SimpleVoiceroid2Proxy).",
+    "Changelog": "42ccc6b: ⚙️ Deploy InstanceIDViewer \"0.1.0-beta.1902.bd0d1fa.20240221\"\n51213c5: ⚙️ Deploy AetheryteLinkInChat \"0.1.0-beta.1902.bd0d1fa.20240221\"\n35ceb48: ⚙️ Deploy FaloopIntegration \"0.1.0-beta.1902.bd0d1fa.20240221\"\nbd0d1fa: restore solution\n362db02: update IoC for latest Dalamud\nc29f704: Merge pull request #540 from SlashNephy/dependabot/go_modules/packages/DownloadCounter/golang.org/x/crypto-0.17.0\n\nBump golang.org/x/crypto from 0.15.0 to 0.17.0 in /packages/DownloadCounter\nc400ffb: fix(deps): update dependency i18next to v23.8.3\nfddc2f6: chore(deps): update dependency wrangler to v3.28.3\n7326f0c: fix(deps): update dependency swr to v2.2.5\n85f3813: chore(deps): lock file maintenance\na573b2a: chore(deps): update dependency vite to v5.1.3\n8188690: chore(deps): update dependency wrangler to v3.28.2\n18d81db: chore(deps): update dependency wrangler to v3.28.1\n7ec5a7c: chore(deps): update dependency vite to v5.1.1\n9c0778d: chore(deps): update dependency @cloudflare/workers-types to v4.20240208.0\n4bc14ed: chore(deps): lock file maintenance\n1fd06ff: chore(deps): update react monorepo\n08617d7: chore(deps): update dependency @slashnephy/eslint-config to v2.3.14\neecabd0: chore(deps): update dependency prettier to v3.2.5\ne8742b6: fix(deps): update dependency @tabler/icons-react to v2.47.0\nc8e37ea: chore(deps): lock file maintenance\nf3b1726: fix(deps): update dependency i18next to v23.8.2\nfb16cb3: chore(deps): update dependency wrangler to v3.26.0\n7ba3c65: chore(deps): update dependency @vitejs/plugin-react-swc to v3.6.0\n2351a2d: chore(deps): update yarn to v4.1.0\n9385580: chore(deps): update dependency @cloudflare/workers-types to v4.20240129.0\n7d1c9c6: chore(deps): update dependency @slashnephy/eslint-config to v2.3.10\ne5dcf4a: chore(deps): update dependency wrangler to v3.25.0\n6631f91: fix(deps): update dependency i18next to v23.7.20\n8be4368: chore(deps): lock file maintenance",
+    "Tags": [
+      "Text-to-speech",
+      "Voiceroid"
+    ],
+    "CategoryTags": [
+      "utility"
+    ],
+    "InternalName": "Voiceroid2Talker",
+    "AssemblyVersion": "0.1.0.1255",
+    "RepoUrl": "https://github.com/SlashNephy/Divination",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 9,
+    "LastUpdate": 1708532198,
+    "DownloadLinkInstall": "https://https://xiv.starry.blue/plugins/stable/Voiceroid2Talker/latest.zip",
+    "LoadRequiredState": 2,
+    "AcceptsFeedback": true
+  }
+]
