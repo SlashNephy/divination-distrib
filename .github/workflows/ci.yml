@@ -1,0 +1,48 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'plugins/**'
+      - '!plugins/master.json'
+
+  workflow_dispatch:
+
+concurrency:
+  group: ci
+
+jobs:
+  update-plugin-master:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: 1.22
+
+      - name: Generate Plugin Master
+        run: |
+          go install github.com/SlashNephy/divination-plugin-master-generator@latest
+          divination-plugin-master-generator
+
+      - name: Create Pull Request
+        id: create-pull-request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          commit-message: 🪄 Generate Plugin Master
+          author: StarryBlueSky-bot <97773209+StarryBlueSky-bot@users.noreply.github.com>
+          branch: ci/update-plugin-master
+          branch-suffix: random
+          delete-branch: true
+          title: 🪄 Generate Plugin Master
+
+      - name: Automerge
+        if: steps.create-pull-request.outputs.pull-request-number
+        uses: peter-evans/enable-pull-request-automerge@v3
+        with:
+          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          pull-request-number: ${{  steps.create-pull-request.outputs.pull-request-number }}

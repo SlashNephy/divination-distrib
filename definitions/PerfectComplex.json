@@ -1,0 +1,9 @@
+{
+  "Version": "2023.03.24.0000.0000",
+  "Patch": "6.38",
+
+  "TitleOffset": "0x1ACC",
+  "MainHandWeaponOffset": "0x6E0",
+  "OffHandWeaponOffset": "0x748",
+  "OnlineStatusOffset": "0x1AD6"
+}
