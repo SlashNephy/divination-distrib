@@ -1,25 +1,151 @@
 {
-  "after": "bd0d1fa868f335728dc7100b23c3645a74869a2a",
+  "after": "d2670013d6d442bf565749c63a10057e6d489556",
   "base_ref": null,
-  "before": "c29f70468db195bc9df931eb170c5291f4ebcd0c",
+  "before": "69efba0ccef3d0e971c997c513a43b2af6d4a376",
   "commits": [
     {
       "author": {
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "name": "renovate[bot]",
+        "username": "renovate[bot]"
+      },
+      "committer": {
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "name": "renovate[bot]",
+        "username": "renovate[bot]"
+      },
+      "distinct": true,
+      "id": "8b9ea62c4371d5d8a8fcb159c20ef06a4277dbf9",
+      "message": "chore(deps): update dependency wrangler to v3.28.1",
+      "timestamp": "2024-02-12T13:56:03Z",
+      "tree_id": "ace61ca775053a0a24fb7f12f7a01df6a7249635",
+      "url": "https://github.com/SlashNephy/Divination/commit/8b9ea62c4371d5d8a8fcb159c20ef06a4277dbf9"
+    },
+    {
+      "author": {
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "name": "renovate[bot]",
+        "username": "renovate[bot]"
+      },
+      "committer": {
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "name": "renovate[bot]",
+        "username": "renovate[bot]"
+      },
+      "distinct": true,
+      "id": "ac90bc874ec246400ce0dfaa4a7c3b8a1f9aae23",
+      "message": "chore(deps): update dependency wrangler to v3.28.2",
+      "timestamp": "2024-02-16T18:58:13Z",
+      "tree_id": "ace61ca775053a0a24fb7f12f7a01df6a7249635",
+      "url": "https://github.com/SlashNephy/Divination/commit/ac90bc874ec246400ce0dfaa4a7c3b8a1f9aae23"
+    },
+    {
+      "author": {
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "name": "renovate[bot]",
+        "username": "renovate[bot]"
+      },
+      "committer": {
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "name": "renovate[bot]",
+        "username": "renovate[bot]"
+      },
+      "distinct": true,
+      "id": "7921a1c7b75babb19ee1f00dc857197c97bc19f0",
+      "message": "chore(deps): update dependency vite to v5.1.3",
+      "timestamp": "2024-02-18T15:28:20Z",
+      "tree_id": "ace61ca775053a0a24fb7f12f7a01df6a7249635",
+      "url": "https://github.com/SlashNephy/Divination/commit/7921a1c7b75babb19ee1f00dc857197c97bc19f0"
+    },
+    {
+      "author": {
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "name": "renovate[bot]",
+        "username": "renovate[bot]"
+      },
+      "committer": {
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "name": "renovate[bot]",
+        "username": "renovate[bot]"
+      },
+      "distinct": true,
+      "id": "45fb629b85799343d740438b911b1188a0e4d22e",
+      "message": "chore(deps): lock file maintenance",
+      "timestamp": "2024-02-18T19:09:35Z",
+      "tree_id": "ace61ca775053a0a24fb7f12f7a01df6a7249635",
+      "url": "https://github.com/SlashNephy/Divination/commit/45fb629b85799343d740438b911b1188a0e4d22e"
+    },
+    {
+      "author": {
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "name": "renovate[bot]",
+        "username": "renovate[bot]"
+      },
+      "committer": {
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "name": "renovate[bot]",
+        "username": "renovate[bot]"
+      },
+      "distinct": true,
+      "id": "0ad303e5d1455e98be0bdbbee4f926148dd21736",
+      "message": "fix(deps): update dependency swr to v2.2.5",
+      "timestamp": "2024-02-19T01:58:33Z",
+      "tree_id": "ace61ca775053a0a24fb7f12f7a01df6a7249635",
+      "url": "https://github.com/SlashNephy/Divination/commit/0ad303e5d1455e98be0bdbbee4f926148dd21736"
+    },
+    {
+      "author": {
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "name": "renovate[bot]",
+        "username": "renovate[bot]"
+      },
+      "committer": {
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "name": "renovate[bot]",
+        "username": "renovate[bot]"
+      },
+      "distinct": true,
+      "id": "aeba87f65926bdb7b72d9f4dddeb49d035db1295",
+      "message": "chore(deps): update dependency wrangler to v3.28.3",
+      "timestamp": "2024-02-19T22:23:04Z",
+      "tree_id": "ace61ca775053a0a24fb7f12f7a01df6a7249635",
+      "url": "https://github.com/SlashNephy/Divination/commit/aeba87f65926bdb7b72d9f4dddeb49d035db1295"
+    },
+    {
+      "author": {
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "name": "renovate[bot]",
+        "username": "renovate[bot]"
+      },
+      "committer": {
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "name": "renovate[bot]",
+        "username": "renovate[bot]"
+      },
+      "distinct": true,
+      "id": "6beaa53ff94bc14647acff1bc5706b10f09cf81d",
+      "message": "fix(deps): update dependency i18next to v23.8.3",
+      "timestamp": "2024-02-20T13:40:17Z",
+      "tree_id": "ace61ca775053a0a24fb7f12f7a01df6a7249635",
+      "url": "https://github.com/SlashNephy/Divination/commit/6beaa53ff94bc14647acff1bc5706b10f09cf81d"
+    },
+    {
+      "author": {
         "email": "spica@starry.blue",
         "name": "SlashNephy",
         "username": "SlashNephy"
       },
       "committer": {
-        "email": "spica@starry.blue",
-        "name": "SlashNephy",
-        "username": "SlashNephy"
+        "email": "noreply@github.com",
+        "name": "GitHub",
+        "username": "web-flow"
       },
       "distinct": true,
-      "id": "362db023b13d056e276e33e1cc16bf14d29daaa5",
-      "message": "update IoC for latest Dalamud",
-      "timestamp": "2024-02-21T20:23:04+09:00",
-      "tree_id": "ee7b6fe8d6e44e96d9c1c4cff5035462c3677c2c",
-      "url": "https://github.com/SlashNephy/Divination/commit/362db023b13d056e276e33e1cc16bf14d29daaa5"
+      "id": "9a1206436292a6fffdefa0583c224cf3d3d75fcd",
+      "message": "Merge pull request #540 from SlashNephy/dependabot/go_modules/packages/DownloadCounter/golang.org/x/crypto-0.17.0\n\nBump golang.org/x/crypto from 0.15.0 to 0.17.0 in /packages/DownloadCounter",
+      "timestamp": "2024-02-21T19:53:29+09:00",
+      "tree_id": "ace61ca775053a0a24fb7f12f7a01df6a7249635",
+      "url": "https://github.com/SlashNephy/Divination/commit/9a1206436292a6fffdefa0583c224cf3d3d75fcd"
     },
     {
       "author": {
@@ -33,34 +159,232 @@
         "username": "SlashNephy"
       },
       "distinct": true,
-      "id": "bd0d1fa868f335728dc7100b23c3645a74869a2a",
+      "id": "73ee15c12f98121b8b16ab123c1d1ca6a8008ffa",
+      "message": "update IoC for latest Dalamud",
+      "timestamp": "2024-02-21T20:23:04+09:00",
+      "tree_id": "b71341f0f9b21a48f239a119ea596f01e816ca07",
+      "url": "https://github.com/SlashNephy/Divination/commit/73ee15c12f98121b8b16ab123c1d1ca6a8008ffa"
+    },
+    {
+      "author": {
+        "email": "spica@starry.blue",
+        "name": "SlashNephy",
+        "username": "SlashNephy"
+      },
+      "committer": {
+        "email": "spica@starry.blue",
+        "name": "SlashNephy",
+        "username": "SlashNephy"
+      },
+      "distinct": true,
+      "id": "7db1af6b202d050113c43364bc53a7b3ba53bba2",
       "message": "restore solution",
       "timestamp": "2024-02-21T20:23:38+09:00",
-      "tree_id": "2a2fb46048162960c18776017dc05ac27dc6376f",
-      "url": "https://github.com/SlashNephy/Divination/commit/bd0d1fa868f335728dc7100b23c3645a74869a2a"
+      "tree_id": "ab3daa996e5ef46c5b62688f6adaa39aafff9fee",
+      "url": "https://github.com/SlashNephy/Divination/commit/7db1af6b202d050113c43364bc53a7b3ba53bba2"
+    },
+    {
+      "author": {
+        "email": "97773209+StarryBlueSky-bot@users.noreply.github.com",
+        "name": "StarryBlueSky-bot",
+        "username": "StarryBlueSky-bot"
+      },
+      "committer": {
+        "email": "41898282+github-actions[bot]@users.noreply.github.com",
+        "name": "github-actions[bot]",
+        "username": "github-actions[bot]"
+      },
+      "distinct": true,
+      "id": "e4e45c0f4010000b7a3594be13714c59bd86e0fa",
+      "message": "⚙️ Deploy FaloopIntegration \"0.1.0-beta.1902.bd0d1fa.20240221\"",
+      "timestamp": "2024-02-21T11:28:52Z",
+      "tree_id": "ab3daa996e5ef46c5b62688f6adaa39aafff9fee",
+      "url": "https://github.com/SlashNephy/Divination/commit/e4e45c0f4010000b7a3594be13714c59bd86e0fa"
+    },
+    {
+      "author": {
+        "email": "97773209+StarryBlueSky-bot@users.noreply.github.com",
+        "name": "StarryBlueSky-bot",
+        "username": "StarryBlueSky-bot"
+      },
+      "committer": {
+        "email": "41898282+github-actions[bot]@users.noreply.github.com",
+        "name": "github-actions[bot]",
+        "username": "github-actions[bot]"
+      },
+      "distinct": true,
+      "id": "7d6b562d6e0bb786fcf4a8d38049dea4d471f764",
+      "message": "⚙️ Deploy AetheryteLinkInChat \"0.1.0-beta.1902.bd0d1fa.20240221\"",
+      "timestamp": "2024-02-21T11:29:02Z",
+      "tree_id": "ab3daa996e5ef46c5b62688f6adaa39aafff9fee",
+      "url": "https://github.com/SlashNephy/Divination/commit/7d6b562d6e0bb786fcf4a8d38049dea4d471f764"
+    },
+    {
+      "author": {
+        "email": "97773209+StarryBlueSky-bot@users.noreply.github.com",
+        "name": "StarryBlueSky-bot",
+        "username": "StarryBlueSky-bot"
+      },
+      "committer": {
+        "email": "41898282+github-actions[bot]@users.noreply.github.com",
+        "name": "github-actions[bot]",
+        "username": "github-actions[bot]"
+      },
+      "distinct": true,
+      "id": "190347c1c1a7b2bbeadfb50d2f53624705ed58cf",
+      "message": "⚙️ Deploy InstanceIDViewer \"0.1.0-beta.1902.bd0d1fa.20240221\"",
+      "timestamp": "2024-02-21T11:29:09Z",
+      "tree_id": "ab3daa996e5ef46c5b62688f6adaa39aafff9fee",
+      "url": "https://github.com/SlashNephy/Divination/commit/190347c1c1a7b2bbeadfb50d2f53624705ed58cf"
+    },
+    {
+      "author": {
+        "email": "97773209+StarryBlueSky-bot@users.noreply.github.com",
+        "name": "StarryBlueSky-bot",
+        "username": "StarryBlueSky-bot"
+      },
+      "committer": {
+        "email": "41898282+github-actions[bot]@users.noreply.github.com",
+        "name": "github-actions[bot]",
+        "username": "github-actions[bot]"
+      },
+      "distinct": true,
+      "id": "98cd3bbee9a13aa79cf1f5f1cf6011c79d0d1095",
+      "message": "⚙️ Deploy Voiceroid2Talker \"0.1.0-beta.1902.bd0d1fa.20240221\"",
+      "timestamp": "2024-02-21T11:29:23Z",
+      "tree_id": "ab3daa996e5ef46c5b62688f6adaa39aafff9fee",
+      "url": "https://github.com/SlashNephy/Divination/commit/98cd3bbee9a13aa79cf1f5f1cf6011c79d0d1095"
+    },
+    {
+      "author": {
+        "email": "97773209+StarryBlueSky-bot@users.noreply.github.com",
+        "name": "StarryBlueSky-bot",
+        "username": "StarryBlueSky-bot"
+      },
+      "committer": {
+        "email": "41898282+github-actions[bot]@users.noreply.github.com",
+        "name": "github-actions[bot]",
+        "username": "github-actions[bot]"
+      },
+      "distinct": true,
+      "id": "5ce6cf8c8ebc7c00298b5edb6778dc4eb53d73c3",
+      "message": "⚙️ Deploy PerfectComplex \"0.1.0-beta.1902.bd0d1fa.20240221\"",
+      "timestamp": "2024-02-21T11:29:35Z",
+      "tree_id": "ab3daa996e5ef46c5b62688f6adaa39aafff9fee",
+      "url": "https://github.com/SlashNephy/Divination/commit/5ce6cf8c8ebc7c00298b5edb6778dc4eb53d73c3"
+    },
+    {
+      "author": {
+        "email": "97773209+StarryBlueSky-bot@users.noreply.github.com",
+        "name": "StarryBlueSky-bot",
+        "username": "StarryBlueSky-bot"
+      },
+      "committer": {
+        "email": "41898282+github-actions[bot]@users.noreply.github.com",
+        "name": "github-actions[bot]",
+        "username": "github-actions[bot]"
+      },
+      "distinct": true,
+      "id": "105a78b1f676a79b9c298aeb7665191bc2d2cda9",
+      "message": "⚙️ Deploy Calculator \"0.1.0-beta.1902.bd0d1fa.20240221\"",
+      "timestamp": "2024-02-21T11:30:33Z",
+      "tree_id": "ab3daa996e5ef46c5b62688f6adaa39aafff9fee",
+      "url": "https://github.com/SlashNephy/Divination/commit/105a78b1f676a79b9c298aeb7665191bc2d2cda9"
+    },
+    {
+      "author": {
+        "email": "97773209+StarryBlueSky-bot@users.noreply.github.com",
+        "name": "StarryBlueSky-bot",
+        "username": "StarryBlueSky-bot"
+      },
+      "committer": {
+        "email": "41898282+github-actions[bot]@users.noreply.github.com",
+        "name": "github-actions[bot]",
+        "username": "github-actions[bot]"
+      },
+      "distinct": true,
+      "id": "1b0cc43544c0896ae97c54739462a0cdb407c6b7",
+      "message": "⚙️ Deploy DiscordIntegration \"0.1.0-beta.1902.bd0d1fa.20240221\"",
+      "timestamp": "2024-02-21T11:30:40Z",
+      "tree_id": "ab3daa996e5ef46c5b62688f6adaa39aafff9fee",
+      "url": "https://github.com/SlashNephy/Divination/commit/1b0cc43544c0896ae97c54739462a0cdb407c6b7"
+    },
+    {
+      "author": {
+        "email": "97773209+StarryBlueSky-bot@users.noreply.github.com",
+        "name": "StarryBlueSky-bot",
+        "username": "StarryBlueSky-bot"
+      },
+      "committer": {
+        "email": "41898282+github-actions[bot]@users.noreply.github.com",
+        "name": "github-actions[bot]",
+        "username": "github-actions[bot]"
+      },
+      "distinct": true,
+      "id": "8c13e3bf59e9670cb96eda520e4b9052da8c15b6",
+      "message": "⚙️ Deploy Debugger \"0.1.0-beta.1902.bd0d1fa.20240221\"",
+      "timestamp": "2024-02-21T11:30:47Z",
+      "tree_id": "ab3daa996e5ef46c5b62688f6adaa39aafff9fee",
+      "url": "https://github.com/SlashNephy/Divination/commit/8c13e3bf59e9670cb96eda520e4b9052da8c15b6"
+    },
+    {
+      "author": {
+        "email": "spica@starry.blue",
+        "name": "SlashNephy",
+        "username": "SlashNephy"
+      },
+      "committer": {
+        "email": "spica@starry.blue",
+        "name": "SlashNephy",
+        "username": "SlashNephy"
+      },
+      "distinct": true,
+      "id": "04e368ddcdbfeacbe5bed5a12493c203c8e74284",
+      "message": "create automerge PR when deploying",
+      "timestamp": "2024-02-22T01:08:22+09:00",
+      "tree_id": "9d69f71b8495115edd73cf4fe56454bc2dd0cf57",
+      "url": "https://github.com/SlashNephy/Divination/commit/04e368ddcdbfeacbe5bed5a12493c203c8e74284"
+    },
+    {
+      "author": {
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "name": "renovate[bot]",
+        "username": "renovate[bot]"
+      },
+      "committer": {
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "name": "renovate[bot]",
+        "username": "renovate[bot]"
+      },
+      "distinct": true,
+      "id": "d2670013d6d442bf565749c63a10057e6d489556",
+      "message": "fix(deps): update dependency i18next to v23.9.0",
+      "timestamp": "2024-02-21T19:21:13Z",
+      "tree_id": "9d69f71b8495115edd73cf4fe56454bc2dd0cf57",
+      "url": "https://github.com/SlashNephy/Divination/commit/d2670013d6d442bf565749c63a10057e6d489556"
     }
   ],
-  "compare": "https://github.com/SlashNephy/Divination/compare/c29f70468db1...bd0d1fa868f3",
+  "compare": "https://github.com/SlashNephy/Divination/compare/69efba0ccef3...d2670013d6d4",
   "created": false,
   "deleted": false,
-  "forced": false,
+  "forced": true,
   "head_commit": {
     "author": {
-      "email": "spica@starry.blue",
-      "name": "SlashNephy",
-      "username": "SlashNephy"
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "name": "renovate[bot]",
+      "username": "renovate[bot]"
     },
     "committer": {
-      "email": "spica@starry.blue",
-      "name": "SlashNephy",
-      "username": "SlashNephy"
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "name": "renovate[bot]",
+      "username": "renovate[bot]"
     },
     "distinct": true,
-    "id": "bd0d1fa868f335728dc7100b23c3645a74869a2a",
-    "message": "restore solution",
-    "timestamp": "2024-02-21T20:23:38+09:00",
-    "tree_id": "2a2fb46048162960c18776017dc05ac27dc6376f",
-    "url": "https://github.com/SlashNephy/Divination/commit/bd0d1fa868f335728dc7100b23c3645a74869a2a"
+    "id": "d2670013d6d442bf565749c63a10057e6d489556",
+    "message": "fix(deps): update dependency i18next to v23.9.0",
+    "timestamp": "2024-02-21T19:21:13Z",
+    "tree_id": "9d69f71b8495115edd73cf4fe56454bc2dd0cf57",
+    "url": "https://github.com/SlashNephy/Divination/commit/d2670013d6d442bf565749c63a10057e6d489556"
   },
   "pusher": {
     "email": "spica@starry.blue",
@@ -129,8 +453,8 @@
     "name": "Divination",
     "node_id": "R_kgDOJblaww",
     "notifications_url": "https://api.github.com/repos/SlashNephy/Divination/notifications{?since,all,participating}",
-    "open_issues": 14,
-    "open_issues_count": 14,
+    "open_issues": 15,
+    "open_issues_count": 15,
     "owner": {
       "avatar_url": "https://avatars.githubusercontent.com/u/7302150?v=4",
       "email": "spica@starry.blue",
@@ -155,9 +479,9 @@
     },
     "private": false,
     "pulls_url": "https://api.github.com/repos/SlashNephy/Divination/pulls{/number}",
-    "pushed_at": 1708514857,
+    "pushed_at": 1708609323,
     "releases_url": "https://api.github.com/repos/SlashNephy/Divination/releases{/id}",
-    "size": 60275,
+    "size": 61277,
     "ssh_url": "git@github.com:SlashNephy/Divination.git",
     "stargazers": 7,
     "stargazers_count": 7,
