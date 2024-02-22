@@ -23,6 +23,8 @@ jobs:
         with:
           go-version: 1.22
 
+      - uses: chetan/git-restore-mtime-action@v2
+
       - name: Generate Plugin Master
         run: |
           go install github.com/SlashNephy/divination-plugin-master-generator@latest
