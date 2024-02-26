@@ -2,7 +2,7 @@
   "Author": "Asteria Nocturna",
   "Name": "Divination.FaloopIntegration",
   "InternalName": "FaloopIntegration",
-  "AssemblyVersion": "0.1.0.1912",
+  "AssemblyVersion": "0.1.0.1929",
   "Description": "Provide simple integration with Faloop. Mob notification in chat.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -13,11 +13,10 @@
     "utility"
   ],
   "DalamudApiLevel": 9,
-  "LoadRequiredState": 2,
+  "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "ImageUrls": [],
   "Punchline": "Faloop notification in chat",
   "AcceptsFeedback": true
 }
