@@ -1,6 +1,44 @@
 {
-  "inputs": null,
-  "ref": "refs/heads/master",
+  "action": "created",
+  "release": {
+    "assets": [],
+    "assets_url": "https://api.github.com/repos/SlashNephy/Divination/releases/143797183/assets",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/7302150?v=4",
+      "events_url": "https://api.github.com/users/SlashNephy/events{/privacy}",
+      "followers_url": "https://api.github.com/users/SlashNephy/followers",
+      "following_url": "https://api.github.com/users/SlashNephy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SlashNephy/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/SlashNephy",
+      "id": 7302150,
+      "login": "SlashNephy",
+      "node_id": "MDQ6VXNlcjczMDIxNTA=",
+      "organizations_url": "https://api.github.com/users/SlashNephy/orgs",
+      "received_events_url": "https://api.github.com/users/SlashNephy/received_events",
+      "repos_url": "https://api.github.com/users/SlashNephy/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/SlashNephy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SlashNephy/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/SlashNephy"
+    },
+    "body": "",
+    "created_at": "2024-02-27T12:25:45Z",
+    "draft": false,
+    "html_url": "https://github.com/SlashNephy/Divination/releases/tag/6.57.1",
+    "id": 143797183,
+    "name": "",
+    "node_id": "RE_kwDOJblaw84Ikiu_",
+    "prerelease": false,
+    "published_at": "2024-02-27T12:38:18Z",
+    "tag_name": "6.57.1",
+    "tarball_url": "https://api.github.com/repos/SlashNephy/Divination/tarball/6.57.1",
+    "target_commitish": "master",
+    "upload_url": "https://uploads.github.com/repos/SlashNephy/Divination/releases/143797183/assets{?name,label}",
+    "url": "https://api.github.com/repos/SlashNephy/Divination/releases/143797183",
+    "zipball_url": "https://api.github.com/repos/SlashNephy/Divination/zipball/6.57.1"
+  },
   "repository": {
     "allow_forking": true,
     "archive_url": "https://api.github.com/repos/SlashNephy/Divination/{archive_format}{/ref}",
@@ -62,8 +100,8 @@
     "name": "Divination",
     "node_id": "R_kgDOJblaww",
     "notifications_url": "https://api.github.com/repos/SlashNephy/Divination/notifications{?since,all,participating}",
-    "open_issues": 7,
-    "open_issues_count": 7,
+    "open_issues": 4,
+    "open_issues_count": 4,
     "owner": {
       "avatar_url": "https://avatars.githubusercontent.com/u/7302150?v=4",
       "events_url": "https://api.github.com/users/SlashNephy/events{/privacy}",
@@ -86,9 +124,9 @@
     },
     "private": false,
     "pulls_url": "https://api.github.com/repos/SlashNephy/Divination/pulls{/number}",
-    "pushed_at": "2023-11-16T14:23:40Z",
+    "pushed_at": "2024-02-27T12:38:18Z",
     "releases_url": "https://api.github.com/repos/SlashNephy/Divination/releases{/id}",
-    "size": 57244,
+    "size": 43376,
     "ssh_url": "git@github.com:SlashNephy/Divination.git",
     "stargazers_count": 7,
     "stargazers_url": "https://api.github.com/repos/SlashNephy/Divination/stargazers",
@@ -104,7 +142,7 @@
       "xivlauncher"
     ],
     "trees_url": "https://api.github.com/repos/SlashNephy/Divination/git/trees{/sha}",
-    "updated_at": "2023-11-16T07:08:43Z",
+    "updated_at": "2024-02-22T13:58:22Z",
     "url": "https://api.github.com/repos/SlashNephy/Divination",
     "visibility": "public",
     "watchers": 7,
@@ -130,6 +168,5 @@
     "subscriptions_url": "https://api.github.com/users/SlashNephy/subscriptions",
     "type": "User",
     "url": "https://api.github.com/users/SlashNephy"
-  },
-  "workflow": ".github/workflows/ci-Debugger.yml"
+  }
 }
