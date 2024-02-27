@@ -1,7 +1,7 @@
 {
-  "after": "7f36f938d64ca02ecae81d1e3d5e41d765996715",
+  "after": "6e802ccb1fcd44f55bda98e0231d5fedd6368f09",
   "base_ref": null,
-  "before": "d2b049771a0a7922e4da2eb790aff7bf8d3ea989",
+  "before": "cd9ae9c605230e76cd79a61a30437c21cb5784cb",
   "commits": [
     {
       "author": {
@@ -15,11 +15,11 @@
         "username": "SlashNephy"
       },
       "distinct": true,
-      "id": "e37507e92b983db72522af41f5d54d906404bca0",
-      "message": "update localization",
-      "timestamp": "2024-02-25T19:04:58+09:00",
-      "tree_id": "fa972fcd5ff0554c04923fd51795e6d71b534947",
-      "url": "https://github.com/SlashNephy/Divination/commit/e37507e92b983db72522af41f5d54d906404bca0"
+      "id": "5b9796cbbbb1b6b325f43a5b741813814c614891",
+      "message": "use Record",
+      "timestamp": "2024-02-27T13:25:04+09:00",
+      "tree_id": "a3aaa783cdca18fcadea9c8b5b22cca1a577fbab",
+      "url": "https://github.com/SlashNephy/Divination/commit/5b9796cbbbb1b6b325f43a5b741813814c614891"
     },
     {
       "author": {
@@ -33,11 +33,11 @@
         "username": "SlashNephy"
       },
       "distinct": true,
-      "id": "367cff0f93d60271b4b33ad77886db93e00eed41",
-      "message": "replace List initialization with C# 12 collection expression",
-      "timestamp": "2024-02-25T19:28:49+09:00",
-      "tree_id": "744d69ebd83ca93cba8cc1e833558c748e19e81d",
-      "url": "https://github.com/SlashNephy/Divination/commit/367cff0f93d60271b4b33ad77886db93e00eed41"
+      "id": "68e1f69888a55f39d40f6e1faf861f0261ecbd2f",
+      "message": "delete outdated READMEs",
+      "timestamp": "2024-02-27T15:27:06+09:00",
+      "tree_id": "0d954404128e251b90038352039a4e4066079c37",
+      "url": "https://github.com/SlashNephy/Divination/commit/68e1f69888a55f39d40f6e1faf861f0261ecbd2f"
     },
     {
       "author": {
@@ -51,11 +51,11 @@
         "username": "SlashNephy"
       },
       "distinct": true,
-      "id": "d7109ab2a061e5efd3b634589f0b84d8bb1491d7",
-      "message": "fix missing DalamusApiLevel",
-      "timestamp": "2024-02-25T19:35:16+09:00",
-      "tree_id": "7a1732f231d4f1ae0f1bf06f235570da1c14146c",
-      "url": "https://github.com/SlashNephy/Divination/commit/d7109ab2a061e5efd3b634589f0b84d8bb1491d7"
+      "id": "1dc5a3dafe9028db8a8cd3072ed0bab04aa950c3",
+      "message": "explicit operator should be implicit operator",
+      "timestamp": "2024-02-27T15:46:35+09:00",
+      "tree_id": "a992777ba4cf54a9d9b00d14ba75a9cfdaabd7aa",
+      "url": "https://github.com/SlashNephy/Divination/commit/1dc5a3dafe9028db8a8cd3072ed0bab04aa950c3"
     },
     {
       "author": {
@@ -69,11 +69,11 @@
         "username": "SlashNephy"
       },
       "distinct": true,
-      "id": "508e03b01faab649014c3bed8cc63fc88533f489",
-      "message": "remove unused using declarations",
-      "timestamp": "2024-02-25T19:39:35+09:00",
-      "tree_id": "4c2322062c607172f7604ab023b4ed449f583ec7",
-      "url": "https://github.com/SlashNephy/Divination/commit/508e03b01faab649014c3bed8cc63fc88533f489"
+      "id": "0c51c1814a75caa2cc7b9478ade610545ddc08d7",
+      "message": "delete PerfectComplex CI",
+      "timestamp": "2024-02-27T19:47:11+09:00",
+      "tree_id": "5989fdf860adad4d6205d534daa56892f7db258f",
+      "url": "https://github.com/SlashNephy/Divination/commit/0c51c1814a75caa2cc7b9478ade610545ddc08d7"
     },
     {
       "author": {
@@ -87,11 +87,11 @@
         "username": "SlashNephy"
       },
       "distinct": true,
-      "id": "8158a14f5c55230aabb97de6a5f0a36c360b2ea4",
-      "message": "Discontinue TwitterIntegration\n\npublic Twitter API is no longer available for free",
-      "timestamp": "2024-02-25T19:42:37+09:00",
-      "tree_id": "8392ff43674d5ed5cf1729bb7a34fb28216dac09",
-      "url": "https://github.com/SlashNephy/Divination/commit/8158a14f5c55230aabb97de6a5f0a36c360b2ea4"
+      "id": "6dab5afb05c45510c7cf943c653f90a85d1760ae",
+      "message": "update for new Faloop API mechanism",
+      "timestamp": "2024-02-27T19:48:20+09:00",
+      "tree_id": "7b62b66abecb7699d35de30a67c9625f3cc4650f",
+      "url": "https://github.com/SlashNephy/Divination/commit/6dab5afb05c45510c7cf943c653f90a85d1760ae"
     },
     {
       "author": {
@@ -105,11 +105,11 @@
         "username": "SlashNephy"
       },
       "distinct": true,
-      "id": "480a28073d2501dbe283eb66e1b45fbe0be0736a",
-      "message": "format plugin manifest files",
-      "timestamp": "2024-02-25T19:43:55+09:00",
-      "tree_id": "d662fa82673c40df8ee6e9e5593182d33842ef2c",
-      "url": "https://github.com/SlashNephy/Divination/commit/480a28073d2501dbe283eb66e1b45fbe0be0736a"
+      "id": "bc259e03ff18eccb9d42772ae1186c730e6a1e87",
+      "message": "add implicit operator to cast as SeString/TextPayload",
+      "timestamp": "2024-02-27T19:48:51+09:00",
+      "tree_id": "56ea513c5e49674e368270e32b5d20a3981716dd",
+      "url": "https://github.com/SlashNephy/Divination/commit/bc259e03ff18eccb9d42772ae1186c730e6a1e87"
     },
     {
       "author": {
@@ -123,86 +123,14 @@
         "username": "SlashNephy"
       },
       "distinct": true,
-      "id": "9d1f930108034457417c0126688515535a1e8b55",
-      "message": "enforce trailing comma within iterable objects",
-      "timestamp": "2024-02-25T19:47:46+09:00",
-      "tree_id": "252f899ed7258820bc55deaa508e2372d3f1a9f1",
-      "url": "https://github.com/SlashNephy/Divination/commit/9d1f930108034457417c0126688515535a1e8b55"
-    },
-    {
-      "author": {
-        "email": "spica@starry.blue",
-        "name": "SlashNephy",
-        "username": "SlashNephy"
-      },
-      "committer": {
-        "email": "spica@starry.blue",
-        "name": "SlashNephy",
-        "username": "SlashNephy"
-      },
-      "distinct": true,
-      "id": "fa08619a6576149790ff121c5d791ce468dfc359",
-      "message": "trim spaces around cast operator",
-      "timestamp": "2024-02-25T19:50:22+09:00",
-      "tree_id": "c06f0674534a532effe03de35893ab240430fec5",
-      "url": "https://github.com/SlashNephy/Divination/commit/fa08619a6576149790ff121c5d791ce468dfc359"
-    },
-    {
-      "author": {
-        "email": "spica@starry.blue",
-        "name": "SlashNephy",
-        "username": "SlashNephy"
-      },
-      "committer": {
-        "email": "spica@starry.blue",
-        "name": "SlashNephy",
-        "username": "SlashNephy"
-      },
-      "distinct": true,
-      "id": "abd575d61b7f52bb21c5b8e833fbe50b2a4e3811",
-      "message": "trim spaces in pattern expressions",
-      "timestamp": "2024-02-25T19:51:49+09:00",
-      "tree_id": "3e3c652f4d3d698caa755957dd96cea886ea7319",
-      "url": "https://github.com/SlashNephy/Divination/commit/abd575d61b7f52bb21c5b8e833fbe50b2a4e3811"
-    },
-    {
-      "author": {
-        "email": "spica@starry.blue",
-        "name": "SlashNephy",
-        "username": "SlashNephy"
-      },
-      "committer": {
-        "email": "spica@starry.blue",
-        "name": "SlashNephy",
-        "username": "SlashNephy"
-      },
-      "distinct": true,
-      "id": "4a8a8e078ebc929d7522336cd504df891ff9acfa",
-      "message": "enforcing code style",
-      "timestamp": "2024-02-27T01:44:16+09:00",
-      "tree_id": "3bb6e616f9fc156f35b2766f82157f5d8b52a80d",
-      "url": "https://github.com/SlashNephy/Divination/commit/4a8a8e078ebc929d7522336cd504df891ff9acfa"
-    },
-    {
-      "author": {
-        "email": "spica@starry.blue",
-        "name": "SlashNephy",
-        "username": "SlashNephy"
-      },
-      "committer": {
-        "email": "spica@starry.blue",
-        "name": "SlashNephy",
-        "username": "SlashNephy"
-      },
-      "distinct": true,
-      "id": "7f36f938d64ca02ecae81d1e3d5e41d765996715",
-      "message": "share Rider configuration",
-      "timestamp": "2024-02-27T01:58:27+09:00",
-      "tree_id": "9da3631d16d9799469e5916405e0af2be7a46dbb",
-      "url": "https://github.com/SlashNephy/Divination/commit/7f36f938d64ca02ecae81d1e3d5e41d765996715"
+      "id": "6e802ccb1fcd44f55bda98e0231d5fedd6368f09",
+      "message": "localize",
+      "timestamp": "2024-02-27T20:35:57+09:00",
+      "tree_id": "313b55f2318a36578e1ac22daaad9e4b91c51555",
+      "url": "https://github.com/SlashNephy/Divination/commit/6e802ccb1fcd44f55bda98e0231d5fedd6368f09"
     }
   ],
-  "compare": "https://github.com/SlashNephy/Divination/compare/d2b049771a0a...7f36f938d64c",
+  "compare": "https://github.com/SlashNephy/Divination/compare/cd9ae9c60523...6e802ccb1fcd",
   "created": false,
   "deleted": false,
   "forced": false,
@@ -218,11 +146,11 @@
       "username": "SlashNephy"
     },
     "distinct": true,
-    "id": "7f36f938d64ca02ecae81d1e3d5e41d765996715",
-    "message": "share Rider configuration",
-    "timestamp": "2024-02-27T01:58:27+09:00",
-    "tree_id": "9da3631d16d9799469e5916405e0af2be7a46dbb",
-    "url": "https://github.com/SlashNephy/Divination/commit/7f36f938d64ca02ecae81d1e3d5e41d765996715"
+    "id": "6e802ccb1fcd44f55bda98e0231d5fedd6368f09",
+    "message": "localize",
+    "timestamp": "2024-02-27T20:35:57+09:00",
+    "tree_id": "313b55f2318a36578e1ac22daaad9e4b91c51555",
+    "url": "https://github.com/SlashNephy/Divination/commit/6e802ccb1fcd44f55bda98e0231d5fedd6368f09"
   },
   "pusher": {
     "email": "spica@starry.blue",
@@ -317,9 +245,9 @@
     },
     "private": false,
     "pulls_url": "https://api.github.com/repos/SlashNephy/Divination/pulls{/number}",
-    "pushed_at": 1708966824,
+    "pushed_at": 1709033803,
     "releases_url": "https://api.github.com/repos/SlashNephy/Divination/releases{/id}",
-    "size": 43318,
+    "size": 43355,
     "ssh_url": "git@github.com:SlashNephy/Divination.git",
     "stargazers": 7,
     "stargazers_count": 7,
