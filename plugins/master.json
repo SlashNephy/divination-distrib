@@ -4,7 +4,7 @@
     "Name": "Divination.AetheryteLinkInChat",
     "Punchline": "Quick teleport for mob hunts and treasure hunts!",
     "Description": "Display a teleport link to the nearest aetherite for the map link from the in-game chat. Type /alic to configure the plugin.",
-    "Changelog": "6e802cc: localize\nbc259e0: add implicit operator to cast as SeString/TextPayload\n6dab5af: update for new Faloop API mechanism\n0c51c18: delete PerfectComplex CI\n1dc5a3d: explicit operator should be implicit operator\n68e1f69: delete outdated READMEs\n5b9796c: use Record\ncd9ae9c: delete TwitterIntegration CI\n7f36f93: share Rider configuration\n4a8a8e0: enforcing code style\nabd575d: trim spaces in pattern expressions\nfa08619: trim spaces around cast operator\n9d1f930: enforce trailing comma within iterable objects\n480a280: format plugin manifest files\n8158a14: Discontinue TwitterIntegration\n\npublic Twitter API is no longer available for free\n508e03b: remove unused using declarations\nd7109ab: fix missing DalamusApiLevel\n367cff0: replace List initialization with C# 12 collection expression\ne37507e: update localization\nd2b0497: Merge pull request #629 from SlashNephy/renovate/major-4-github-artifact-actions\n\nchore(deps): update github artifact actions to v4 (major)\ne88342f: Merge pull request #491 from SlashNephy/renovate/actions-setup-dotnet-4.x\n\nchore(deps): update actions/setup-dotnet action to v4\ndb4c4ae: continue-on-error: true\nd7c3593: chore(deps): update actions/setup-dotnet action to v4\nc19320e: move plugins directory\n75dbd7c: chore(deps): update github artifact actions to v4\nd267001: fix(deps): update dependency i18next to v23.9.0\n04e368d: create automerge PR when deploying\n8c13e3b: ⚙️ Deploy Debugger \"0.1.0-beta.1902.bd0d1fa.20240221\"\n1b0cc43: ⚙️ Deploy DiscordIntegration \"0.1.0-beta.1902.bd0d1fa.20240221\"\n105a78b: ⚙️ Deploy Calculator \"0.1.0-beta.1902.bd0d1fa.20240221\"",
+    "Changelog": "d60492b: fix deploy condition\n6f69603: use PreReleaseNumber\n493afd6: do not run CI on tagging\nbd9d6fb: fix build failure when PreReleaseNumber is not set\n6e802cc: localize\nbc259e0: add implicit operator to cast as SeString/TextPayload\n6dab5af: update for new Faloop API mechanism\n0c51c18: delete PerfectComplex CI\n1dc5a3d: explicit operator should be implicit operator\n68e1f69: delete outdated READMEs\n5b9796c: use Record\ncd9ae9c: delete TwitterIntegration CI\n7f36f93: share Rider configuration\n4a8a8e0: enforcing code style\nabd575d: trim spaces in pattern expressions\nfa08619: trim spaces around cast operator\n9d1f930: enforce trailing comma within iterable objects\n480a280: format plugin manifest files\n8158a14: Discontinue TwitterIntegration\n\npublic Twitter API is no longer available for free\n508e03b: remove unused using declarations\nd7109ab: fix missing DalamusApiLevel\n367cff0: replace List initialization with C# 12 collection expression\ne37507e: update localization\nd2b0497: Merge pull request #629 from SlashNephy/renovate/major-4-github-artifact-actions\n\nchore(deps): update github artifact actions to v4 (major)\ne88342f: Merge pull request #491 from SlashNephy/renovate/actions-setup-dotnet-4.x\n\nchore(deps): update actions/setup-dotnet action to v4\ndb4c4ae: continue-on-error: true\nd7c3593: chore(deps): update actions/setup-dotnet action to v4\nc19320e: move plugins directory\n75dbd7c: chore(deps): update github artifact actions to v4\nd267001: fix(deps): update dependency i18next to v23.9.0",
     "Tags": [
       "teleporter"
     ],
@@ -12,13 +12,13 @@
       "utility"
     ],
     "InternalName": "AetheryteLinkInChat",
-    "AssemblyVersion": "0.1.0.1723",
-    "TestingAssemblyVersion": "0.1.0.1937",
+    "AssemblyVersion": "6.57.1.0",
+    "TestingAssemblyVersion": "6.57.1.0",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 3160,
-    "LastUpdate": 1709037933,
+    "LastUpdate": 1709038006,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/AetheryteLinkInChat/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/AetheryteLinkInChat/download",
     "AcceptsFeedback": true
@@ -42,7 +42,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 128,
-    "LastUpdate": 1709037933,
+    "LastUpdate": 1709038006,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Calculator/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Calculator/download",
     "AcceptsFeedback": true
@@ -67,7 +67,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 80,
-    "LastUpdate": 1709037933,
+    "LastUpdate": 1709038006,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Debugger/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Debugger/download",
     "AcceptsFeedback": true
@@ -91,7 +91,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 252,
-    "LastUpdate": 1709037933,
+    "LastUpdate": 1709038006,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/DiscordIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/DiscordIntegration/download",
     "AcceptsFeedback": true
@@ -116,7 +116,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 3041,
-    "LastUpdate": 1709037933,
+    "LastUpdate": 1709038006,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/FaloopIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/FaloopIntegration/download",
     "AcceptsFeedback": true
@@ -139,7 +139,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 99,
-    "LastUpdate": 1709037933,
+    "LastUpdate": 1709038006,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/InstanceIDViewer/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/InstanceIDViewer/download",
     "AcceptsFeedback": true
@@ -162,7 +162,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 162,
-    "LastUpdate": 1709037933,
+    "LastUpdate": 1709038006,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/PerfectComplex/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/PerfectComplex/download",
     "LoadRequiredState": 2,
@@ -187,7 +187,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 55,
-    "LastUpdate": 1709037933,
+    "LastUpdate": 1709038006,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/PowerUtils/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/PowerUtils/download",
     "AcceptsFeedback": true
@@ -211,7 +211,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 67,
-    "LastUpdate": 1709037933,
+    "LastUpdate": 1709038006,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/TwitterIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/TwitterIntegration/download",
     "AcceptsFeedback": true
@@ -236,7 +236,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 105,
-    "LastUpdate": 1709037933,
+    "LastUpdate": 1709038006,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Voiceroid2Talker/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Voiceroid2Talker/download",
     "AcceptsFeedback": true
