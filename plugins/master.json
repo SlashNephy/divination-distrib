@@ -4,7 +4,7 @@
     "Name": "Divination.AetheryteLinkInChat",
     "Punchline": "Quick teleport for mob hunts and treasure hunts!",
     "Description": "Display a teleport link to the nearest aetherite for the map link from the in-game chat. Type /alic to configure the plugin.",
-    "Changelog": "6e802cc: localize\nbc259e0: add implicit operator to cast as SeString/TextPayload\n6dab5af: update for new Faloop API mechanism\n0c51c18: delete PerfectComplex CI\n1dc5a3d: explicit operator should be implicit operator\n68e1f69: delete outdated READMEs\n5b9796c: use Record\ncd9ae9c: delete TwitterIntegration CI\n7f36f93: share Rider configuration\n4a8a8e0: enforcing code style\nabd575d: trim spaces in pattern expressions\nfa08619: trim spaces around cast operator\n9d1f930: enforce trailing comma within iterable objects\n480a280: format plugin manifest files\n8158a14: Discontinue TwitterIntegration\n\npublic Twitter API is no longer available for free\n508e03b: remove unused using declarations\nd7109ab: fix missing DalamusApiLevel\n367cff0: replace List initialization with C# 12 collection expression\ne37507e: update localization\nd2b0497: Merge pull request #629 from SlashNephy/renovate/major-4-github-artifact-actions\n\nchore(deps): update github artifact actions to v4 (major)\ne88342f: Merge pull request #491 from SlashNephy/renovate/actions-setup-dotnet-4.x\n\nchore(deps): update actions/setup-dotnet action to v4\ndb4c4ae: continue-on-error: true\nd7c3593: chore(deps): update actions/setup-dotnet action to v4\nc19320e: move plugins directory\n75dbd7c: chore(deps): update github artifact actions to v4\nd267001: fix(deps): update dependency i18next to v23.9.0\n04e368d: create automerge PR when deploying\n8c13e3b: ⚙️ Deploy Debugger \"0.1.0-beta.1902.bd0d1fa.20240221\"\n1b0cc43: ⚙️ Deploy DiscordIntegration \"0.1.0-beta.1902.bd0d1fa.20240221\"\n105a78b: ⚙️ Deploy Calculator \"0.1.0-beta.1902.bd0d1fa.20240221\"",
+    "Changelog": "d60492b: fix deploy condition\n6f69603: use PreReleaseNumber\n493afd6: do not run CI on tagging\nbd9d6fb: fix build failure when PreReleaseNumber is not set\n6e802cc: localize\nbc259e0: add implicit operator to cast as SeString/TextPayload\n6dab5af: update for new Faloop API mechanism\n0c51c18: delete PerfectComplex CI\n1dc5a3d: explicit operator should be implicit operator\n68e1f69: delete outdated READMEs\n5b9796c: use Record\ncd9ae9c: delete TwitterIntegration CI\n7f36f93: share Rider configuration\n4a8a8e0: enforcing code style\nabd575d: trim spaces in pattern expressions\nfa08619: trim spaces around cast operator\n9d1f930: enforce trailing comma within iterable objects\n480a280: format plugin manifest files\n8158a14: Discontinue TwitterIntegration\n\npublic Twitter API is no longer available for free\n508e03b: remove unused using declarations\nd7109ab: fix missing DalamusApiLevel\n367cff0: replace List initialization with C# 12 collection expression\ne37507e: update localization\nd2b0497: Merge pull request #629 from SlashNephy/renovate/major-4-github-artifact-actions\n\nchore(deps): update github artifact actions to v4 (major)\ne88342f: Merge pull request #491 from SlashNephy/renovate/actions-setup-dotnet-4.x\n\nchore(deps): update actions/setup-dotnet action to v4\ndb4c4ae: continue-on-error: true\nd7c3593: chore(deps): update actions/setup-dotnet action to v4\nc19320e: move plugins directory\n75dbd7c: chore(deps): update github artifact actions to v4\nd267001: fix(deps): update dependency i18next to v23.9.0",
     "Tags": [
       "teleporter"
     ],
@@ -12,13 +12,13 @@
       "utility"
     ],
     "InternalName": "AetheryteLinkInChat",
-    "AssemblyVersion": "0.1.0.1723",
-    "TestingAssemblyVersion": "0.1.0.1937",
+    "AssemblyVersion": "6.57.1.0",
+    "TestingAssemblyVersion": "6.57.1.0",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
-    "DownloadCount": 3155,
-    "LastUpdate": 1709034568,
+    "DownloadCount": 3160,
+    "LastUpdate": 1709037943,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/AetheryteLinkInChat/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/AetheryteLinkInChat/download",
     "AcceptsFeedback": true
@@ -28,7 +28,7 @@
     "Name": "Divination.Calculator",
     "Punchline": "/calc 33 - 4",
     "Description": "Simple plugin to just add /calc command.",
-    "Changelog": "d267001: fix(deps): update dependency i18next to v23.9.0\n04e368d: create automerge PR when deploying\n8c13e3b: ⚙️ Deploy Debugger \"0.1.0-beta.1902.bd0d1fa.20240221\"\n1b0cc43: ⚙️ Deploy DiscordIntegration \"0.1.0-beta.1902.bd0d1fa.20240221\"\n105a78b: ⚙️ Deploy Calculator \"0.1.0-beta.1902.bd0d1fa.20240221\"\n5ce6cf8: ⚙️ Deploy PerfectComplex \"0.1.0-beta.1902.bd0d1fa.20240221\"\n98cd3bb: ⚙️ Deploy Voiceroid2Talker \"0.1.0-beta.1902.bd0d1fa.20240221\"\n190347c: ⚙️ Deploy InstanceIDViewer \"0.1.0-beta.1902.bd0d1fa.20240221\"\n7d6b562: ⚙️ Deploy AetheryteLinkInChat \"0.1.0-beta.1902.bd0d1fa.20240221\"\ne4e45c0: ⚙️ Deploy FaloopIntegration \"0.1.0-beta.1902.bd0d1fa.20240221\"\n7db1af6: restore solution\n73ee15c: update IoC for latest Dalamud\n9a12064: Merge pull request #540 from SlashNephy/dependabot/go_modules/packages/DownloadCounter/golang.org/x/crypto-0.17.0\n\nBump golang.org/x/crypto from 0.15.0 to 0.17.0 in /packages/DownloadCounter\n6beaa53: fix(deps): update dependency i18next to v23.8.3\naeba87f: chore(deps): update dependency wrangler to v3.28.3\n0ad303e: fix(deps): update dependency swr to v2.2.5\n45fb629: chore(deps): lock file maintenance\n7921a1c: chore(deps): update dependency vite to v5.1.3\nac90bc8: chore(deps): update dependency wrangler to v3.28.2\n8b9ea62: chore(deps): update dependency wrangler to v3.28.1\nc42faab: chore(deps): update dependency vite to v5.1.1\n9df6935: chore(deps): update dependency @cloudflare/workers-types to v4.20240208.0\n619f402: chore(deps): lock file maintenance\n93ceeed: chore(deps): update react monorepo\n1174dc7: chore(deps): update dependency @slashnephy/eslint-config to v2.3.14\n79d2102: chore(deps): update dependency prettier to v3.2.5\n3e0998c: fix(deps): update dependency @tabler/icons-react to v2.47.0\n5718b2a: chore(deps): lock file maintenance\nab21781: fix(deps): update dependency i18next to v23.8.2\nea2b871: chore(deps): update dependency wrangler to v3.26.0",
+    "Changelog": "d60492b: fix deploy condition\n6f69603: use PreReleaseNumber\n493afd6: do not run CI on tagging\nbd9d6fb: fix build failure when PreReleaseNumber is not set\n6e802cc: localize\nbc259e0: add implicit operator to cast as SeString/TextPayload\n6dab5af: update for new Faloop API mechanism\n0c51c18: delete PerfectComplex CI\n1dc5a3d: explicit operator should be implicit operator\n68e1f69: delete outdated READMEs\n5b9796c: use Record\ncd9ae9c: delete TwitterIntegration CI\n7f36f93: share Rider configuration\n4a8a8e0: enforcing code style\nabd575d: trim spaces in pattern expressions\nfa08619: trim spaces around cast operator\n9d1f930: enforce trailing comma within iterable objects\n480a280: format plugin manifest files\n8158a14: Discontinue TwitterIntegration\n\npublic Twitter API is no longer available for free\n508e03b: remove unused using declarations\nd7109ab: fix missing DalamusApiLevel\n367cff0: replace List initialization with C# 12 collection expression\ne37507e: update localization\nd2b0497: Merge pull request #629 from SlashNephy/renovate/major-4-github-artifact-actions\n\nchore(deps): update github artifact actions to v4 (major)\ne88342f: Merge pull request #491 from SlashNephy/renovate/actions-setup-dotnet-4.x\n\nchore(deps): update actions/setup-dotnet action to v4\ndb4c4ae: continue-on-error: true\nd7c3593: chore(deps): update actions/setup-dotnet action to v4\nc19320e: move plugins directory\n75dbd7c: chore(deps): update github artifact actions to v4\nd267001: fix(deps): update dependency i18next to v23.9.0",
     "Tags": [
       "utility"
     ],
@@ -36,22 +36,23 @@
       "utility"
     ],
     "InternalName": "Calculator",
-    "AssemblyVersion": "0.1.0.1255",
-    "TestingAssemblyVersion": "0.1.0.1912",
+    "AssemblyVersion": "6.57.1.0",
+    "TestingAssemblyVersion": "6.57.1.0",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 128,
-    "LastUpdate": 1709034568,
+    "LastUpdate": 1709037943,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Calculator/download",
-    "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Calculator/download"
+    "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Calculator/download",
+    "AcceptsFeedback": true
   },
   {
     "Author": "Asteria Nocturna",
     "Name": "Divination.Debugger",
     "Punchline": "You don't need this unless you are developer.",
     "Description": "Tiny tool to inspect game...",
-    "Changelog": "d267001: fix(deps): update dependency i18next to v23.9.0\n04e368d: create automerge PR when deploying\n8c13e3b: ⚙️ Deploy Debugger \"0.1.0-beta.1902.bd0d1fa.20240221\"\n1b0cc43: ⚙️ Deploy DiscordIntegration \"0.1.0-beta.1902.bd0d1fa.20240221\"\n105a78b: ⚙️ Deploy Calculator \"0.1.0-beta.1902.bd0d1fa.20240221\"\n5ce6cf8: ⚙️ Deploy PerfectComplex \"0.1.0-beta.1902.bd0d1fa.20240221\"\n98cd3bb: ⚙️ Deploy Voiceroid2Talker \"0.1.0-beta.1902.bd0d1fa.20240221\"\n190347c: ⚙️ Deploy InstanceIDViewer \"0.1.0-beta.1902.bd0d1fa.20240221\"\n7d6b562: ⚙️ Deploy AetheryteLinkInChat \"0.1.0-beta.1902.bd0d1fa.20240221\"\ne4e45c0: ⚙️ Deploy FaloopIntegration \"0.1.0-beta.1902.bd0d1fa.20240221\"\n7db1af6: restore solution\n73ee15c: update IoC for latest Dalamud\n9a12064: Merge pull request #540 from SlashNephy/dependabot/go_modules/packages/DownloadCounter/golang.org/x/crypto-0.17.0\n\nBump golang.org/x/crypto from 0.15.0 to 0.17.0 in /packages/DownloadCounter\n6beaa53: fix(deps): update dependency i18next to v23.8.3\naeba87f: chore(deps): update dependency wrangler to v3.28.3\n0ad303e: fix(deps): update dependency swr to v2.2.5\n45fb629: chore(deps): lock file maintenance\n7921a1c: chore(deps): update dependency vite to v5.1.3\nac90bc8: chore(deps): update dependency wrangler to v3.28.2\n8b9ea62: chore(deps): update dependency wrangler to v3.28.1\nc42faab: chore(deps): update dependency vite to v5.1.1\n9df6935: chore(deps): update dependency @cloudflare/workers-types to v4.20240208.0\n619f402: chore(deps): lock file maintenance\n93ceeed: chore(deps): update react monorepo\n1174dc7: chore(deps): update dependency @slashnephy/eslint-config to v2.3.14\n79d2102: chore(deps): update dependency prettier to v3.2.5\n3e0998c: fix(deps): update dependency @tabler/icons-react to v2.47.0\n5718b2a: chore(deps): lock file maintenance\nab21781: fix(deps): update dependency i18next to v23.8.2\nea2b871: chore(deps): update dependency wrangler to v3.26.0",
+    "Changelog": "d60492b: fix deploy condition\n6f69603: use PreReleaseNumber\n493afd6: do not run CI on tagging\nbd9d6fb: fix build failure when PreReleaseNumber is not set\n6e802cc: localize\nbc259e0: add implicit operator to cast as SeString/TextPayload\n6dab5af: update for new Faloop API mechanism\n0c51c18: delete PerfectComplex CI\n1dc5a3d: explicit operator should be implicit operator\n68e1f69: delete outdated READMEs\n5b9796c: use Record\ncd9ae9c: delete TwitterIntegration CI\n7f36f93: share Rider configuration\n4a8a8e0: enforcing code style\nabd575d: trim spaces in pattern expressions\nfa08619: trim spaces around cast operator\n9d1f930: enforce trailing comma within iterable objects\n480a280: format plugin manifest files\n8158a14: Discontinue TwitterIntegration\n\npublic Twitter API is no longer available for free\n508e03b: remove unused using declarations\nd7109ab: fix missing DalamusApiLevel\n367cff0: replace List initialization with C# 12 collection expression\ne37507e: update localization\nd2b0497: Merge pull request #629 from SlashNephy/renovate/major-4-github-artifact-actions\n\nchore(deps): update github artifact actions to v4 (major)\ne88342f: Merge pull request #491 from SlashNephy/renovate/actions-setup-dotnet-4.x\n\nchore(deps): update actions/setup-dotnet action to v4\ndb4c4ae: continue-on-error: true\nd7c3593: chore(deps): update actions/setup-dotnet action to v4\nc19320e: move plugins directory\n75dbd7c: chore(deps): update github artifact actions to v4\nd267001: fix(deps): update dependency i18next to v23.9.0",
     "Tags": [
       "Development",
       "Debug"
@@ -60,22 +61,23 @@
       "utility"
     ],
     "InternalName": "Debugger",
-    "AssemblyVersion": "0.1.0.1718",
-    "TestingAssemblyVersion": "0.1.0.1912",
+    "AssemblyVersion": "6.57.1.0",
+    "TestingAssemblyVersion": "6.57.1.0",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 80,
-    "LastUpdate": 1709034568,
+    "LastUpdate": 1709037943,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Debugger/download",
-    "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Debugger/download"
+    "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Debugger/download",
+    "AcceptsFeedback": true
   },
   {
     "Author": "Asteria Nocturna",
     "Name": "Divination.DiscordIntegration",
     "Punchline": "Fully-customizable Discord Rich Presence",
     "Description": "Dalamud Plugin to support Rich Presence for FFXIV.",
-    "Changelog": "d267001: fix(deps): update dependency i18next to v23.9.0\n04e368d: create automerge PR when deploying\n8c13e3b: ⚙️ Deploy Debugger \"0.1.0-beta.1902.bd0d1fa.20240221\"\n1b0cc43: ⚙️ Deploy DiscordIntegration \"0.1.0-beta.1902.bd0d1fa.20240221\"\n105a78b: ⚙️ Deploy Calculator \"0.1.0-beta.1902.bd0d1fa.20240221\"\n5ce6cf8: ⚙️ Deploy PerfectComplex \"0.1.0-beta.1902.bd0d1fa.20240221\"\n98cd3bb: ⚙️ Deploy Voiceroid2Talker \"0.1.0-beta.1902.bd0d1fa.20240221\"\n190347c: ⚙️ Deploy InstanceIDViewer \"0.1.0-beta.1902.bd0d1fa.20240221\"\n7d6b562: ⚙️ Deploy AetheryteLinkInChat \"0.1.0-beta.1902.bd0d1fa.20240221\"\ne4e45c0: ⚙️ Deploy FaloopIntegration \"0.1.0-beta.1902.bd0d1fa.20240221\"\n7db1af6: restore solution\n73ee15c: update IoC for latest Dalamud\n9a12064: Merge pull request #540 from SlashNephy/dependabot/go_modules/packages/DownloadCounter/golang.org/x/crypto-0.17.0\n\nBump golang.org/x/crypto from 0.15.0 to 0.17.0 in /packages/DownloadCounter\n6beaa53: fix(deps): update dependency i18next to v23.8.3\naeba87f: chore(deps): update dependency wrangler to v3.28.3\n0ad303e: fix(deps): update dependency swr to v2.2.5\n45fb629: chore(deps): lock file maintenance\n7921a1c: chore(deps): update dependency vite to v5.1.3\nac90bc8: chore(deps): update dependency wrangler to v3.28.2\n8b9ea62: chore(deps): update dependency wrangler to v3.28.1\nc42faab: chore(deps): update dependency vite to v5.1.1\n9df6935: chore(deps): update dependency @cloudflare/workers-types to v4.20240208.0\n619f402: chore(deps): lock file maintenance\n93ceeed: chore(deps): update react monorepo\n1174dc7: chore(deps): update dependency @slashnephy/eslint-config to v2.3.14\n79d2102: chore(deps): update dependency prettier to v3.2.5\n3e0998c: fix(deps): update dependency @tabler/icons-react to v2.47.0\n5718b2a: chore(deps): lock file maintenance\nab21781: fix(deps): update dependency i18next to v23.8.2\nea2b871: chore(deps): update dependency wrangler to v3.26.0",
+    "Changelog": "d60492b: fix deploy condition\n6f69603: use PreReleaseNumber\n493afd6: do not run CI on tagging\nbd9d6fb: fix build failure when PreReleaseNumber is not set\n6e802cc: localize\nbc259e0: add implicit operator to cast as SeString/TextPayload\n6dab5af: update for new Faloop API mechanism\n0c51c18: delete PerfectComplex CI\n1dc5a3d: explicit operator should be implicit operator\n68e1f69: delete outdated READMEs\n5b9796c: use Record\ncd9ae9c: delete TwitterIntegration CI\n7f36f93: share Rider configuration\n4a8a8e0: enforcing code style\nabd575d: trim spaces in pattern expressions\nfa08619: trim spaces around cast operator\n9d1f930: enforce trailing comma within iterable objects\n480a280: format plugin manifest files\n8158a14: Discontinue TwitterIntegration\n\npublic Twitter API is no longer available for free\n508e03b: remove unused using declarations\nd7109ab: fix missing DalamusApiLevel\n367cff0: replace List initialization with C# 12 collection expression\ne37507e: update localization\nd2b0497: Merge pull request #629 from SlashNephy/renovate/major-4-github-artifact-actions\n\nchore(deps): update github artifact actions to v4 (major)\ne88342f: Merge pull request #491 from SlashNephy/renovate/actions-setup-dotnet-4.x\n\nchore(deps): update actions/setup-dotnet action to v4\ndb4c4ae: continue-on-error: true\nd7c3593: chore(deps): update actions/setup-dotnet action to v4\nc19320e: move plugins directory\n75dbd7c: chore(deps): update github artifact actions to v4\nd267001: fix(deps): update dependency i18next to v23.9.0",
     "Tags": [
       "Discord"
     ],
@@ -83,16 +85,15 @@
       "social"
     ],
     "InternalName": "DiscordIntegration",
-    "AssemblyVersion": "0.1.0.1255",
-    "TestingAssemblyVersion": "0.1.0.1912",
+    "AssemblyVersion": "6.57.1.0",
+    "TestingAssemblyVersion": "6.57.1.0",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 252,
-    "LastUpdate": 1709034568,
+    "LastUpdate": 1709037943,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/DiscordIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/DiscordIntegration/download",
-    "LoadRequiredState": 2,
     "AcceptsFeedback": true
   },
   {
@@ -100,7 +101,7 @@
     "Name": "Divination.FaloopIntegration",
     "Punchline": "Faloop Notification in Chat",
     "Description": "Show Faloop mob spawn notifications in in-game chat. Type /faloop to configure the plugin.",
-    "Changelog": "6e802cc: localize\nbc259e0: add implicit operator to cast as SeString/TextPayload\n6dab5af: update for new Faloop API mechanism\n0c51c18: delete PerfectComplex CI\n1dc5a3d: explicit operator should be implicit operator\n68e1f69: delete outdated READMEs\n5b9796c: use Record\ncd9ae9c: delete TwitterIntegration CI\n7f36f93: share Rider configuration\n4a8a8e0: enforcing code style\nabd575d: trim spaces in pattern expressions\nfa08619: trim spaces around cast operator\n9d1f930: enforce trailing comma within iterable objects\n480a280: format plugin manifest files\n8158a14: Discontinue TwitterIntegration\n\npublic Twitter API is no longer available for free\n508e03b: remove unused using declarations\nd7109ab: fix missing DalamusApiLevel\n367cff0: replace List initialization with C# 12 collection expression\ne37507e: update localization\nd2b0497: Merge pull request #629 from SlashNephy/renovate/major-4-github-artifact-actions\n\nchore(deps): update github artifact actions to v4 (major)\ne88342f: Merge pull request #491 from SlashNephy/renovate/actions-setup-dotnet-4.x\n\nchore(deps): update actions/setup-dotnet action to v4\ndb4c4ae: continue-on-error: true\nd7c3593: chore(deps): update actions/setup-dotnet action to v4\nc19320e: move plugins directory\n75dbd7c: chore(deps): update github artifact actions to v4\nd267001: fix(deps): update dependency i18next to v23.9.0\n04e368d: create automerge PR when deploying\n8c13e3b: ⚙️ Deploy Debugger \"0.1.0-beta.1902.bd0d1fa.20240221\"\n1b0cc43: ⚙️ Deploy DiscordIntegration \"0.1.0-beta.1902.bd0d1fa.20240221\"\n105a78b: ⚙️ Deploy Calculator \"0.1.0-beta.1902.bd0d1fa.20240221\"",
+    "Changelog": "d60492b: fix deploy condition\n6f69603: use PreReleaseNumber\n493afd6: do not run CI on tagging\nbd9d6fb: fix build failure when PreReleaseNumber is not set\n6e802cc: localize\nbc259e0: add implicit operator to cast as SeString/TextPayload\n6dab5af: update for new Faloop API mechanism\n0c51c18: delete PerfectComplex CI\n1dc5a3d: explicit operator should be implicit operator\n68e1f69: delete outdated READMEs\n5b9796c: use Record\ncd9ae9c: delete TwitterIntegration CI\n7f36f93: share Rider configuration\n4a8a8e0: enforcing code style\nabd575d: trim spaces in pattern expressions\nfa08619: trim spaces around cast operator\n9d1f930: enforce trailing comma within iterable objects\n480a280: format plugin manifest files\n8158a14: Discontinue TwitterIntegration\n\npublic Twitter API is no longer available for free\n508e03b: remove unused using declarations\nd7109ab: fix missing DalamusApiLevel\n367cff0: replace List initialization with C# 12 collection expression\ne37507e: update localization\nd2b0497: Merge pull request #629 from SlashNephy/renovate/major-4-github-artifact-actions\n\nchore(deps): update github artifact actions to v4 (major)\ne88342f: Merge pull request #491 from SlashNephy/renovate/actions-setup-dotnet-4.x\n\nchore(deps): update actions/setup-dotnet action to v4\ndb4c4ae: continue-on-error: true\nd7c3593: chore(deps): update actions/setup-dotnet action to v4\nc19320e: move plugins directory\n75dbd7c: chore(deps): update github artifact actions to v4\nd267001: fix(deps): update dependency i18next to v23.9.0",
     "Tags": [
       "mobhunt"
     ],
@@ -109,13 +110,13 @@
       "utility"
     ],
     "InternalName": "FaloopIntegration",
-    "AssemblyVersion": "0.1.0.1790",
-    "TestingAssemblyVersion": "0.1.0.1937",
+    "AssemblyVersion": "6.57.1.0",
+    "TestingAssemblyVersion": "6.57.1.0",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
-    "DownloadCount": 3037,
-    "LastUpdate": 1709034568,
+    "DownloadCount": 3041,
+    "LastUpdate": 1709037943,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/FaloopIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/FaloopIntegration/download",
     "AcceptsFeedback": true
@@ -124,7 +125,7 @@
     "Author": "Horoscope developers",
     "Name": "Divination.InstanceIDViewer",
     "Description": "show instance id in chat when instance changed",
-    "Changelog": "d267001: fix(deps): update dependency i18next to v23.9.0\n04e368d: create automerge PR when deploying\n8c13e3b: ⚙️ Deploy Debugger \"0.1.0-beta.1902.bd0d1fa.20240221\"\n1b0cc43: ⚙️ Deploy DiscordIntegration \"0.1.0-beta.1902.bd0d1fa.20240221\"\n105a78b: ⚙️ Deploy Calculator \"0.1.0-beta.1902.bd0d1fa.20240221\"\n5ce6cf8: ⚙️ Deploy PerfectComplex \"0.1.0-beta.1902.bd0d1fa.20240221\"\n98cd3bb: ⚙️ Deploy Voiceroid2Talker \"0.1.0-beta.1902.bd0d1fa.20240221\"\n190347c: ⚙️ Deploy InstanceIDViewer \"0.1.0-beta.1902.bd0d1fa.20240221\"\n7d6b562: ⚙️ Deploy AetheryteLinkInChat \"0.1.0-beta.1902.bd0d1fa.20240221\"\ne4e45c0: ⚙️ Deploy FaloopIntegration \"0.1.0-beta.1902.bd0d1fa.20240221\"\n7db1af6: restore solution\n73ee15c: update IoC for latest Dalamud\n9a12064: Merge pull request #540 from SlashNephy/dependabot/go_modules/packages/DownloadCounter/golang.org/x/crypto-0.17.0\n\nBump golang.org/x/crypto from 0.15.0 to 0.17.0 in /packages/DownloadCounter\n6beaa53: fix(deps): update dependency i18next to v23.8.3\naeba87f: chore(deps): update dependency wrangler to v3.28.3\n0ad303e: fix(deps): update dependency swr to v2.2.5\n45fb629: chore(deps): lock file maintenance\n7921a1c: chore(deps): update dependency vite to v5.1.3\nac90bc8: chore(deps): update dependency wrangler to v3.28.2\n8b9ea62: chore(deps): update dependency wrangler to v3.28.1\nc42faab: chore(deps): update dependency vite to v5.1.1\n9df6935: chore(deps): update dependency @cloudflare/workers-types to v4.20240208.0\n619f402: chore(deps): lock file maintenance\n93ceeed: chore(deps): update react monorepo\n1174dc7: chore(deps): update dependency @slashnephy/eslint-config to v2.3.14\n79d2102: chore(deps): update dependency prettier to v3.2.5\n3e0998c: fix(deps): update dependency @tabler/icons-react to v2.47.0\n5718b2a: chore(deps): lock file maintenance\nab21781: fix(deps): update dependency i18next to v23.8.2\nea2b871: chore(deps): update dependency wrangler to v3.26.0",
+    "Changelog": "d60492b: fix deploy condition\n6f69603: use PreReleaseNumber\n493afd6: do not run CI on tagging\nbd9d6fb: fix build failure when PreReleaseNumber is not set\n6e802cc: localize\nbc259e0: add implicit operator to cast as SeString/TextPayload\n6dab5af: update for new Faloop API mechanism\n0c51c18: delete PerfectComplex CI\n1dc5a3d: explicit operator should be implicit operator\n68e1f69: delete outdated READMEs\n5b9796c: use Record\ncd9ae9c: delete TwitterIntegration CI\n7f36f93: share Rider configuration\n4a8a8e0: enforcing code style\nabd575d: trim spaces in pattern expressions\nfa08619: trim spaces around cast operator\n9d1f930: enforce trailing comma within iterable objects\n480a280: format plugin manifest files\n8158a14: Discontinue TwitterIntegration\n\npublic Twitter API is no longer available for free\n508e03b: remove unused using declarations\nd7109ab: fix missing DalamusApiLevel\n367cff0: replace List initialization with C# 12 collection expression\ne37507e: update localization\nd2b0497: Merge pull request #629 from SlashNephy/renovate/major-4-github-artifact-actions\n\nchore(deps): update github artifact actions to v4 (major)\ne88342f: Merge pull request #491 from SlashNephy/renovate/actions-setup-dotnet-4.x\n\nchore(deps): update actions/setup-dotnet action to v4\ndb4c4ae: continue-on-error: true\nd7c3593: chore(deps): update actions/setup-dotnet action to v4\nc19320e: move plugins directory\n75dbd7c: chore(deps): update github artifact actions to v4\nd267001: fix(deps): update dependency i18next to v23.9.0",
     "Tags": [
       "Discord"
     ],
@@ -132,16 +133,15 @@
       "social"
     ],
     "InternalName": "InstanceIDViewer",
-    "AssemblyVersion": "0.1.0.1912",
-    "TestingAssemblyVersion": "0.1.0.1912",
-    "IsTestingExclusive": true,
+    "AssemblyVersion": "6.57.1.0",
+    "TestingAssemblyVersion": "6.57.1.0",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 99,
-    "LastUpdate": 1709034568,
+    "LastUpdate": 1709037943,
+    "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/InstanceIDViewer/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/InstanceIDViewer/download",
-    "LoadRequiredState": 2,
     "AcceptsFeedback": true
   },
   {
@@ -162,7 +162,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 162,
-    "LastUpdate": 1709034568,
+    "LastUpdate": 1709037943,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/PerfectComplex/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/PerfectComplex/download",
     "LoadRequiredState": 2,
@@ -173,7 +173,7 @@
     "Name": "Divination.PowerUtils",
     "Punchline": "Save Energy!",
     "Description": "Add /power save, /power balance, /power perf, /monitoroff commands for power management",
-    "Changelog": "d267001: fix(deps): update dependency i18next to v23.9.0\n04e368d: create automerge PR when deploying\n8c13e3b: ⚙️ Deploy Debugger \"0.1.0-beta.1902.bd0d1fa.20240221\"\n1b0cc43: ⚙️ Deploy DiscordIntegration \"0.1.0-beta.1902.bd0d1fa.20240221\"\n105a78b: ⚙️ Deploy Calculator \"0.1.0-beta.1902.bd0d1fa.20240221\"\n5ce6cf8: ⚙️ Deploy PerfectComplex \"0.1.0-beta.1902.bd0d1fa.20240221\"\n98cd3bb: ⚙️ Deploy Voiceroid2Talker \"0.1.0-beta.1902.bd0d1fa.20240221\"\n190347c: ⚙️ Deploy InstanceIDViewer \"0.1.0-beta.1902.bd0d1fa.20240221\"\n7d6b562: ⚙️ Deploy AetheryteLinkInChat \"0.1.0-beta.1902.bd0d1fa.20240221\"\ne4e45c0: ⚙️ Deploy FaloopIntegration \"0.1.0-beta.1902.bd0d1fa.20240221\"\n7db1af6: restore solution\n73ee15c: update IoC for latest Dalamud\n9a12064: Merge pull request #540 from SlashNephy/dependabot/go_modules/packages/DownloadCounter/golang.org/x/crypto-0.17.0\n\nBump golang.org/x/crypto from 0.15.0 to 0.17.0 in /packages/DownloadCounter\n6beaa53: fix(deps): update dependency i18next to v23.8.3\naeba87f: chore(deps): update dependency wrangler to v3.28.3\n0ad303e: fix(deps): update dependency swr to v2.2.5\n45fb629: chore(deps): lock file maintenance\n7921a1c: chore(deps): update dependency vite to v5.1.3\nac90bc8: chore(deps): update dependency wrangler to v3.28.2\n8b9ea62: chore(deps): update dependency wrangler to v3.28.1\nc42faab: chore(deps): update dependency vite to v5.1.1\n9df6935: chore(deps): update dependency @cloudflare/workers-types to v4.20240208.0\n619f402: chore(deps): lock file maintenance\n93ceeed: chore(deps): update react monorepo\n1174dc7: chore(deps): update dependency @slashnephy/eslint-config to v2.3.14\n79d2102: chore(deps): update dependency prettier to v3.2.5\n3e0998c: fix(deps): update dependency @tabler/icons-react to v2.47.0\n5718b2a: chore(deps): lock file maintenance\nab21781: fix(deps): update dependency i18next to v23.8.2\nea2b871: chore(deps): update dependency wrangler to v3.26.0",
+    "Changelog": "d60492b: fix deploy condition\n6f69603: use PreReleaseNumber\n493afd6: do not run CI on tagging\nbd9d6fb: fix build failure when PreReleaseNumber is not set\n6e802cc: localize\nbc259e0: add implicit operator to cast as SeString/TextPayload\n6dab5af: update for new Faloop API mechanism\n0c51c18: delete PerfectComplex CI\n1dc5a3d: explicit operator should be implicit operator\n68e1f69: delete outdated READMEs\n5b9796c: use Record\ncd9ae9c: delete TwitterIntegration CI\n7f36f93: share Rider configuration\n4a8a8e0: enforcing code style\nabd575d: trim spaces in pattern expressions\nfa08619: trim spaces around cast operator\n9d1f930: enforce trailing comma within iterable objects\n480a280: format plugin manifest files\n8158a14: Discontinue TwitterIntegration\n\npublic Twitter API is no longer available for free\n508e03b: remove unused using declarations\nd7109ab: fix missing DalamusApiLevel\n367cff0: replace List initialization with C# 12 collection expression\ne37507e: update localization\nd2b0497: Merge pull request #629 from SlashNephy/renovate/major-4-github-artifact-actions\n\nchore(deps): update github artifact actions to v4 (major)\ne88342f: Merge pull request #491 from SlashNephy/renovate/actions-setup-dotnet-4.x\n\nchore(deps): update actions/setup-dotnet action to v4\ndb4c4ae: continue-on-error: true\nd7c3593: chore(deps): update actions/setup-dotnet action to v4\nc19320e: move plugins directory\n75dbd7c: chore(deps): update github artifact actions to v4\nd267001: fix(deps): update dependency i18next to v23.9.0",
     "Tags": [
       "Command"
     ],
@@ -181,16 +181,15 @@
       "utility"
     ],
     "InternalName": "PowerUtils",
-    "AssemblyVersion": "0.1.0.1912",
-    "TestingAssemblyVersion": "0.1.0.1912",
-    "IsTestingExclusive": true,
+    "AssemblyVersion": "6.57.1.0",
+    "TestingAssemblyVersion": "6.57.1.0",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 55,
-    "LastUpdate": 1709034568,
+    "LastUpdate": 1709037943,
+    "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/PowerUtils/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/PowerUtils/download",
-    "LoadRequiredState": 2,
     "AcceptsFeedback": true
   },
   {
@@ -212,7 +211,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 67,
-    "LastUpdate": 1709034568,
+    "LastUpdate": 1709037943,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/TwitterIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/TwitterIntegration/download",
     "AcceptsFeedback": true
@@ -222,7 +221,7 @@
     "Name": "Divination.Voiceroid2Talker",
     "Punchline": "Text-to-Speech for Voiceroid2",
     "Description": "Add /voiceroid2 command into FFXIV. Require SimpleVoiceroid2Proxy (https://github.com/SlashNephy/SimpleVoiceroid2Proxy).",
-    "Changelog": "d267001: fix(deps): update dependency i18next to v23.9.0\n04e368d: create automerge PR when deploying\n8c13e3b: ⚙️ Deploy Debugger \"0.1.0-beta.1902.bd0d1fa.20240221\"\n1b0cc43: ⚙️ Deploy DiscordIntegration \"0.1.0-beta.1902.bd0d1fa.20240221\"\n105a78b: ⚙️ Deploy Calculator \"0.1.0-beta.1902.bd0d1fa.20240221\"\n5ce6cf8: ⚙️ Deploy PerfectComplex \"0.1.0-beta.1902.bd0d1fa.20240221\"\n98cd3bb: ⚙️ Deploy Voiceroid2Talker \"0.1.0-beta.1902.bd0d1fa.20240221\"\n190347c: ⚙️ Deploy InstanceIDViewer \"0.1.0-beta.1902.bd0d1fa.20240221\"\n7d6b562: ⚙️ Deploy AetheryteLinkInChat \"0.1.0-beta.1902.bd0d1fa.20240221\"\ne4e45c0: ⚙️ Deploy FaloopIntegration \"0.1.0-beta.1902.bd0d1fa.20240221\"\n7db1af6: restore solution\n73ee15c: update IoC for latest Dalamud\n9a12064: Merge pull request #540 from SlashNephy/dependabot/go_modules/packages/DownloadCounter/golang.org/x/crypto-0.17.0\n\nBump golang.org/x/crypto from 0.15.0 to 0.17.0 in /packages/DownloadCounter\n6beaa53: fix(deps): update dependency i18next to v23.8.3\naeba87f: chore(deps): update dependency wrangler to v3.28.3\n0ad303e: fix(deps): update dependency swr to v2.2.5\n45fb629: chore(deps): lock file maintenance\n7921a1c: chore(deps): update dependency vite to v5.1.3\nac90bc8: chore(deps): update dependency wrangler to v3.28.2\n8b9ea62: chore(deps): update dependency wrangler to v3.28.1\nc42faab: chore(deps): update dependency vite to v5.1.1\n9df6935: chore(deps): update dependency @cloudflare/workers-types to v4.20240208.0\n619f402: chore(deps): lock file maintenance\n93ceeed: chore(deps): update react monorepo\n1174dc7: chore(deps): update dependency @slashnephy/eslint-config to v2.3.14\n79d2102: chore(deps): update dependency prettier to v3.2.5\n3e0998c: fix(deps): update dependency @tabler/icons-react to v2.47.0\n5718b2a: chore(deps): lock file maintenance\nab21781: fix(deps): update dependency i18next to v23.8.2\nea2b871: chore(deps): update dependency wrangler to v3.26.0",
+    "Changelog": "d60492b: fix deploy condition\n6f69603: use PreReleaseNumber\n493afd6: do not run CI on tagging\nbd9d6fb: fix build failure when PreReleaseNumber is not set\n6e802cc: localize\nbc259e0: add implicit operator to cast as SeString/TextPayload\n6dab5af: update for new Faloop API mechanism\n0c51c18: delete PerfectComplex CI\n1dc5a3d: explicit operator should be implicit operator\n68e1f69: delete outdated READMEs\n5b9796c: use Record\ncd9ae9c: delete TwitterIntegration CI\n7f36f93: share Rider configuration\n4a8a8e0: enforcing code style\nabd575d: trim spaces in pattern expressions\nfa08619: trim spaces around cast operator\n9d1f930: enforce trailing comma within iterable objects\n480a280: format plugin manifest files\n8158a14: Discontinue TwitterIntegration\n\npublic Twitter API is no longer available for free\n508e03b: remove unused using declarations\nd7109ab: fix missing DalamusApiLevel\n367cff0: replace List initialization with C# 12 collection expression\ne37507e: update localization\nd2b0497: Merge pull request #629 from SlashNephy/renovate/major-4-github-artifact-actions\n\nchore(deps): update github artifact actions to v4 (major)\ne88342f: Merge pull request #491 from SlashNephy/renovate/actions-setup-dotnet-4.x\n\nchore(deps): update actions/setup-dotnet action to v4\ndb4c4ae: continue-on-error: true\nd7c3593: chore(deps): update actions/setup-dotnet action to v4\nc19320e: move plugins directory\n75dbd7c: chore(deps): update github artifact actions to v4\nd267001: fix(deps): update dependency i18next to v23.9.0",
     "Tags": [
       "Text-to-speech",
       "Voiceroid"
@@ -231,16 +230,15 @@
       "utility"
     ],
     "InternalName": "Voiceroid2Talker",
-    "AssemblyVersion": "0.1.0.1255",
-    "TestingAssemblyVersion": "0.1.0.1912",
+    "AssemblyVersion": "6.57.1.0",
+    "TestingAssemblyVersion": "6.57.1.0",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 105,
-    "LastUpdate": 1709034568,
+    "LastUpdate": 1709037943,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Voiceroid2Talker/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Voiceroid2Talker/download",
-    "LoadRequiredState": 2,
     "AcceptsFeedback": true
   }
 ]
