@@ -1,106 +1,52 @@
 {
-  "after": "027d1880cf20fb3af33d4b5c8d4afc8a69bb54e2",
+  "after": "6952720f94bca7f4bc1d8a0a183318bbcdbb47ed",
   "base_ref": null,
-  "before": "b17d3a0b0808499ffe2b1c2872f7e35338aec867",
+  "before": "027d1880cf20fb3af33d4b5c8d4afc8a69bb54e2",
   "commits": [
     {
       "author": {
-        "email": "spica@starry.blue",
-        "name": "SlashNephy",
-        "username": "SlashNephy"
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "name": "renovate[bot]",
+        "username": "renovate[bot]"
       },
       "committer": {
-        "email": "spica@starry.blue",
-        "name": "SlashNephy",
-        "username": "SlashNephy"
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "name": "renovate[bot]",
+        "username": "renovate[bot]"
       },
       "distinct": true,
-      "id": "16629574ac5f67011bd02eb771e2a744f2333978",
-      "message": "omit just now",
-      "timestamp": "2024-03-08T23:39:35+09:00",
-      "tree_id": "eb235a994e1c0bdcbaa98e621c6d330c45c78adb",
-      "url": "https://github.com/SlashNephy/Divination/commit/16629574ac5f67011bd02eb771e2a744f2333978"
-    },
-    {
-      "author": {
-        "email": "spica@starry.blue",
-        "name": "SlashNephy",
-        "username": "SlashNephy"
-      },
-      "committer": {
-        "email": "spica@starry.blue",
-        "name": "SlashNephy",
-        "username": "SlashNephy"
-      },
-      "distinct": true,
-      "id": "0765ca139cdb1228b9632db5cd12429dc36ec1db",
-      "message": "round TimeSpan",
-      "timestamp": "2024-03-09T00:11:58+09:00",
-      "tree_id": "751e23fde0dfde8ebcc8ace41c102115e73f165b",
-      "url": "https://github.com/SlashNephy/Divination/commit/0765ca139cdb1228b9632db5cd12429dc36ec1db"
-    },
-    {
-      "author": {
-        "email": "spica@starry.blue",
-        "name": "SlashNephy",
-        "username": "SlashNephy"
-      },
-      "committer": {
-        "email": "spica@starry.blue",
-        "name": "SlashNephy",
-        "username": "SlashNephy"
-      },
-      "distinct": true,
-      "id": "31023acd22623749e1278efdcd51a36040f2c34e",
-      "message": "add Active Mob UI (experimental)",
-      "timestamp": "2024-03-10T15:22:47+09:00",
-      "tree_id": "15105bc9f8e405d49f3c8ae66ec9b1612ca0084f",
-      "url": "https://github.com/SlashNephy/Divination/commit/31023acd22623749e1278efdcd51a36040f2c34e"
-    },
-    {
-      "author": {
-        "email": "spica@starry.blue",
-        "name": "SlashNephy",
-        "username": "SlashNephy"
-      },
-      "committer": {
-        "email": "spica@starry.blue",
-        "name": "SlashNephy",
-        "username": "SlashNephy"
-      },
-      "distinct": true,
-      "id": "027d1880cf20fb3af33d4b5c8d4afc8a69bb54e2",
-      "message": "return Checkbox value",
-      "timestamp": "2024-03-10T15:22:59+09:00",
-      "tree_id": "0acc855382fefebdf094946b625440893543105b",
-      "url": "https://github.com/SlashNephy/Divination/commit/027d1880cf20fb3af33d4b5c8d4afc8a69bb54e2"
+      "id": "6952720f94bca7f4bc1d8a0a183318bbcdbb47ed",
+      "message": "Update dependency AngleSharp to v1.1.2",
+      "timestamp": "2024-03-10T13:37:44Z",
+      "tree_id": "fde98802fe6ec74381ef92b74472ac518f3d80b2",
+      "url": "https://github.com/SlashNephy/Divination/commit/6952720f94bca7f4bc1d8a0a183318bbcdbb47ed"
     }
   ],
-  "compare": "https://github.com/SlashNephy/Divination/compare/b17d3a0b0808...027d1880cf20",
+  "compare": "https://github.com/SlashNephy/Divination/compare/027d1880cf20...6952720f94bc",
   "created": false,
   "deleted": false,
   "forced": false,
   "head_commit": {
     "author": {
-      "email": "spica@starry.blue",
-      "name": "SlashNephy",
-      "username": "SlashNephy"
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "name": "renovate[bot]",
+      "username": "renovate[bot]"
     },
     "committer": {
-      "email": "spica@starry.blue",
-      "name": "SlashNephy",
-      "username": "SlashNephy"
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "name": "renovate[bot]",
+      "username": "renovate[bot]"
     },
     "distinct": true,
-    "id": "027d1880cf20fb3af33d4b5c8d4afc8a69bb54e2",
-    "message": "return Checkbox value",
-    "timestamp": "2024-03-10T15:22:59+09:00",
-    "tree_id": "0acc855382fefebdf094946b625440893543105b",
-    "url": "https://github.com/SlashNephy/Divination/commit/027d1880cf20fb3af33d4b5c8d4afc8a69bb54e2"
+    "id": "6952720f94bca7f4bc1d8a0a183318bbcdbb47ed",
+    "message": "Update dependency AngleSharp to v1.1.2",
+    "timestamp": "2024-03-10T13:37:44Z",
+    "tree_id": "fde98802fe6ec74381ef92b74472ac518f3d80b2",
+    "url": "https://github.com/SlashNephy/Divination/commit/6952720f94bca7f4bc1d8a0a183318bbcdbb47ed"
   },
   "pusher": {
-    "email": "spica@starry.blue",
-    "name": "SlashNephy"
+    "email": null,
+    "name": "renovate[bot]"
   },
   "ref": "refs/heads/master",
   "repository": {
@@ -165,8 +111,8 @@
     "name": "Divination",
     "node_id": "R_kgDOJblaww",
     "notifications_url": "https://api.github.com/repos/SlashNephy/Divination/notifications{?since,all,participating}",
-    "open_issues": 4,
-    "open_issues_count": 4,
+    "open_issues": 3,
+    "open_issues_count": 3,
     "owner": {
       "avatar_url": "https://avatars.githubusercontent.com/u/7302150?v=4",
       "email": "spica@starry.blue",
@@ -191,9 +137,9 @@
     },
     "private": false,
     "pulls_url": "https://api.github.com/repos/SlashNephy/Divination/pulls{/number}",
-    "pushed_at": 1710054143,
+    "pushed_at": 1710077864,
     "releases_url": "https://api.github.com/repos/SlashNephy/Divination/releases{/id}",
-    "size": 43392,
+    "size": 43402,
     "ssh_url": "git@github.com:SlashNephy/Divination.git",
     "stargazers": 8,
     "stargazers_count": 8,
@@ -218,23 +164,23 @@
     "web_commit_signoff_required": false
   },
   "sender": {
-    "avatar_url": "https://avatars.githubusercontent.com/u/7302150?v=4",
-    "events_url": "https://api.github.com/users/SlashNephy/events{/privacy}",
-    "followers_url": "https://api.github.com/users/SlashNephy/followers",
-    "following_url": "https://api.github.com/users/SlashNephy/following{/other_user}",
-    "gists_url": "https://api.github.com/users/SlashNephy/gists{/gist_id}",
+    "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4",
+    "events_url": "https://api.github.com/users/renovate%5Bbot%5D/events{/privacy}",
+    "followers_url": "https://api.github.com/users/renovate%5Bbot%5D/followers",
+    "following_url": "https://api.github.com/users/renovate%5Bbot%5D/following{/other_user}",
+    "gists_url": "https://api.github.com/users/renovate%5Bbot%5D/gists{/gist_id}",
     "gravatar_id": "",
-    "html_url": "https://github.com/SlashNephy",
-    "id": 7302150,
-    "login": "SlashNephy",
-    "node_id": "MDQ6VXNlcjczMDIxNTA=",
-    "organizations_url": "https://api.github.com/users/SlashNephy/orgs",
-    "received_events_url": "https://api.github.com/users/SlashNephy/received_events",
-    "repos_url": "https://api.github.com/users/SlashNephy/repos",
+    "html_url": "https://github.com/apps/renovate",
+    "id": 29139614,
+    "login": "renovate[bot]",
+    "node_id": "MDM6Qm90MjkxMzk2MTQ=",
+    "organizations_url": "https://api.github.com/users/renovate%5Bbot%5D/orgs",
+    "received_events_url": "https://api.github.com/users/renovate%5Bbot%5D/received_events",
+    "repos_url": "https://api.github.com/users/renovate%5Bbot%5D/repos",
     "site_admin": false,
-    "starred_url": "https://api.github.com/users/SlashNephy/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/SlashNephy/subscriptions",
-    "type": "User",
-    "url": "https://api.github.com/users/SlashNephy"
+    "starred_url": "https://api.github.com/users/renovate%5Bbot%5D/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/renovate%5Bbot%5D/subscriptions",
+    "type": "Bot",
+    "url": "https://api.github.com/users/renovate%5Bbot%5D"
   }
 }
