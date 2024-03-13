@@ -18,7 +18,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 3780,
-    "LastUpdate": 1710332227,
+    "LastUpdate": 1710335367,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/AetheryteLinkInChat/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/AetheryteLinkInChat/download",
     "AcceptsFeedback": true
@@ -42,7 +42,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 146,
-    "LastUpdate": 1710332227,
+    "LastUpdate": 1710335367,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Calculator/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Calculator/download",
     "AcceptsFeedback": true
@@ -67,7 +67,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 86,
-    "LastUpdate": 1710332227,
+    "LastUpdate": 1710335367,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Debugger/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Debugger/download",
     "AcceptsFeedback": true
@@ -91,7 +91,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 275,
-    "LastUpdate": 1710332227,
+    "LastUpdate": 1710335367,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/DiscordIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/DiscordIntegration/download",
     "AcceptsFeedback": true
@@ -115,8 +115,8 @@
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
-    "DownloadCount": 3606,
-    "LastUpdate": 1710332227,
+    "DownloadCount": 3607,
+    "LastUpdate": 1710335367,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/FaloopIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/FaloopIntegration/download",
     "AcceptsFeedback": true
@@ -139,7 +139,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 110,
-    "LastUpdate": 1710332227,
+    "LastUpdate": 1710335367,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/InstanceIDViewer/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/InstanceIDViewer/download",
     "AcceptsFeedback": true
@@ -162,7 +162,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 171,
-    "LastUpdate": 1710332227,
+    "LastUpdate": 1710335367,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/PerfectComplex/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/PerfectComplex/download",
     "LoadRequiredState": 2,
@@ -187,7 +187,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 67,
-    "LastUpdate": 1710332227,
+    "LastUpdate": 1710335367,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/PowerUtils/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/PowerUtils/download",
     "AcceptsFeedback": true
@@ -211,7 +211,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 70,
-    "LastUpdate": 1710332227,
+    "LastUpdate": 1710335367,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/TwitterIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/TwitterIntegration/download",
     "AcceptsFeedback": true
@@ -236,7 +236,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 117,
-    "LastUpdate": 1710332227,
+    "LastUpdate": 1710335367,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Voiceroid2Talker/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Voiceroid2Talker/download",
     "AcceptsFeedback": true
