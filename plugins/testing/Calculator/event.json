@@ -1,44 +1,72 @@
 {
-  "action": "created",
-  "release": {
-    "assets": [],
-    "assets_url": "https://api.github.com/repos/SlashNephy/Divination/releases/143797183/assets",
-    "author": {
-      "avatar_url": "https://avatars.githubusercontent.com/u/7302150?v=4",
-      "events_url": "https://api.github.com/users/SlashNephy/events{/privacy}",
-      "followers_url": "https://api.github.com/users/SlashNephy/followers",
-      "following_url": "https://api.github.com/users/SlashNephy/following{/other_user}",
-      "gists_url": "https://api.github.com/users/SlashNephy/gists{/gist_id}",
-      "gravatar_id": "",
-      "html_url": "https://github.com/SlashNephy",
-      "id": 7302150,
-      "login": "SlashNephy",
-      "node_id": "MDQ6VXNlcjczMDIxNTA=",
-      "organizations_url": "https://api.github.com/users/SlashNephy/orgs",
-      "received_events_url": "https://api.github.com/users/SlashNephy/received_events",
-      "repos_url": "https://api.github.com/users/SlashNephy/repos",
-      "site_admin": false,
-      "starred_url": "https://api.github.com/users/SlashNephy/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/SlashNephy/subscriptions",
-      "type": "User",
-      "url": "https://api.github.com/users/SlashNephy"
+  "after": "b00d65297d9e8c6d3853821b9002e03da1d3d0e4",
+  "base_ref": null,
+  "before": "6952720f94bca7f4bc1d8a0a183318bbcdbb47ed",
+  "commits": [
+    {
+      "author": {
+        "email": "spica@starry.blue",
+        "name": "SlashNephy",
+        "username": "SlashNephy"
+      },
+      "committer": {
+        "email": "spica@starry.blue",
+        "name": "SlashNephy",
+        "username": "SlashNephy"
+      },
+      "distinct": true,
+      "id": "75325f2d50db6a7f833eb85e30c178da32611a50",
+      "message": ".NET 8",
+      "timestamp": "2024-03-23T14:10:27+09:00",
+      "tree_id": "af53c8719d4f62629f09f8ff6b82efe3689f3fc4",
+      "url": "https://github.com/SlashNephy/Divination/commit/75325f2d50db6a7f833eb85e30c178da32611a50"
     },
-    "body": "",
-    "created_at": "2024-02-27T12:25:45Z",
-    "draft": false,
-    "html_url": "https://github.com/SlashNephy/Divination/releases/tag/6.57.1",
-    "id": 143797183,
-    "name": "",
-    "node_id": "RE_kwDOJblaw84Ikiu_",
-    "prerelease": false,
-    "published_at": "2024-02-27T12:38:18Z",
-    "tag_name": "6.57.1",
-    "tarball_url": "https://api.github.com/repos/SlashNephy/Divination/tarball/6.57.1",
-    "target_commitish": "master",
-    "upload_url": "https://uploads.github.com/repos/SlashNephy/Divination/releases/143797183/assets{?name,label}",
-    "url": "https://api.github.com/repos/SlashNephy/Divination/releases/143797183",
-    "zipball_url": "https://api.github.com/repos/SlashNephy/Divination/zipball/6.57.1"
+    {
+      "author": {
+        "email": "spica@starry.blue",
+        "name": "SlashNephy",
+        "username": "SlashNephy"
+      },
+      "committer": {
+        "email": "spica@starry.blue",
+        "name": "SlashNephy",
+        "username": "SlashNephy"
+      },
+      "distinct": true,
+      "id": "b00d65297d9e8c6d3853821b9002e03da1d3d0e4",
+      "message": "Merge branch master of ssh://github.com/SlashNephy/Divination",
+      "timestamp": "2024-03-23T14:12:26+09:00",
+      "tree_id": "c7b87f190306f116dc975c544758b60cc835ae26",
+      "url": "https://github.com/SlashNephy/Divination/commit/b00d65297d9e8c6d3853821b9002e03da1d3d0e4"
+    }
+  ],
+  "compare": "https://github.com/SlashNephy/Divination/compare/6952720f94bc...b00d65297d9e",
+  "created": false,
+  "deleted": false,
+  "forced": false,
+  "head_commit": {
+    "author": {
+      "email": "spica@starry.blue",
+      "name": "SlashNephy",
+      "username": "SlashNephy"
+    },
+    "committer": {
+      "email": "spica@starry.blue",
+      "name": "SlashNephy",
+      "username": "SlashNephy"
+    },
+    "distinct": true,
+    "id": "b00d65297d9e8c6d3853821b9002e03da1d3d0e4",
+    "message": "Merge branch master of ssh://github.com/SlashNephy/Divination",
+    "timestamp": "2024-03-23T14:12:26+09:00",
+    "tree_id": "c7b87f190306f116dc975c544758b60cc835ae26",
+    "url": "https://github.com/SlashNephy/Divination/commit/b00d65297d9e8c6d3853821b9002e03da1d3d0e4"
   },
+  "pusher": {
+    "email": "spica@starry.blue",
+    "name": "SlashNephy"
+  },
+  "ref": "refs/heads/master",
   "repository": {
     "allow_forking": true,
     "archive_url": "https://api.github.com/repos/SlashNephy/Divination/{archive_format}{/ref}",
@@ -53,7 +81,7 @@
     "compare_url": "https://api.github.com/repos/SlashNephy/Divination/compare/{base}...{head}",
     "contents_url": "https://api.github.com/repos/SlashNephy/Divination/contents/{+path}",
     "contributors_url": "https://api.github.com/repos/SlashNephy/Divination/contributors",
-    "created_at": "2023-04-26T11:19:20Z",
+    "created_at": 1682507960,
     "default_branch": "master",
     "deployments_url": "https://api.github.com/repos/SlashNephy/Divination/deployments",
     "description": "FINAL FANTASY XIV toolkits",
@@ -61,8 +89,8 @@
     "downloads_url": "https://api.github.com/repos/SlashNephy/Divination/downloads",
     "events_url": "https://api.github.com/repos/SlashNephy/Divination/events",
     "fork": false,
-    "forks": 3,
-    "forks_count": 3,
+    "forks": 5,
+    "forks_count": 5,
     "forks_url": "https://api.github.com/repos/SlashNephy/Divination/forks",
     "full_name": "SlashNephy/Divination",
     "git_commits_url": "https://api.github.com/repos/SlashNephy/Divination/git/commits{/sha}",
@@ -94,16 +122,18 @@
       "spdx_id": "MIT",
       "url": "https://api.github.com/licenses/mit"
     },
+    "master_branch": "master",
     "merges_url": "https://api.github.com/repos/SlashNephy/Divination/merges",
     "milestones_url": "https://api.github.com/repos/SlashNephy/Divination/milestones{/number}",
     "mirror_url": null,
     "name": "Divination",
     "node_id": "R_kgDOJblaww",
     "notifications_url": "https://api.github.com/repos/SlashNephy/Divination/notifications{?since,all,participating}",
-    "open_issues": 4,
-    "open_issues_count": 4,
+    "open_issues": 3,
+    "open_issues_count": 3,
     "owner": {
       "avatar_url": "https://avatars.githubusercontent.com/u/7302150?v=4",
+      "email": "spica@starry.blue",
       "events_url": "https://api.github.com/users/SlashNephy/events{/privacy}",
       "followers_url": "https://api.github.com/users/SlashNephy/followers",
       "following_url": "https://api.github.com/users/SlashNephy/following{/other_user}",
@@ -112,6 +142,7 @@
       "html_url": "https://github.com/SlashNephy",
       "id": 7302150,
       "login": "SlashNephy",
+      "name": "SlashNephy",
       "node_id": "MDQ6VXNlcjczMDIxNTA=",
       "organizations_url": "https://api.github.com/users/SlashNephy/orgs",
       "received_events_url": "https://api.github.com/users/SlashNephy/received_events",
@@ -124,11 +155,12 @@
     },
     "private": false,
     "pulls_url": "https://api.github.com/repos/SlashNephy/Divination/pulls{/number}",
-    "pushed_at": "2024-02-27T12:38:18Z",
+    "pushed_at": 1711170749,
     "releases_url": "https://api.github.com/repos/SlashNephy/Divination/releases{/id}",
-    "size": 43376,
+    "size": 43402,
     "ssh_url": "git@github.com:SlashNephy/Divination.git",
-    "stargazers_count": 7,
+    "stargazers": 11,
+    "stargazers_count": 11,
     "stargazers_url": "https://api.github.com/repos/SlashNephy/Divination/stargazers",
     "statuses_url": "https://api.github.com/repos/SlashNephy/Divination/statuses/{sha}",
     "subscribers_url": "https://api.github.com/repos/SlashNephy/Divination/subscribers",
@@ -142,11 +174,11 @@
       "xivlauncher"
     ],
     "trees_url": "https://api.github.com/repos/SlashNephy/Divination/git/trees{/sha}",
-    "updated_at": "2024-02-22T13:58:22Z",
-    "url": "https://api.github.com/repos/SlashNephy/Divination",
+    "updated_at": "2024-03-19T08:16:05Z",
+    "url": "https://github.com/SlashNephy/Divination",
     "visibility": "public",
-    "watchers": 7,
-    "watchers_count": 7,
+    "watchers": 11,
+    "watchers_count": 11,
     "web_commit_signoff_required": false
   },
   "sender": {
