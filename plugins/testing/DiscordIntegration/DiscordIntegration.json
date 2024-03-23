@@ -2,7 +2,7 @@
   "Author": "Asteria Nocturna",
   "Name": "Divination.DiscordIntegration",
   "InternalName": "DiscordIntegration",
-  "AssemblyVersion": "6.57.1.0",
+  "AssemblyVersion": "6.57.2.13",
   "Description": "Dalamud Plugin to support Rich Presence for FFXIV.",
   "ApplicableVersion": "any",
   "Tags": [
