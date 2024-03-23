@@ -4,7 +4,7 @@
     "Name": "Divination.AetheryteLinkInChat",
     "Punchline": "Quick teleport for mob hunts and treasure hunts!",
     "Description": "Display a teleport link to the nearest aetherite for the map link from the in-game chat. Type /alic to configure the plugin.",
-    "Changelog": "b17d3a0: we cannot teleport while crafting or gathering\naae6809: update for latest C# features\nb447e4d: export Rider editorconfig\n0522955: fix spamming debug logs...\n3716cbc: Update dependency AngleSharp to v1.1.1\n8d406c2: fix automerge target repository\nd60492b: fix deploy condition\n6f69603: use PreReleaseNumber\n493afd6: do not run CI on tagging\nbd9d6fb: fix build failure when PreReleaseNumber is not set\n6e802cc: localize\nbc259e0: add implicit operator to cast as SeString/TextPayload\n6dab5af: update for new Faloop API mechanism\n0c51c18: delete PerfectComplex CI\n1dc5a3d: explicit operator should be implicit operator\n68e1f69: delete outdated READMEs\n5b9796c: use Record\ncd9ae9c: delete TwitterIntegration CI\n7f36f93: share Rider configuration\n4a8a8e0: enforcing code style\nabd575d: trim spaces in pattern expressions\nfa08619: trim spaces around cast operator\n9d1f930: enforce trailing comma within iterable objects\n480a280: format plugin manifest files\n8158a14: Discontinue TwitterIntegration\n\npublic Twitter API is no longer available for free\n508e03b: remove unused using declarations\nd7109ab: fix missing DalamusApiLevel\n367cff0: replace List initialization with C# 12 collection expression\ne37507e: update localization\nd2b0497: Merge pull request #629 from SlashNephy/renovate/major-4-github-artifact-actions\n\nchore(deps): update github artifact actions to v4 (major)",
+    "Changelog": "b00d652: Merge branch 'master' of ssh://github.com/SlashNephy/Divination\n75325f2: .NET 8\n6952720: Update dependency AngleSharp to v1.1.2\n027d188: return Checkbox value\n31023ac: add Active Mob UI (experimental)\n0765ca1: round TimeSpan\n1662957: omit just now\nb17d3a0: we cannot teleport while crafting or gathering\naae6809: update for latest C# features\nb447e4d: export Rider editorconfig\n0522955: fix spamming debug logs...\n3716cbc: Update dependency AngleSharp to v1.1.1\n8d406c2: fix automerge target repository\nd60492b: fix deploy condition\n6f69603: use PreReleaseNumber\n493afd6: do not run CI on tagging\nbd9d6fb: fix build failure when PreReleaseNumber is not set\n6e802cc: localize\nbc259e0: add implicit operator to cast as SeString/TextPayload\n6dab5af: update for new Faloop API mechanism\n0c51c18: delete PerfectComplex CI\n1dc5a3d: explicit operator should be implicit operator\n68e1f69: delete outdated READMEs\n5b9796c: use Record\ncd9ae9c: delete TwitterIntegration CI\n7f36f93: share Rider configuration\n4a8a8e0: enforcing code style\nabd575d: trim spaces in pattern expressions\nfa08619: trim spaces around cast operator\n9d1f930: enforce trailing comma within iterable objects",
     "Tags": [
       "teleporter"
     ],
@@ -13,12 +13,12 @@
     ],
     "InternalName": "AetheryteLinkInChat",
     "AssemblyVersion": "6.57.1.0",
-    "TestingAssemblyVersion": "6.57.2.6",
+    "TestingAssemblyVersion": "6.57.2.13",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 3835,
-    "LastUpdate": 1711167172,
+    "LastUpdate": 1711170842,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/AetheryteLinkInChat/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/AetheryteLinkInChat/download",
     "AcceptsFeedback": true
@@ -28,7 +28,7 @@
     "Name": "Divination.Calculator",
     "Punchline": "/calc 33 - 4",
     "Description": "Simple plugin to just add /calc command.",
-    "Changelog": "d60492b: fix deploy condition\n6f69603: use PreReleaseNumber\n493afd6: do not run CI on tagging\nbd9d6fb: fix build failure when PreReleaseNumber is not set\n6e802cc: localize\nbc259e0: add implicit operator to cast as SeString/TextPayload\n6dab5af: update for new Faloop API mechanism\n0c51c18: delete PerfectComplex CI\n1dc5a3d: explicit operator should be implicit operator\n68e1f69: delete outdated READMEs\n5b9796c: use Record\ncd9ae9c: delete TwitterIntegration CI\n7f36f93: share Rider configuration\n4a8a8e0: enforcing code style\nabd575d: trim spaces in pattern expressions\nfa08619: trim spaces around cast operator\n9d1f930: enforce trailing comma within iterable objects\n480a280: format plugin manifest files\n8158a14: Discontinue TwitterIntegration\n\npublic Twitter API is no longer available for free\n508e03b: remove unused using declarations\nd7109ab: fix missing DalamusApiLevel\n367cff0: replace List initialization with C# 12 collection expression\ne37507e: update localization\nd2b0497: Merge pull request #629 from SlashNephy/renovate/major-4-github-artifact-actions\n\nchore(deps): update github artifact actions to v4 (major)\ne88342f: Merge pull request #491 from SlashNephy/renovate/actions-setup-dotnet-4.x\n\nchore(deps): update actions/setup-dotnet action to v4\ndb4c4ae: continue-on-error: true\nd7c3593: chore(deps): update actions/setup-dotnet action to v4\nc19320e: move plugins directory\n75dbd7c: chore(deps): update github artifact actions to v4\nd267001: fix(deps): update dependency i18next to v23.9.0",
+    "Changelog": "b00d652: Merge branch 'master' of ssh://github.com/SlashNephy/Divination\n75325f2: .NET 8\n6952720: Update dependency AngleSharp to v1.1.2\n027d188: return Checkbox value\n31023ac: add Active Mob UI (experimental)\n0765ca1: round TimeSpan\n1662957: omit just now\nb17d3a0: we cannot teleport while crafting or gathering\naae6809: update for latest C# features\nb447e4d: export Rider editorconfig\n0522955: fix spamming debug logs...\n3716cbc: Update dependency AngleSharp to v1.1.1\n8d406c2: fix automerge target repository\nd60492b: fix deploy condition\n6f69603: use PreReleaseNumber\n493afd6: do not run CI on tagging\nbd9d6fb: fix build failure when PreReleaseNumber is not set\n6e802cc: localize\nbc259e0: add implicit operator to cast as SeString/TextPayload\n6dab5af: update for new Faloop API mechanism\n0c51c18: delete PerfectComplex CI\n1dc5a3d: explicit operator should be implicit operator\n68e1f69: delete outdated READMEs\n5b9796c: use Record\ncd9ae9c: delete TwitterIntegration CI\n7f36f93: share Rider configuration\n4a8a8e0: enforcing code style\nabd575d: trim spaces in pattern expressions\nfa08619: trim spaces around cast operator\n9d1f930: enforce trailing comma within iterable objects",
     "Tags": [
       "utility"
     ],
@@ -37,12 +37,12 @@
     ],
     "InternalName": "Calculator",
     "AssemblyVersion": "6.57.1.0",
-    "TestingAssemblyVersion": "6.57.1.0",
+    "TestingAssemblyVersion": "6.57.2.13",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 146,
-    "LastUpdate": 1711167172,
+    "LastUpdate": 1711170842,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Calculator/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Calculator/download",
     "AcceptsFeedback": true
@@ -67,7 +67,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 91,
-    "LastUpdate": 1711167172,
+    "LastUpdate": 1711170842,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Debugger/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Debugger/download",
     "AcceptsFeedback": true
@@ -91,7 +91,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 282,
-    "LastUpdate": 1711167172,
+    "LastUpdate": 1711170842,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/DiscordIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/DiscordIntegration/download",
     "AcceptsFeedback": true
@@ -101,7 +101,7 @@
     "Name": "Divination.FaloopIntegration",
     "Punchline": "Faloop Notification in Chat",
     "Description": "Show Faloop mob spawn notifications in in-game chat. Type /faloop to configure the plugin.",
-    "Changelog": "6952720: Update dependency AngleSharp to v1.1.2\n027d188: return Checkbox value\n31023ac: add Active Mob UI (experimental)\n0765ca1: round TimeSpan\n1662957: omit just now\nb17d3a0: we cannot teleport while crafting or gathering\naae6809: update for latest C# features\nb447e4d: export Rider editorconfig\n0522955: fix spamming debug logs...\n3716cbc: Update dependency AngleSharp to v1.1.1\n8d406c2: fix automerge target repository\nd60492b: fix deploy condition\n6f69603: use PreReleaseNumber\n493afd6: do not run CI on tagging\nbd9d6fb: fix build failure when PreReleaseNumber is not set\n6e802cc: localize\nbc259e0: add implicit operator to cast as SeString/TextPayload\n6dab5af: update for new Faloop API mechanism\n0c51c18: delete PerfectComplex CI\n1dc5a3d: explicit operator should be implicit operator\n68e1f69: delete outdated READMEs\n5b9796c: use Record\ncd9ae9c: delete TwitterIntegration CI\n7f36f93: share Rider configuration\n4a8a8e0: enforcing code style\nabd575d: trim spaces in pattern expressions\nfa08619: trim spaces around cast operator\n9d1f930: enforce trailing comma within iterable objects\n480a280: format plugin manifest files\n8158a14: Discontinue TwitterIntegration\n\npublic Twitter API is no longer available for free",
+    "Changelog": "b00d652: Merge branch 'master' of ssh://github.com/SlashNephy/Divination\n75325f2: .NET 8\n6952720: Update dependency AngleSharp to v1.1.2\n027d188: return Checkbox value\n31023ac: add Active Mob UI (experimental)\n0765ca1: round TimeSpan\n1662957: omit just now\nb17d3a0: we cannot teleport while crafting or gathering\naae6809: update for latest C# features\nb447e4d: export Rider editorconfig\n0522955: fix spamming debug logs...\n3716cbc: Update dependency AngleSharp to v1.1.1\n8d406c2: fix automerge target repository\nd60492b: fix deploy condition\n6f69603: use PreReleaseNumber\n493afd6: do not run CI on tagging\nbd9d6fb: fix build failure when PreReleaseNumber is not set\n6e802cc: localize\nbc259e0: add implicit operator to cast as SeString/TextPayload\n6dab5af: update for new Faloop API mechanism\n0c51c18: delete PerfectComplex CI\n1dc5a3d: explicit operator should be implicit operator\n68e1f69: delete outdated READMEs\n5b9796c: use Record\ncd9ae9c: delete TwitterIntegration CI\n7f36f93: share Rider configuration\n4a8a8e0: enforcing code style\nabd575d: trim spaces in pattern expressions\nfa08619: trim spaces around cast operator\n9d1f930: enforce trailing comma within iterable objects",
     "Tags": [
       "mobhunt"
     ],
@@ -111,12 +111,12 @@
     ],
     "InternalName": "FaloopIntegration",
     "AssemblyVersion": "6.57.1.0",
-    "TestingAssemblyVersion": "6.57.2.11",
+    "TestingAssemblyVersion": "6.57.2.13",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
-    "DownloadCount": 3676,
-    "LastUpdate": 1711167172,
+    "DownloadCount": 3677,
+    "LastUpdate": 1711170842,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/FaloopIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/FaloopIntegration/download",
     "AcceptsFeedback": true
@@ -139,7 +139,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 114,
-    "LastUpdate": 1711167172,
+    "LastUpdate": 1711170842,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/InstanceIDViewer/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/InstanceIDViewer/download",
     "AcceptsFeedback": true
@@ -162,7 +162,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 174,
-    "LastUpdate": 1711167172,
+    "LastUpdate": 1711170842,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/PerfectComplex/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/PerfectComplex/download",
     "LoadRequiredState": 2,
@@ -173,7 +173,7 @@
     "Name": "Divination.PowerUtils",
     "Punchline": "Save Energy!",
     "Description": "Add /power save, /power balance, /power perf, /monitoroff commands for power management",
-    "Changelog": "d60492b: fix deploy condition\n6f69603: use PreReleaseNumber\n493afd6: do not run CI on tagging\nbd9d6fb: fix build failure when PreReleaseNumber is not set\n6e802cc: localize\nbc259e0: add implicit operator to cast as SeString/TextPayload\n6dab5af: update for new Faloop API mechanism\n0c51c18: delete PerfectComplex CI\n1dc5a3d: explicit operator should be implicit operator\n68e1f69: delete outdated READMEs\n5b9796c: use Record\ncd9ae9c: delete TwitterIntegration CI\n7f36f93: share Rider configuration\n4a8a8e0: enforcing code style\nabd575d: trim spaces in pattern expressions\nfa08619: trim spaces around cast operator\n9d1f930: enforce trailing comma within iterable objects\n480a280: format plugin manifest files\n8158a14: Discontinue TwitterIntegration\n\npublic Twitter API is no longer available for free\n508e03b: remove unused using declarations\nd7109ab: fix missing DalamusApiLevel\n367cff0: replace List initialization with C# 12 collection expression\ne37507e: update localization\nd2b0497: Merge pull request #629 from SlashNephy/renovate/major-4-github-artifact-actions\n\nchore(deps): update github artifact actions to v4 (major)\ne88342f: Merge pull request #491 from SlashNephy/renovate/actions-setup-dotnet-4.x\n\nchore(deps): update actions/setup-dotnet action to v4\ndb4c4ae: continue-on-error: true\nd7c3593: chore(deps): update actions/setup-dotnet action to v4\nc19320e: move plugins directory\n75dbd7c: chore(deps): update github artifact actions to v4\nd267001: fix(deps): update dependency i18next to v23.9.0",
+    "Changelog": "b00d652: Merge branch 'master' of ssh://github.com/SlashNephy/Divination\n75325f2: .NET 8\n6952720: Update dependency AngleSharp to v1.1.2\n027d188: return Checkbox value\n31023ac: add Active Mob UI (experimental)\n0765ca1: round TimeSpan\n1662957: omit just now\nb17d3a0: we cannot teleport while crafting or gathering\naae6809: update for latest C# features\nb447e4d: export Rider editorconfig\n0522955: fix spamming debug logs...\n3716cbc: Update dependency AngleSharp to v1.1.1\n8d406c2: fix automerge target repository\nd60492b: fix deploy condition\n6f69603: use PreReleaseNumber\n493afd6: do not run CI on tagging\nbd9d6fb: fix build failure when PreReleaseNumber is not set\n6e802cc: localize\nbc259e0: add implicit operator to cast as SeString/TextPayload\n6dab5af: update for new Faloop API mechanism\n0c51c18: delete PerfectComplex CI\n1dc5a3d: explicit operator should be implicit operator\n68e1f69: delete outdated READMEs\n5b9796c: use Record\ncd9ae9c: delete TwitterIntegration CI\n7f36f93: share Rider configuration\n4a8a8e0: enforcing code style\nabd575d: trim spaces in pattern expressions\nfa08619: trim spaces around cast operator\n9d1f930: enforce trailing comma within iterable objects",
     "Tags": [
       "Command"
     ],
@@ -182,12 +182,12 @@
     ],
     "InternalName": "PowerUtils",
     "AssemblyVersion": "6.57.1.0",
-    "TestingAssemblyVersion": "6.57.1.0",
+    "TestingAssemblyVersion": "6.57.2.13",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 68,
-    "LastUpdate": 1711167172,
+    "LastUpdate": 1711170842,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/PowerUtils/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/PowerUtils/download",
     "AcceptsFeedback": true
@@ -211,7 +211,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 73,
-    "LastUpdate": 1711167172,
+    "LastUpdate": 1711170842,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/TwitterIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/TwitterIntegration/download",
     "AcceptsFeedback": true
@@ -221,7 +221,7 @@
     "Name": "Divination.Voiceroid2Talker",
     "Punchline": "Text-to-Speech for Voiceroid2",
     "Description": "Add /voiceroid2 command into FFXIV. Require SimpleVoiceroid2Proxy (https://github.com/SlashNephy/SimpleVoiceroid2Proxy).",
-    "Changelog": "d60492b: fix deploy condition\n6f69603: use PreReleaseNumber\n493afd6: do not run CI on tagging\nbd9d6fb: fix build failure when PreReleaseNumber is not set\n6e802cc: localize\nbc259e0: add implicit operator to cast as SeString/TextPayload\n6dab5af: update for new Faloop API mechanism\n0c51c18: delete PerfectComplex CI\n1dc5a3d: explicit operator should be implicit operator\n68e1f69: delete outdated READMEs\n5b9796c: use Record\ncd9ae9c: delete TwitterIntegration CI\n7f36f93: share Rider configuration\n4a8a8e0: enforcing code style\nabd575d: trim spaces in pattern expressions\nfa08619: trim spaces around cast operator\n9d1f930: enforce trailing comma within iterable objects\n480a280: format plugin manifest files\n8158a14: Discontinue TwitterIntegration\n\npublic Twitter API is no longer available for free\n508e03b: remove unused using declarations\nd7109ab: fix missing DalamusApiLevel\n367cff0: replace List initialization with C# 12 collection expression\ne37507e: update localization\nd2b0497: Merge pull request #629 from SlashNephy/renovate/major-4-github-artifact-actions\n\nchore(deps): update github artifact actions to v4 (major)\ne88342f: Merge pull request #491 from SlashNephy/renovate/actions-setup-dotnet-4.x\n\nchore(deps): update actions/setup-dotnet action to v4\ndb4c4ae: continue-on-error: true\nd7c3593: chore(deps): update actions/setup-dotnet action to v4\nc19320e: move plugins directory\n75dbd7c: chore(deps): update github artifact actions to v4\nd267001: fix(deps): update dependency i18next to v23.9.0",
+    "Changelog": "b00d652: Merge branch 'master' of ssh://github.com/SlashNephy/Divination\n75325f2: .NET 8\n6952720: Update dependency AngleSharp to v1.1.2\n027d188: return Checkbox value\n31023ac: add Active Mob UI (experimental)\n0765ca1: round TimeSpan\n1662957: omit just now\nb17d3a0: we cannot teleport while crafting or gathering\naae6809: update for latest C# features\nb447e4d: export Rider editorconfig\n0522955: fix spamming debug logs...\n3716cbc: Update dependency AngleSharp to v1.1.1\n8d406c2: fix automerge target repository\nd60492b: fix deploy condition\n6f69603: use PreReleaseNumber\n493afd6: do not run CI on tagging\nbd9d6fb: fix build failure when PreReleaseNumber is not set\n6e802cc: localize\nbc259e0: add implicit operator to cast as SeString/TextPayload\n6dab5af: update for new Faloop API mechanism\n0c51c18: delete PerfectComplex CI\n1dc5a3d: explicit operator should be implicit operator\n68e1f69: delete outdated READMEs\n5b9796c: use Record\ncd9ae9c: delete TwitterIntegration CI\n7f36f93: share Rider configuration\n4a8a8e0: enforcing code style\nabd575d: trim spaces in pattern expressions\nfa08619: trim spaces around cast operator\n9d1f930: enforce trailing comma within iterable objects",
     "Tags": [
       "Text-to-speech",
       "Voiceroid"
@@ -231,12 +231,12 @@
     ],
     "InternalName": "Voiceroid2Talker",
     "AssemblyVersion": "6.57.1.0",
-    "TestingAssemblyVersion": "6.57.1.0",
+    "TestingAssemblyVersion": "6.57.2.13",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 120,
-    "LastUpdate": 1711167172,
+    "LastUpdate": 1711170842,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Voiceroid2Talker/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Voiceroid2Talker/download",
     "AcceptsFeedback": true
