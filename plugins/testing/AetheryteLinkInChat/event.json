@@ -1,7 +1,7 @@
 {
-  "after": "b17d3a0b0808499ffe2b1c2872f7e35338aec867",
+  "after": "b00d65297d9e8c6d3853821b9002e03da1d3d0e4",
   "base_ref": null,
-  "before": "3716cbc80c094b607c087e0f8ecc5d9b9c07fc1b",
+  "before": "6952720f94bca7f4bc1d8a0a183318bbcdbb47ed",
   "commits": [
     {
       "author": {
@@ -15,11 +15,11 @@
         "username": "SlashNephy"
       },
       "distinct": true,
-      "id": "0522955741670b0d45df4656f2c0fbfa92508d8e",
-      "message": "fix spamming debug logs...",
-      "timestamp": "2024-03-08T22:20:15+09:00",
-      "tree_id": "9ba262ea19bbeebba0d85ff509e0398ca645c1e2",
-      "url": "https://github.com/SlashNephy/Divination/commit/0522955741670b0d45df4656f2c0fbfa92508d8e"
+      "id": "75325f2d50db6a7f833eb85e30c178da32611a50",
+      "message": ".NET 8",
+      "timestamp": "2024-03-23T14:10:27+09:00",
+      "tree_id": "af53c8719d4f62629f09f8ff6b82efe3689f3fc4",
+      "url": "https://github.com/SlashNephy/Divination/commit/75325f2d50db6a7f833eb85e30c178da32611a50"
     },
     {
       "author": {
@@ -33,50 +33,14 @@
         "username": "SlashNephy"
       },
       "distinct": true,
-      "id": "b447e4d4679da5b8b678c33b33eb9fd6882aea4c",
-      "message": "export Rider editorconfig",
-      "timestamp": "2024-03-08T22:20:34+09:00",
-      "tree_id": "add9464418638cecdcf80fddaa2a739ab1a92833",
-      "url": "https://github.com/SlashNephy/Divination/commit/b447e4d4679da5b8b678c33b33eb9fd6882aea4c"
-    },
-    {
-      "author": {
-        "email": "spica@starry.blue",
-        "name": "SlashNephy",
-        "username": "SlashNephy"
-      },
-      "committer": {
-        "email": "spica@starry.blue",
-        "name": "SlashNephy",
-        "username": "SlashNephy"
-      },
-      "distinct": true,
-      "id": "aae68095b3294dc1d8ad413f9544d8bd65730159",
-      "message": "update for latest C# features",
-      "timestamp": "2024-03-08T22:25:38+09:00",
-      "tree_id": "7cca18edca2638e6caf3b13fa7fc1a324596675b",
-      "url": "https://github.com/SlashNephy/Divination/commit/aae68095b3294dc1d8ad413f9544d8bd65730159"
-    },
-    {
-      "author": {
-        "email": "spica@starry.blue",
-        "name": "SlashNephy",
-        "username": "SlashNephy"
-      },
-      "committer": {
-        "email": "spica@starry.blue",
-        "name": "SlashNephy",
-        "username": "SlashNephy"
-      },
-      "distinct": true,
-      "id": "b17d3a0b0808499ffe2b1c2872f7e35338aec867",
-      "message": "we cannot teleport while crafting or gathering",
-      "timestamp": "2024-03-08T22:28:52+09:00",
-      "tree_id": "4fffb58ed63c82f0cead4864616b9b3e060136dc",
-      "url": "https://github.com/SlashNephy/Divination/commit/b17d3a0b0808499ffe2b1c2872f7e35338aec867"
+      "id": "b00d65297d9e8c6d3853821b9002e03da1d3d0e4",
+      "message": "Merge branch master of ssh://github.com/SlashNephy/Divination",
+      "timestamp": "2024-03-23T14:12:26+09:00",
+      "tree_id": "c7b87f190306f116dc975c544758b60cc835ae26",
+      "url": "https://github.com/SlashNephy/Divination/commit/b00d65297d9e8c6d3853821b9002e03da1d3d0e4"
     }
   ],
-  "compare": "https://github.com/SlashNephy/Divination/compare/3716cbc80c09...b17d3a0b0808",
+  "compare": "https://github.com/SlashNephy/Divination/compare/6952720f94bc...b00d65297d9e",
   "created": false,
   "deleted": false,
   "forced": false,
@@ -92,11 +56,11 @@
       "username": "SlashNephy"
     },
     "distinct": true,
-    "id": "b17d3a0b0808499ffe2b1c2872f7e35338aec867",
-    "message": "we cannot teleport while crafting or gathering",
-    "timestamp": "2024-03-08T22:28:52+09:00",
-    "tree_id": "4fffb58ed63c82f0cead4864616b9b3e060136dc",
-    "url": "https://github.com/SlashNephy/Divination/commit/b17d3a0b0808499ffe2b1c2872f7e35338aec867"
+    "id": "b00d65297d9e8c6d3853821b9002e03da1d3d0e4",
+    "message": "Merge branch master of ssh://github.com/SlashNephy/Divination",
+    "timestamp": "2024-03-23T14:12:26+09:00",
+    "tree_id": "c7b87f190306f116dc975c544758b60cc835ae26",
+    "url": "https://github.com/SlashNephy/Divination/commit/b00d65297d9e8c6d3853821b9002e03da1d3d0e4"
   },
   "pusher": {
     "email": "spica@starry.blue",
@@ -125,8 +89,8 @@
     "downloads_url": "https://api.github.com/repos/SlashNephy/Divination/downloads",
     "events_url": "https://api.github.com/repos/SlashNephy/Divination/events",
     "fork": false,
-    "forks": 4,
-    "forks_count": 4,
+    "forks": 5,
+    "forks_count": 5,
     "forks_url": "https://api.github.com/repos/SlashNephy/Divination/forks",
     "full_name": "SlashNephy/Divination",
     "git_commits_url": "https://api.github.com/repos/SlashNephy/Divination/git/commits{/sha}",
@@ -165,8 +129,8 @@
     "name": "Divination",
     "node_id": "R_kgDOJblaww",
     "notifications_url": "https://api.github.com/repos/SlashNephy/Divination/notifications{?since,all,participating}",
-    "open_issues": 4,
-    "open_issues_count": 4,
+    "open_issues": 3,
+    "open_issues_count": 3,
     "owner": {
       "avatar_url": "https://avatars.githubusercontent.com/u/7302150?v=4",
       "email": "spica@starry.blue",
@@ -191,12 +155,12 @@
     },
     "private": false,
     "pulls_url": "https://api.github.com/repos/SlashNephy/Divination/pulls{/number}",
-    "pushed_at": 1709904549,
+    "pushed_at": 1711170749,
     "releases_url": "https://api.github.com/repos/SlashNephy/Divination/releases{/id}",
-    "size": 43382,
+    "size": 43402,
     "ssh_url": "git@github.com:SlashNephy/Divination.git",
-    "stargazers": 8,
-    "stargazers_count": 8,
+    "stargazers": 11,
+    "stargazers_count": 11,
     "stargazers_url": "https://api.github.com/repos/SlashNephy/Divination/stargazers",
     "statuses_url": "https://api.github.com/repos/SlashNephy/Divination/statuses/{sha}",
     "subscribers_url": "https://api.github.com/repos/SlashNephy/Divination/subscribers",
@@ -210,11 +174,11 @@
       "xivlauncher"
     ],
     "trees_url": "https://api.github.com/repos/SlashNephy/Divination/git/trees{/sha}",
-    "updated_at": "2024-03-07T10:35:05Z",
+    "updated_at": "2024-03-19T08:16:05Z",
     "url": "https://github.com/SlashNephy/Divination",
     "visibility": "public",
-    "watchers": 8,
-    "watchers_count": 8,
+    "watchers": 11,
+    "watchers_count": 11,
     "web_commit_signoff_required": false
   },
   "sender": {
