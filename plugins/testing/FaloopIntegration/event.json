@@ -1,25 +1,61 @@
 {
-  "after": "b00d65297d9e8c6d3853821b9002e03da1d3d0e4",
+  "after": "74af7bb605c66553776fb4ee53f15fe012e5bd25",
   "base_ref": null,
-  "before": "6952720f94bca7f4bc1d8a0a183318bbcdbb47ed",
+  "before": "b00d65297d9e8c6d3853821b9002e03da1d3d0e4",
   "commits": [
     {
       "author": {
-        "email": "spica@starry.blue",
-        "name": "SlashNephy",
-        "username": "SlashNephy"
+        "email": "53384165+AkiOwO@users.noreply.github.com",
+        "name": "Aki",
+        "username": "AkiOwO"
       },
       "committer": {
-        "email": "spica@starry.blue",
-        "name": "SlashNephy",
-        "username": "SlashNephy"
+        "email": "53384165+AkiOwO@users.noreply.github.com",
+        "name": "Aki",
+        "username": "AkiOwO"
       },
-      "distinct": true,
-      "id": "75325f2d50db6a7f833eb85e30c178da32611a50",
-      "message": ".NET 8",
-      "timestamp": "2024-03-23T14:10:27+09:00",
-      "tree_id": "af53c8719d4f62629f09f8ff6b82efe3689f3fc4",
-      "url": "https://github.com/SlashNephy/Divination/commit/75325f2d50db6a7f833eb85e30c178da32611a50"
+      "distinct": false,
+      "id": "2d4185b4ce707fd575f591c8eefc845b33551524",
+      "message": "Fix UserRefreshResponse Model for API changes",
+      "timestamp": "2024-03-30T00:56:30+01:00",
+      "tree_id": "e734e31d3cc9c8e17f44cd294166574816d069c7",
+      "url": "https://github.com/SlashNephy/Divination/commit/2d4185b4ce707fd575f591c8eefc845b33551524"
+    },
+    {
+      "author": {
+        "email": "53384165+AkiOwO@users.noreply.github.com",
+        "name": "Aki",
+        "username": "AkiOwO"
+      },
+      "committer": {
+        "email": "53384165+AkiOwO@users.noreply.github.com",
+        "name": "Aki",
+        "username": "AkiOwO"
+      },
+      "distinct": false,
+      "id": "7ace335733e7a0ad4b214247a79b9d294edd7467",
+      "message": "Fix for Api Changes regarding login",
+      "timestamp": "2024-03-30T01:24:29+01:00",
+      "tree_id": "d7f605c52962bfd13b2462aa9068bcd358dd0593",
+      "url": "https://github.com/SlashNephy/Divination/commit/7ace335733e7a0ad4b214247a79b9d294edd7467"
+    },
+    {
+      "author": {
+        "email": "53384165+AkiOwO@users.noreply.github.com",
+        "name": "Aki",
+        "username": "AkiOwO"
+      },
+      "committer": {
+        "email": "53384165+AkiOwO@users.noreply.github.com",
+        "name": "Aki",
+        "username": "AkiOwO"
+      },
+      "distinct": false,
+      "id": "54660405fd41699cdc9c4f953d55de2eb1c902b0",
+      "message": "Revert changes of wrong namespace",
+      "timestamp": "2024-03-30T01:33:08+01:00",
+      "tree_id": "0ff5c8d08b72971fded05f609dc4b2496a39999a",
+      "url": "https://github.com/SlashNephy/Divination/commit/54660405fd41699cdc9c4f953d55de2eb1c902b0"
     },
     {
       "author": {
@@ -28,19 +64,19 @@
         "username": "SlashNephy"
       },
       "committer": {
-        "email": "spica@starry.blue",
-        "name": "SlashNephy",
-        "username": "SlashNephy"
+        "email": "noreply@github.com",
+        "name": "GitHub",
+        "username": "web-flow"
       },
       "distinct": true,
-      "id": "b00d65297d9e8c6d3853821b9002e03da1d3d0e4",
-      "message": "Merge branch master of ssh://github.com/SlashNephy/Divination",
-      "timestamp": "2024-03-23T14:12:26+09:00",
-      "tree_id": "c7b87f190306f116dc975c544758b60cc835ae26",
-      "url": "https://github.com/SlashNephy/Divination/commit/b00d65297d9e8c6d3853821b9002e03da1d3d0e4"
+      "id": "74af7bb605c66553776fb4ee53f15fe012e5bd25",
+      "message": "Merge pull request #640 from AkiOwO/master\n\nFix UserRefreshResponse and UserLoginResponse Model for API changes",
+      "timestamp": "2024-03-30T11:49:13+09:00",
+      "tree_id": "0ff5c8d08b72971fded05f609dc4b2496a39999a",
+      "url": "https://github.com/SlashNephy/Divination/commit/74af7bb605c66553776fb4ee53f15fe012e5bd25"
     }
   ],
-  "compare": "https://github.com/SlashNephy/Divination/compare/6952720f94bc...b00d65297d9e",
+  "compare": "https://github.com/SlashNephy/Divination/compare/b00d65297d9e...74af7bb605c6",
   "created": false,
   "deleted": false,
   "forced": false,
@@ -51,16 +87,16 @@
       "username": "SlashNephy"
     },
     "committer": {
-      "email": "spica@starry.blue",
-      "name": "SlashNephy",
-      "username": "SlashNephy"
+      "email": "noreply@github.com",
+      "name": "GitHub",
+      "username": "web-flow"
     },
     "distinct": true,
-    "id": "b00d65297d9e8c6d3853821b9002e03da1d3d0e4",
-    "message": "Merge branch master of ssh://github.com/SlashNephy/Divination",
-    "timestamp": "2024-03-23T14:12:26+09:00",
-    "tree_id": "c7b87f190306f116dc975c544758b60cc835ae26",
-    "url": "https://github.com/SlashNephy/Divination/commit/b00d65297d9e8c6d3853821b9002e03da1d3d0e4"
+    "id": "74af7bb605c66553776fb4ee53f15fe012e5bd25",
+    "message": "Merge pull request #640 from AkiOwO/master\n\nFix UserRefreshResponse and UserLoginResponse Model for API changes",
+    "timestamp": "2024-03-30T11:49:13+09:00",
+    "tree_id": "0ff5c8d08b72971fded05f609dc4b2496a39999a",
+    "url": "https://github.com/SlashNephy/Divination/commit/74af7bb605c66553776fb4ee53f15fe012e5bd25"
   },
   "pusher": {
     "email": "spica@starry.blue",
@@ -89,8 +125,8 @@
     "downloads_url": "https://api.github.com/repos/SlashNephy/Divination/downloads",
     "events_url": "https://api.github.com/repos/SlashNephy/Divination/events",
     "fork": false,
-    "forks": 5,
-    "forks_count": 5,
+    "forks": 6,
+    "forks_count": 6,
     "forks_url": "https://api.github.com/repos/SlashNephy/Divination/forks",
     "full_name": "SlashNephy/Divination",
     "git_commits_url": "https://api.github.com/repos/SlashNephy/Divination/git/commits{/sha}",
@@ -129,8 +165,8 @@
     "name": "Divination",
     "node_id": "R_kgDOJblaww",
     "notifications_url": "https://api.github.com/repos/SlashNephy/Divination/notifications{?since,all,participating}",
-    "open_issues": 3,
-    "open_issues_count": 3,
+    "open_issues": 5,
+    "open_issues_count": 5,
     "owner": {
       "avatar_url": "https://avatars.githubusercontent.com/u/7302150?v=4",
       "email": "spica@starry.blue",
@@ -155,9 +191,9 @@
     },
     "private": false,
     "pulls_url": "https://api.github.com/repos/SlashNephy/Divination/pulls{/number}",
-    "pushed_at": 1711170749,
+    "pushed_at": 1711766953,
     "releases_url": "https://api.github.com/repos/SlashNephy/Divination/releases{/id}",
-    "size": 43402,
+    "size": 43691,
     "ssh_url": "git@github.com:SlashNephy/Divination.git",
     "stargazers": 11,
     "stargazers_count": 11,
