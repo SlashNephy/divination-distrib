@@ -17,8 +17,8 @@
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
-    "DownloadCount": 4464,
-    "LastUpdate": 1711980568,
+    "DownloadCount": 4468,
+    "LastUpdate": 1711986786,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/AetheryteLinkInChat/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/AetheryteLinkInChat/download",
     "AcceptsFeedback": true
@@ -42,7 +42,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 150,
-    "LastUpdate": 1711980568,
+    "LastUpdate": 1711986786,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Calculator/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Calculator/download",
     "AcceptsFeedback": true
@@ -67,7 +67,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 98,
-    "LastUpdate": 1711980568,
+    "LastUpdate": 1711986786,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Debugger/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Debugger/download",
     "AcceptsFeedback": true
@@ -76,8 +76,8 @@
     "Author": "Asteria Nocturna",
     "Name": "Divination.DiscordIntegration",
     "Punchline": "Fully-customizable Discord Rich Presence",
-    "Description": "Dalamud Plugin to support Rich Presence for FFXIV.",
-    "Changelog": "e6f19cf: fix unexpected EOF while looking for matching `\"'\n74af7bb: Merge pull request #640 from AkiOwO/master\n\nFix UserRefreshResponse and UserLoginResponse Model for API changes\n5466040: Revert changes of wrong namespace\n7ace335: Fix for Api Changes regarding login\n2d4185b: Fix UserRefreshResponse Model for API changes\nb00d652: Merge branch 'master' of ssh://github.com/SlashNephy/Divination\n75325f2: .NET 8\n6952720: Update dependency AngleSharp to v1.1.2\n027d188: return Checkbox value\n31023ac: add Active Mob UI (experimental)\n0765ca1: round TimeSpan\n1662957: omit just now\nb17d3a0: we cannot teleport while crafting or gathering\naae6809: update for latest C# features\nb447e4d: export Rider editorconfig\n0522955: fix spamming debug logs...\n3716cbc: Update dependency AngleSharp to v1.1.1\n8d406c2: fix automerge target repository\nd60492b: fix deploy condition\n6f69603: use PreReleaseNumber\n493afd6: do not run CI on tagging\nbd9d6fb: fix build failure when PreReleaseNumber is not set\n6e802cc: localize\nbc259e0: add implicit operator to cast as SeString/TextPayload\n6dab5af: update for new Faloop API mechanism\n0c51c18: delete PerfectComplex CI\n1dc5a3d: explicit operator should be implicit operator\n68e1f69: delete outdated READMEs\n5b9796c: use Record\ncd9ae9c: delete TwitterIntegration CI",
+    "Description": "support Discord Rich Presence",
+    "Changelog": "6f00a00: display image key in debug view\n7829b26: remove definition support\n2ee7680: delete unused Enum\nb0a5aa2: update Discord application ID\n0eb45c5: remove custom status support\nbf5d5cd: update DefinitionUrl\ne6f19cf: fix unexpected EOF while looking for matching `\"'\n74af7bb: Merge pull request #640 from AkiOwO/master\n\nFix UserRefreshResponse and UserLoginResponse Model for API changes\n5466040: Revert changes of wrong namespace\n7ace335: Fix for Api Changes regarding login\n2d4185b: Fix UserRefreshResponse Model for API changes\nb00d652: Merge branch 'master' of ssh://github.com/SlashNephy/Divination\n75325f2: .NET 8\n6952720: Update dependency AngleSharp to v1.1.2\n027d188: return Checkbox value\n31023ac: add Active Mob UI (experimental)\n0765ca1: round TimeSpan\n1662957: omit just now\nb17d3a0: we cannot teleport while crafting or gathering\naae6809: update for latest C# features\nb447e4d: export Rider editorconfig\n0522955: fix spamming debug logs...\n3716cbc: Update dependency AngleSharp to v1.1.1\n8d406c2: fix automerge target repository\nd60492b: fix deploy condition\n6f69603: use PreReleaseNumber\n493afd6: do not run CI on tagging\nbd9d6fb: fix build failure when PreReleaseNumber is not set\n6e802cc: localize\nbc259e0: add implicit operator to cast as SeString/TextPayload",
     "Tags": [
       "Discord"
     ],
@@ -86,12 +86,12 @@
     ],
     "InternalName": "DiscordIntegration",
     "AssemblyVersion": "6.58.1.0",
-    "TestingAssemblyVersion": "6.58.1.0",
+    "TestingAssemblyVersion": "6.58.2.6",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 304,
-    "LastUpdate": 1711980568,
+    "LastUpdate": 1711986786,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/DiscordIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/DiscordIntegration/download",
     "AcceptsFeedback": true
@@ -115,8 +115,8 @@
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
-    "DownloadCount": 4216,
-    "LastUpdate": 1711980568,
+    "DownloadCount": 4218,
+    "LastUpdate": 1711986786,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/FaloopIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/FaloopIntegration/download",
     "AcceptsFeedback": true
@@ -139,7 +139,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 122,
-    "LastUpdate": 1711980568,
+    "LastUpdate": 1711986786,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/InstanceIDViewer/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/InstanceIDViewer/download",
     "AcceptsFeedback": true
@@ -163,7 +163,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 74,
-    "LastUpdate": 1711980568,
+    "LastUpdate": 1711986786,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/PowerUtils/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/PowerUtils/download",
     "AcceptsFeedback": true
@@ -188,7 +188,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 130,
-    "LastUpdate": 1711980568,
+    "LastUpdate": 1711986786,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Voiceroid2Talker/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Voiceroid2Talker/download",
     "AcceptsFeedback": true
