@@ -12,13 +12,13 @@
       "utility"
     ],
     "InternalName": "AetheryteLinkInChat",
-    "AssemblyVersion": "6.58.2.0",
-    "TestingAssemblyVersion": "6.58.4.12",
+    "AssemblyVersion": "6.58.4.0",
+    "TestingAssemblyVersion": "6.58.4.0",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 4964,
-    "LastUpdate": 1712468407,
+    "LastUpdate": 1712468734,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/AetheryteLinkInChat/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/AetheryteLinkInChat/download",
     "AcceptsFeedback": true
@@ -42,7 +42,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 150,
-    "LastUpdate": 1712468407,
+    "LastUpdate": 1712468734,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Calculator/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Calculator/download",
     "AcceptsFeedback": true
@@ -52,7 +52,7 @@
     "Name": "Divination.Debugger",
     "Punchline": "You don't need this unless you are developer.",
     "Description": "Tiny tool to inspect game...",
-    "Changelog": "41fdc58: consider zone instance for spawn histories\ncb0c43d: apply format\n220db53: use collection literal\n281e177: remove unused fields\n386f1d2: append MapLink only if pop location is known\n\nEarly access payload may not contain ZonePoiIds\nf66fc02: adjust simplified reports setting\n033e44f: Rank A/B mobs are not supported in Faloop\n10ecc7e: Merge pull request #642 from Jaksuhn/master\n\nadd option for \"simple\" reports in chat\nbe1c470: add simple reports\n6f00a00: display image key in debug view\n7829b26: remove definition support\n2ee7680: delete unused Enum\nb0a5aa2: update Discord application ID\n0eb45c5: remove custom status support\nbf5d5cd: update DefinitionUrl\ne6f19cf: fix unexpected EOF while looking for matching `\"'\n74af7bb: Merge pull request #640 from AkiOwO/master\n\nFix UserRefreshResponse and UserLoginResponse Model for API changes\n5466040: Revert changes of wrong namespace\n7ace335: Fix for Api Changes regarding login\n2d4185b: Fix UserRefreshResponse Model for API changes\nb00d652: Merge branch 'master' of ssh://github.com/SlashNephy/Divination\n75325f2: .NET 8\n6952720: Update dependency AngleSharp to v1.1.2\n027d188: return Checkbox value\n31023ac: add Active Mob UI (experimental)\n0765ca1: round TimeSpan\n1662957: omit just now\nb17d3a0: we cannot teleport while crafting or gathering\naae6809: update for latest C# features\nb447e4d: export Rider editorconfig",
+    "Changelog": "f6d39b4: Merge pull request #646 from SlashNephy/chore/spawn-location-spawn-release-actions\n\nsupport spawn_location / spawn_release actions for early access users\na5c7aee: Merge pull request #647 from SlashNephy/feat/lifestream-integration\n\nAetheryteLinkInChat: Lifestream integration\ndda5d7c: check Lifestream availability\nd92c3dd: cancel handling\n1b34ff3: teleport with Lifestream\n5809f48: LifestreamPayload\ndd37254: CombinedAetherytePayload\n72942b3: move\n1bec4b1: add option\n6bfd3a4: support spawn_location / spawn_release actions for early access users\nbc2df78: zonePoiIds may be null\n2d2ba6d: const event types\ne2c6259: too long\nd44a3de: queue /teleportgc as well\n41fdc58: consider zone instance for spawn histories\ncb0c43d: apply format\n220db53: use collection literal\n281e177: remove unused fields\n386f1d2: append MapLink only if pop location is known\n\nEarly access payload may not contain ZonePoiIds\nf66fc02: adjust simplified reports setting\n033e44f: Rank A/B mobs are not supported in Faloop\n10ecc7e: Merge pull request #642 from Jaksuhn/master\n\nadd option for \"simple\" reports in chat\nbe1c470: add simple reports\n6f00a00: display image key in debug view\n7829b26: remove definition support\n2ee7680: delete unused Enum\nb0a5aa2: update Discord application ID\n0eb45c5: remove custom status support\nbf5d5cd: update DefinitionUrl\ne6f19cf: fix unexpected EOF while looking for matching `\"'",
     "Tags": [
       "Development",
       "Debug"
@@ -61,13 +61,13 @@
       "utility"
     ],
     "InternalName": "Debugger",
-    "AssemblyVersion": "6.58.3.0",
-    "TestingAssemblyVersion": "6.58.3.0",
+    "AssemblyVersion": "6.58.4.0",
+    "TestingAssemblyVersion": "6.58.4.0",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 101,
-    "LastUpdate": 1712468407,
+    "LastUpdate": 1712468734,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Debugger/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Debugger/download",
     "AcceptsFeedback": true
@@ -77,7 +77,7 @@
     "Name": "Divination.DiscordIntegration",
     "Punchline": "Fully-customizable Discord Rich Presence",
     "Description": "support Discord Rich Presence",
-    "Changelog": "41fdc58: consider zone instance for spawn histories\ncb0c43d: apply format\n220db53: use collection literal\n281e177: remove unused fields\n386f1d2: append MapLink only if pop location is known\n\nEarly access payload may not contain ZonePoiIds\nf66fc02: adjust simplified reports setting\n033e44f: Rank A/B mobs are not supported in Faloop\n10ecc7e: Merge pull request #642 from Jaksuhn/master\n\nadd option for \"simple\" reports in chat\nbe1c470: add simple reports\n6f00a00: display image key in debug view\n7829b26: remove definition support\n2ee7680: delete unused Enum\nb0a5aa2: update Discord application ID\n0eb45c5: remove custom status support\nbf5d5cd: update DefinitionUrl\ne6f19cf: fix unexpected EOF while looking for matching `\"'\n74af7bb: Merge pull request #640 from AkiOwO/master\n\nFix UserRefreshResponse and UserLoginResponse Model for API changes\n5466040: Revert changes of wrong namespace\n7ace335: Fix for Api Changes regarding login\n2d4185b: Fix UserRefreshResponse Model for API changes\nb00d652: Merge branch 'master' of ssh://github.com/SlashNephy/Divination\n75325f2: .NET 8\n6952720: Update dependency AngleSharp to v1.1.2\n027d188: return Checkbox value\n31023ac: add Active Mob UI (experimental)\n0765ca1: round TimeSpan\n1662957: omit just now\nb17d3a0: we cannot teleport while crafting or gathering\naae6809: update for latest C# features\nb447e4d: export Rider editorconfig",
+    "Changelog": "f6d39b4: Merge pull request #646 from SlashNephy/chore/spawn-location-spawn-release-actions\n\nsupport spawn_location / spawn_release actions for early access users\na5c7aee: Merge pull request #647 from SlashNephy/feat/lifestream-integration\n\nAetheryteLinkInChat: Lifestream integration\ndda5d7c: check Lifestream availability\nd92c3dd: cancel handling\n1b34ff3: teleport with Lifestream\n5809f48: LifestreamPayload\ndd37254: CombinedAetherytePayload\n72942b3: move\n1bec4b1: add option\n6bfd3a4: support spawn_location / spawn_release actions for early access users\nbc2df78: zonePoiIds may be null\n2d2ba6d: const event types\ne2c6259: too long\nd44a3de: queue /teleportgc as well\n41fdc58: consider zone instance for spawn histories\ncb0c43d: apply format\n220db53: use collection literal\n281e177: remove unused fields\n386f1d2: append MapLink only if pop location is known\n\nEarly access payload may not contain ZonePoiIds\nf66fc02: adjust simplified reports setting\n033e44f: Rank A/B mobs are not supported in Faloop\n10ecc7e: Merge pull request #642 from Jaksuhn/master\n\nadd option for \"simple\" reports in chat\nbe1c470: add simple reports\n6f00a00: display image key in debug view\n7829b26: remove definition support\n2ee7680: delete unused Enum\nb0a5aa2: update Discord application ID\n0eb45c5: remove custom status support\nbf5d5cd: update DefinitionUrl\ne6f19cf: fix unexpected EOF while looking for matching `\"'",
     "Tags": [
       "Discord"
     ],
@@ -85,13 +85,13 @@
       "social"
     ],
     "InternalName": "DiscordIntegration",
-    "AssemblyVersion": "6.58.3.0",
-    "TestingAssemblyVersion": "6.58.3.0",
+    "AssemblyVersion": "6.58.4.0",
+    "TestingAssemblyVersion": "6.58.4.0",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 318,
-    "LastUpdate": 1712468407,
+    "LastUpdate": 1712468734,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/DiscordIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/DiscordIntegration/download",
     "AcceptsFeedback": true
@@ -116,7 +116,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 4656,
-    "LastUpdate": 1712468407,
+    "LastUpdate": 1712468734,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/FaloopIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/FaloopIntegration/download",
     "AcceptsFeedback": true
@@ -139,7 +139,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 130,
-    "LastUpdate": 1712468407,
+    "LastUpdate": 1712468734,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/InstanceIDViewer/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/InstanceIDViewer/download",
     "AcceptsFeedback": true
@@ -163,7 +163,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 82,
-    "LastUpdate": 1712468407,
+    "LastUpdate": 1712468734,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/PowerUtils/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/PowerUtils/download",
     "AcceptsFeedback": true
@@ -188,7 +188,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 141,
-    "LastUpdate": 1712468407,
+    "LastUpdate": 1712468734,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Voiceroid2Talker/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Voiceroid2Talker/download",
     "AcceptsFeedback": true
