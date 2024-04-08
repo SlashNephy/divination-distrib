@@ -4,7 +4,7 @@
     "Name": "Divination.AetheryteLinkInChat",
     "Punchline": "Quick teleport for mob hunts and treasure hunts!",
     "Description": "Display a teleport link to the nearest aetherite for the map link from the in-game chat. Type /alic to configure the plugin.",
-    "Changelog": "f6d39b4: Merge pull request #646 from SlashNephy/chore/spawn-location-spawn-release-actions\n\nsupport spawn_location / spawn_release actions for early access users\na5c7aee: Merge pull request #647 from SlashNephy/feat/lifestream-integration\n\nAetheryteLinkInChat: Lifestream integration\ndda5d7c: check Lifestream availability\nd92c3dd: cancel handling\n1b34ff3: teleport with Lifestream\n5809f48: LifestreamPayload\ndd37254: CombinedAetherytePayload\n72942b3: move\n1bec4b1: add option\n6bfd3a4: support spawn_location / spawn_release actions for early access users\nbc2df78: zonePoiIds may be null\n2d2ba6d: const event types\ne2c6259: too long\nd44a3de: queue /teleportgc as well\n41fdc58: consider zone instance for spawn histories\ncb0c43d: apply format\n220db53: use collection literal\n281e177: remove unused fields\n386f1d2: append MapLink only if pop location is known\n\nEarly access payload may not contain ZonePoiIds\nf66fc02: adjust simplified reports setting\n033e44f: Rank A/B mobs are not supported in Faloop\n10ecc7e: Merge pull request #642 from Jaksuhn/master\n\nadd option for \"simple\" reports in chat\nbe1c470: add simple reports\n6f00a00: display image key in debug view\n7829b26: remove definition support\n2ee7680: delete unused Enum\nb0a5aa2: update Discord application ID\n0eb45c5: remove custom status support\nbf5d5cd: update DefinitionUrl\ne6f19cf: fix unexpected EOF while looking for matching `\"'",
+    "Changelog": "d86b4b3: delay before continue\n011fc46: Update issue templates\nf6d39b4: Merge pull request #646 from SlashNephy/chore/spawn-location-spawn-release-actions\n\nsupport spawn_location / spawn_release actions for early access users\na5c7aee: Merge pull request #647 from SlashNephy/feat/lifestream-integration\n\nAetheryteLinkInChat: Lifestream integration\ndda5d7c: check Lifestream availability\nd92c3dd: cancel handling\n1b34ff3: teleport with Lifestream\n5809f48: LifestreamPayload\ndd37254: CombinedAetherytePayload\n72942b3: move\n1bec4b1: add option\n6bfd3a4: support spawn_location / spawn_release actions for early access users\nbc2df78: zonePoiIds may be null\n2d2ba6d: const event types\ne2c6259: too long\nd44a3de: queue /teleportgc as well\n41fdc58: consider zone instance for spawn histories\ncb0c43d: apply format\n220db53: use collection literal\n281e177: remove unused fields\n386f1d2: append MapLink only if pop location is known\n\nEarly access payload may not contain ZonePoiIds\nf66fc02: adjust simplified reports setting\n033e44f: Rank A/B mobs are not supported in Faloop\n10ecc7e: Merge pull request #642 from Jaksuhn/master\n\nadd option for \"simple\" reports in chat\nbe1c470: add simple reports\n6f00a00: display image key in debug view\n7829b26: remove definition support\n2ee7680: delete unused Enum\nb0a5aa2: update Discord application ID\n0eb45c5: remove custom status support",
     "Tags": [
       "teleporter"
     ],
@@ -13,12 +13,12 @@
     ],
     "InternalName": "AetheryteLinkInChat",
     "AssemblyVersion": "6.58.4.0",
-    "TestingAssemblyVersion": "6.58.4.0",
+    "TestingAssemblyVersion": "6.58.5.2",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 5378,
-    "LastUpdate": 1712581806,
+    "LastUpdate": 1712586392,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/AetheryteLinkInChat/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/AetheryteLinkInChat/download",
     "AcceptsFeedback": true
@@ -42,7 +42,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 157,
-    "LastUpdate": 1712581806,
+    "LastUpdate": 1712586392,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Calculator/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Calculator/download",
     "AcceptsFeedback": true
@@ -67,7 +67,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 103,
-    "LastUpdate": 1712581806,
+    "LastUpdate": 1712586392,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Debugger/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Debugger/download",
     "AcceptsFeedback": true
@@ -91,7 +91,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 329,
-    "LastUpdate": 1712581806,
+    "LastUpdate": 1712586392,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/DiscordIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/DiscordIntegration/download",
     "AcceptsFeedback": true
@@ -115,8 +115,8 @@
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
-    "DownloadCount": 4997,
-    "LastUpdate": 1712581806,
+    "DownloadCount": 4998,
+    "LastUpdate": 1712586392,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/FaloopIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/FaloopIntegration/download",
     "AcceptsFeedback": true
@@ -139,7 +139,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 134,
-    "LastUpdate": 1712581806,
+    "LastUpdate": 1712586392,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/InstanceIDViewer/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/InstanceIDViewer/download",
     "AcceptsFeedback": true
@@ -163,7 +163,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 86,
-    "LastUpdate": 1712581806,
+    "LastUpdate": 1712586392,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/PowerUtils/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/PowerUtils/download",
     "AcceptsFeedback": true
@@ -188,7 +188,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 148,
-    "LastUpdate": 1712581806,
+    "LastUpdate": 1712586392,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Voiceroid2Talker/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Voiceroid2Talker/download",
     "AcceptsFeedback": true
