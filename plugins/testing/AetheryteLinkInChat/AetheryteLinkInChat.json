@@ -2,7 +2,7 @@
   "Author": "Asteria Nocturna",
   "Name": "Divination.AetheryteLinkInChat",
   "InternalName": "AetheryteLinkInChat",
-  "AssemblyVersion": "6.58.6.0",
+  "AssemblyVersion": "6.58.7.0",
   "Description": "Display a teleport link to the nearest aetherite for the map link from the in-game chat. Type /alic to configure the plugin.",
   "ApplicableVersion": "any",
   "Tags": [
