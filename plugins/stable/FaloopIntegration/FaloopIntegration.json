@@ -2,7 +2,7 @@
   "Author": "Asteria Nocturna",
   "Name": "Divination.FaloopIntegration",
   "InternalName": "FaloopIntegration",
-  "AssemblyVersion": "6.58.7.0",
+  "AssemblyVersion": "6.58.8.0",
   "Description": "Show Faloop mob spawn notifications in in-game chat. Type /faloop to configure the plugin.",
   "ApplicableVersion": "any",
   "Tags": [
