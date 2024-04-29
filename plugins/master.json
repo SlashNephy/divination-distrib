@@ -4,7 +4,7 @@
     "Name": "Divination.AetheryteLinkInChat",
     "Punchline": "Quick teleport for mob hunts and treasure hunts!",
     "Description": "Display a teleport link to the nearest aetherite for the map link from the in-game chat. Type /alic to configure the plugin.",
-    "Changelog": "39df878: replace Boxed letters with alphabets\n498a949: support new zoneId format (Close #653)\nfbaa3b6: receive home DC mobs when you are traveling to Oceania DC\n54e6dbb: return true if LocalPlayer cannot be obtained\nded2dd1: remove default initializer\n0d1cceb: no longer needed\n54fb863: add Quest notification on teleport\n3d37154: remove cache behavior\n11eaf1d: I don't use Rider anymore\n834c2aa: show notification when current world/DC unavailable\n\ne.g. while you are logging in\nb4b84d6: improve Active Mobs appearance\n33b5ab2: add AetheryteLinkInChat.Teleport IPC\nf923c37: init CancellationTokenSource\nda025af: cleaning task\na9fff10: add Horoscope project\nac00690: fix for Faloop embed data structure\n646ef3c: Merge branch 'master' of ssh://github.com/SlashNephy/Divination\n1b5706f: Merge pull request #649 from Uriei/master\n\nIgnore text inside map link when looking for world name\nbc149dc: include oceania DC option\ne39f14a: Ignore text inside map link when looking for world name\n\nThis was causing issue with maps like Ultima Thule, detecting it was always in the Ultima japan world.\n80f87e4: wait before world traveling\n2ab3131: allow DC traveling\n683f6ee: more delay\nd86b4b3: delay before continue\n011fc46: Update issue templates\nf6d39b4: Merge pull request #646 from SlashNephy/chore/spawn-location-spawn-release-actions\n\nsupport spawn_location / spawn_release actions for early access users\na5c7aee: Merge pull request #647 from SlashNephy/feat/lifestream-integration\n\nAetheryteLinkInChat: Lifestream integration\ndda5d7c: check Lifestream availability\nd92c3dd: cancel handling\n1b34ff3: teleport with Lifestream",
+    "Changelog": "4c515c4: we should use string.Join instead of Object.ToString...\n07ded97: add option to ignore some aetherytes\ne2b6c31: spawn_location does not contain zoneId\nf85deb9: add option to skip pending spawn reports\n39df878: replace Boxed letters with alphabets\n498a949: support new zoneId format (Close #653)\nfbaa3b6: receive home DC mobs when you are traveling to Oceania DC\n54e6dbb: return true if LocalPlayer cannot be obtained\nded2dd1: remove default initializer\n0d1cceb: no longer needed\n54fb863: add Quest notification on teleport\n3d37154: remove cache behavior\n11eaf1d: I don't use Rider anymore\n834c2aa: show notification when current world/DC unavailable\n\ne.g. while you are logging in\nb4b84d6: improve Active Mobs appearance\n33b5ab2: add AetheryteLinkInChat.Teleport IPC\nf923c37: init CancellationTokenSource\nda025af: cleaning task\na9fff10: add Horoscope project\nac00690: fix for Faloop embed data structure\n646ef3c: Merge branch 'master' of ssh://github.com/SlashNephy/Divination\n1b5706f: Merge pull request #649 from Uriei/master\n\nIgnore text inside map link when looking for world name\nbc149dc: include oceania DC option\ne39f14a: Ignore text inside map link when looking for world name\n\nThis was causing issue with maps like Ultima Thule, detecting it was always in the Ultima japan world.\n80f87e4: wait before world traveling\n2ab3131: allow DC traveling\n683f6ee: more delay\nd86b4b3: delay before continue\n011fc46: Update issue templates\nf6d39b4: Merge pull request #646 from SlashNephy/chore/spawn-location-spawn-release-actions\n\nsupport spawn_location / spawn_release actions for early access users",
     "Tags": [
       "teleporter"
     ],
@@ -13,12 +13,12 @@
     ],
     "InternalName": "AetheryteLinkInChat",
     "AssemblyVersion": "6.58.9.0",
-    "TestingAssemblyVersion": "6.58.9.0",
+    "TestingAssemblyVersion": "6.58.10.4",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 7855,
-    "LastUpdate": 1714357282,
+    "LastUpdate": 1714360363,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/AetheryteLinkInChat/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/AetheryteLinkInChat/download",
     "AcceptsFeedback": true
@@ -42,7 +42,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 189,
-    "LastUpdate": 1714357282,
+    "LastUpdate": 1714360363,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Calculator/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Calculator/download",
     "AcceptsFeedback": true
@@ -67,7 +67,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 130,
-    "LastUpdate": 1714357282,
+    "LastUpdate": 1714360363,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Debugger/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Debugger/download",
     "AcceptsFeedback": true
@@ -91,7 +91,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 405,
-    "LastUpdate": 1714357282,
+    "LastUpdate": 1714360363,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/DiscordIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/DiscordIntegration/download",
     "AcceptsFeedback": true
@@ -116,7 +116,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 7111,
-    "LastUpdate": 1714357282,
+    "LastUpdate": 1714360363,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/FaloopIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/FaloopIntegration/download",
     "AcceptsFeedback": true
@@ -139,7 +139,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 165,
-    "LastUpdate": 1714357282,
+    "LastUpdate": 1714360363,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/InstanceIDViewer/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/InstanceIDViewer/download",
     "AcceptsFeedback": true
@@ -163,7 +163,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 101,
-    "LastUpdate": 1714357282,
+    "LastUpdate": 1714360363,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/PowerUtils/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/PowerUtils/download",
     "AcceptsFeedback": true
@@ -188,7 +188,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 175,
-    "LastUpdate": 1714357282,
+    "LastUpdate": 1714360363,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Voiceroid2Talker/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Voiceroid2Talker/download",
     "AcceptsFeedback": true
