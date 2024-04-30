@@ -2,7 +2,7 @@
   "Author": "Asteria Nocturna",
   "Name": "Divination.DiscordIntegration",
   "InternalName": "DiscordIntegration",
-  "AssemblyVersion": "6.58.10.0",
+  "AssemblyVersion": "6.58.11.0",
   "Description": "support Discord Rich Presence",
   "ApplicableVersion": "any",
   "Tags": [
