@@ -17,8 +17,8 @@
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
-    "DownloadCount": 9091,
-    "LastUpdate": 1715257090,
+    "DownloadCount": 9093,
+    "LastUpdate": 1715260373,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/AetheryteLinkInChat/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/AetheryteLinkInChat/download",
     "AcceptsFeedback": true
@@ -43,7 +43,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 145,
-    "LastUpdate": 1715257090,
+    "LastUpdate": 1715260373,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Debugger/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Debugger/download",
     "AcceptsFeedback": true
@@ -67,7 +67,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 453,
-    "LastUpdate": 1715257090,
+    "LastUpdate": 1715260373,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/DiscordIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/DiscordIntegration/download",
     "AcceptsFeedback": true
@@ -91,8 +91,8 @@
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
-    "DownloadCount": 8188,
-    "LastUpdate": 1715257090,
+    "DownloadCount": 8190,
+    "LastUpdate": 1715260373,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/FaloopIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/FaloopIntegration/download",
     "AcceptsFeedback": true
@@ -115,7 +115,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 181,
-    "LastUpdate": 1715257090,
+    "LastUpdate": 1715260373,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/InstanceIDViewer/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/InstanceIDViewer/download",
     "AcceptsFeedback": true
