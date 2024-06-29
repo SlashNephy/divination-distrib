@@ -18,7 +18,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 11602,
-    "LastUpdate": 1719655621,
+    "LastUpdate": 1719658360,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/AetheryteLinkInChat/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/AetheryteLinkInChat/download",
     "AcceptsFeedback": true
@@ -42,8 +42,8 @@
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 10,
-    "DownloadCount": 177,
-    "LastUpdate": 1719655621,
+    "DownloadCount": 180,
+    "LastUpdate": 1719658360,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Debugger/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Debugger/download",
     "AcceptsFeedback": true
@@ -67,7 +67,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 554,
-    "LastUpdate": 1719655621,
+    "LastUpdate": 1719658360,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/DiscordIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/DiscordIntegration/download",
     "AcceptsFeedback": true
@@ -77,7 +77,7 @@
     "Name": "Divination.FaloopIntegration",
     "Punchline": "Faloop Notification in Chat",
     "Description": "Show Faloop mob spawn notifications in in-game chat. Type /faloop to configure the plugin.",
-    "Changelog": "bb07866: extend rank S lifespan\naf02bd1: fix null coercing\n8d17dfa: display instance icon next to mob name\n25c110e: Merge branch 'master' of ssh://github.com/SlashNephy/Divination\n9155586: fix zoneInstance reference\n0e2865a: Merge pull request #664 from SlashNephy/renovate/dalamudpackager-2.1.x\n\nUpdate dependency DalamudPackager to v2.1.13\n576953c: use apiX branch in CI\nd88c704: extract spawn location\n05826db: update embed data for Dawntrail\nc33588b: update Faloop endpoint\nd8295b2: update for API 10\n634e531: support Dalamud API 10\n0a7b562: Update dependency DalamudPackager to v2.1.13\nb3d8c42: discontinue DiscordIntegration\n91a111b: PluginStatus\n2d0cad1: set enum value\n7798d20: localize enum names\nd1a27f2: reverse expansions\nede9c56: allow configuring jurisdictions by rank\nfba182e: refresh FaloopIntegration configuration UI\n35d8375: support new worlds in Dynamis and Shadow DC\ndd8161f: Memorize player's world\n28680e8: add option to hide UI in duty\n88e2314: add open map button\n52ac778: I forgot to add it to the settings UI...\ndbc33c1: add option to line-break before links\n4c515c4: we should use string.Join instead of Object.ToString...\n07ded97: add option to ignore some aetherytes\ne2b6c31: spawn_location does not contain zoneId\nf85deb9: add option to skip pending spawn reports",
+    "Changelog": "d99765b: support location field in spawn_location event\nbcff92f: append zone instance icon even if pop location is unknown\nbb07866: extend rank S lifespan\naf02bd1: fix null coercing\n8d17dfa: display instance icon next to mob name\n25c110e: Merge branch 'master' of ssh://github.com/SlashNephy/Divination\n9155586: fix zoneInstance reference\n0e2865a: Merge pull request #664 from SlashNephy/renovate/dalamudpackager-2.1.x\n\nUpdate dependency DalamudPackager to v2.1.13\n576953c: use apiX branch in CI\nd88c704: extract spawn location\n05826db: update embed data for Dawntrail\nc33588b: update Faloop endpoint\nd8295b2: update for API 10\n634e531: support Dalamud API 10\n0a7b562: Update dependency DalamudPackager to v2.1.13\nb3d8c42: discontinue DiscordIntegration\n91a111b: PluginStatus\n2d0cad1: set enum value\n7798d20: localize enum names\nd1a27f2: reverse expansions\nede9c56: allow configuring jurisdictions by rank\nfba182e: refresh FaloopIntegration configuration UI\n35d8375: support new worlds in Dynamis and Shadow DC\ndd8161f: Memorize player's world\n28680e8: add option to hide UI in duty\n88e2314: add open map button\n52ac778: I forgot to add it to the settings UI...\ndbc33c1: add option to line-break before links\n4c515c4: we should use string.Join instead of Object.ToString...\n07ded97: add option to ignore some aetherytes",
     "Tags": [
       "mobhunt"
     ],
@@ -87,12 +87,12 @@
     ],
     "InternalName": "FaloopIntegration",
     "AssemblyVersion": "6.58.14.0",
-    "TestingAssemblyVersion": "6.58.15.15",
+    "TestingAssemblyVersion": "6.58.15.17",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 10,
-    "DownloadCount": 10158,
-    "LastUpdate": 1719655621,
+    "DownloadCount": 10162,
+    "LastUpdate": 1719658360,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/FaloopIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/FaloopIntegration/download",
     "AcceptsFeedback": true
@@ -114,8 +114,8 @@
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 10,
-    "DownloadCount": 238,
-    "LastUpdate": 1719655621,
+    "DownloadCount": 240,
+    "LastUpdate": 1719658360,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/InstanceIDViewer/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/InstanceIDViewer/download",
     "AcceptsFeedback": true
