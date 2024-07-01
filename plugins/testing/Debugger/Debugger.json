@@ -2,7 +2,7 @@
   "Author": "Asteria Nocturna",
   "Name": "Divination.Debugger",
   "InternalName": "Debugger",
-  "AssemblyVersion": "6.58.15.10",
+  "AssemblyVersion": "6.58.15.20",
   "Description": "Tiny tool to inspect game...",
   "ApplicableVersion": "any",
   "Tags": [
