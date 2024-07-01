@@ -17,8 +17,8 @@
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 10,
-    "DownloadCount": 11704,
-    "LastUpdate": 1719832154,
+    "DownloadCount": 11710,
+    "LastUpdate": 1719839227,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/AetheryteLinkInChat/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/AetheryteLinkInChat/download",
     "AcceptsFeedback": true
@@ -42,8 +42,8 @@
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 10,
-    "DownloadCount": 191,
-    "LastUpdate": 1719832154,
+    "DownloadCount": 193,
+    "LastUpdate": 1719839227,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Debugger/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Debugger/download",
     "AcceptsFeedback": true
@@ -67,7 +67,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 9,
     "DownloadCount": 554,
-    "LastUpdate": 1719832154,
+    "LastUpdate": 1719839227,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/DiscordIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/DiscordIntegration/download",
     "AcceptsFeedback": true
@@ -77,7 +77,7 @@
     "Name": "Divination.FaloopIntegration",
     "Punchline": "Faloop Notification in Chat",
     "Description": "Show Faloop mob spawn notifications in in-game chat. Type /faloop to configure the plugin.",
-    "Changelog": "7e48c88: fix GetInstanceIcon\nccb3516: remove DiscordIntegration.IpcModel from solution\n15964b4: use IDalamudPluginInterface\nd99765b: support location field in spawn_location event\nbcff92f: append zone instance icon even if pop location is unknown\nbb07866: extend rank S lifespan\naf02bd1: fix null coercing\n8d17dfa: display instance icon next to mob name\n25c110e: Merge branch 'master' of ssh://github.com/SlashNephy/Divination\n9155586: fix zoneInstance reference\n0e2865a: Merge pull request #664 from SlashNephy/renovate/dalamudpackager-2.1.x\n\nUpdate dependency DalamudPackager to v2.1.13\n576953c: use apiX branch in CI\nd88c704: extract spawn location\n05826db: update embed data for Dawntrail\nc33588b: update Faloop endpoint\nd8295b2: update for API 10\n634e531: support Dalamud API 10\n0a7b562: Update dependency DalamudPackager to v2.1.13\nb3d8c42: discontinue DiscordIntegration\n91a111b: PluginStatus\n2d0cad1: set enum value\n7798d20: localize enum names\nd1a27f2: reverse expansions\nede9c56: allow configuring jurisdictions by rank\nfba182e: refresh FaloopIntegration configuration UI\n35d8375: support new worlds in Dynamis and Shadow DC\ndd8161f: Memorize player's world\n28680e8: add option to hide UI in duty\n88e2314: add open map button\n52ac778: I forgot to add it to the settings UI...",
+    "Changelog": "4878334: update Locations\n7e48c88: fix GetInstanceIcon\nccb3516: remove DiscordIntegration.IpcModel from solution\n15964b4: use IDalamudPluginInterface\nd99765b: support location field in spawn_location event\nbcff92f: append zone instance icon even if pop location is unknown\nbb07866: extend rank S lifespan\naf02bd1: fix null coercing\n8d17dfa: display instance icon next to mob name\n25c110e: Merge branch 'master' of ssh://github.com/SlashNephy/Divination\n9155586: fix zoneInstance reference\n0e2865a: Merge pull request #664 from SlashNephy/renovate/dalamudpackager-2.1.x\n\nUpdate dependency DalamudPackager to v2.1.13\n576953c: use apiX branch in CI\nd88c704: extract spawn location\n05826db: update embed data for Dawntrail\nc33588b: update Faloop endpoint\nd8295b2: update for API 10\n634e531: support Dalamud API 10\n0a7b562: Update dependency DalamudPackager to v2.1.13\nb3d8c42: discontinue DiscordIntegration\n91a111b: PluginStatus\n2d0cad1: set enum value\n7798d20: localize enum names\nd1a27f2: reverse expansions\nede9c56: allow configuring jurisdictions by rank\nfba182e: refresh FaloopIntegration configuration UI\n35d8375: support new worlds in Dynamis and Shadow DC\ndd8161f: Memorize player's world\n28680e8: add option to hide UI in duty\n88e2314: add open map button",
     "Tags": [
       "mobhunt"
     ],
@@ -87,12 +87,12 @@
     ],
     "InternalName": "FaloopIntegration",
     "AssemblyVersion": "6.58.14.0",
-    "TestingAssemblyVersion": "6.58.15.20",
+    "TestingAssemblyVersion": "6.58.15.21",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 10,
-    "DownloadCount": 10272,
-    "LastUpdate": 1719832154,
+    "DownloadCount": 10275,
+    "LastUpdate": 1719839227,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/FaloopIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/FaloopIntegration/download",
     "AcceptsFeedback": true
@@ -114,8 +114,8 @@
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 10,
-    "DownloadCount": 267,
-    "LastUpdate": 1719832154,
+    "DownloadCount": 269,
+    "LastUpdate": 1719839227,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/InstanceIDViewer/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/InstanceIDViewer/download",
     "AcceptsFeedback": true
