@@ -18,7 +18,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 10,
     "DownloadCount": 12661,
-    "LastUpdate": 1720429940,
+    "LastUpdate": 1720435147,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/AetheryteLinkInChat/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/AetheryteLinkInChat/download",
     "AcceptsFeedback": true
@@ -43,7 +43,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 10,
     "DownloadCount": 215,
-    "LastUpdate": 1720429940,
+    "LastUpdate": 1720435147,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Debugger/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Debugger/download",
     "AcceptsFeedback": true
@@ -53,7 +53,7 @@
     "Name": "Divination.FaloopIntegration",
     "Punchline": "Faloop Notification in Chat",
     "Description": "Show Faloop mob spawn notifications in in-game chat. Type /faloop to configure the plugin.",
-    "Changelog": "80e4650: Merge pull request #665 from Diyagi/custom_payload\n\n[FaloopIntegration] Remove SpawnRelease handler and fix SpawnState search logic.\nf900480: Merge pull request #666 from Diyagi/patch-1\n\n[AetheryteLinkInChat] Change links to be placed before message\n42196df: Merge pull request #668 from SlashNephy/chore/set-flag-map-marker\n\nFaloopIntegration: Set \u003cflag\u003e without opening map\n7b70f71: proper conversion into world position\n\nCo-authored-by: Diyagi \u003cdouglas@diyagi.dev\u003e\n0d2610b: clear flag before set one\n6d53025: There was no need to call Round()\necfcc33: try using SetFlagMapMarker\n2b84f1c: add FFXIVClientStructs reference\n23d8d6c: add copy button\n0a0eafe: [AetheryteLinkInChat] Change links to be placed before message\nac3fe87: [FaloopIntegration] Remove SpawnRelease handler and fix SpawnState search logic.\n3d8ecf9: use stg branch\n394cea1: support spawn_false event\nfa86367: update Locations\n7e48c88: fix GetInstanceIcon\nccb3516: remove DiscordIntegration.IpcModel from solution\n15964b4: use IDalamudPluginInterface\nd99765b: support location field in spawn_location event\nbcff92f: append zone instance icon even if pop location is unknown\nbb07866: extend rank S lifespan\naf02bd1: fix null coercing\n8d17dfa: display instance icon next to mob name\n25c110e: Merge branch 'master' of ssh://github.com/SlashNephy/Divination\n9155586: fix zoneInstance reference\n0e2865a: Merge pull request #664 from SlashNephy/renovate/dalamudpackager-2.1.x\n\nUpdate dependency DalamudPackager to v2.1.13\n576953c: use apiX branch in CI\nd88c704: extract spawn location\n05826db: update embed data for Dawntrail\nc33588b: update Faloop endpoint\nd8295b2: update for API 10",
+    "Changelog": "c4117b6: no longer necessary to persist MobSpawnEvent\n80e4650: Merge pull request #665 from Diyagi/custom_payload\n\n[FaloopIntegration] Remove SpawnRelease handler and fix SpawnState search logic.\nf900480: Merge pull request #666 from Diyagi/patch-1\n\n[AetheryteLinkInChat] Change links to be placed before message\n42196df: Merge pull request #668 from SlashNephy/chore/set-flag-map-marker\n\nFaloopIntegration: Set \u003cflag\u003e without opening map\n7b70f71: proper conversion into world position\n\nCo-authored-by: Diyagi \u003cdouglas@diyagi.dev\u003e\n0d2610b: clear flag before set one\n6d53025: There was no need to call Round()\necfcc33: try using SetFlagMapMarker\n2b84f1c: add FFXIVClientStructs reference\n23d8d6c: add copy button\n0a0eafe: [AetheryteLinkInChat] Change links to be placed before message\nac3fe87: [FaloopIntegration] Remove SpawnRelease handler and fix SpawnState search logic.\n3d8ecf9: use stg branch\n394cea1: support spawn_false event\nfa86367: update Locations\n7e48c88: fix GetInstanceIcon\nccb3516: remove DiscordIntegration.IpcModel from solution\n15964b4: use IDalamudPluginInterface\nd99765b: support location field in spawn_location event\nbcff92f: append zone instance icon even if pop location is unknown\nbb07866: extend rank S lifespan\naf02bd1: fix null coercing\n8d17dfa: display instance icon next to mob name\n25c110e: Merge branch 'master' of ssh://github.com/SlashNephy/Divination\n9155586: fix zoneInstance reference\n0e2865a: Merge pull request #664 from SlashNephy/renovate/dalamudpackager-2.1.x\n\nUpdate dependency DalamudPackager to v2.1.13\n576953c: use apiX branch in CI\nd88c704: extract spawn location\n05826db: update embed data for Dawntrail\nc33588b: update Faloop endpoint",
     "Tags": [
       "mobhunt"
     ],
@@ -63,12 +63,12 @@
     ],
     "InternalName": "FaloopIntegration",
     "AssemblyVersion": "7.0.0.0",
-    "TestingAssemblyVersion": "7.0.1.11",
+    "TestingAssemblyVersion": "7.0.1.12",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 10,
-    "DownloadCount": 11323,
-    "LastUpdate": 1720429940,
+    "DownloadCount": 11326,
+    "LastUpdate": 1720435147,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/FaloopIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/FaloopIntegration/download",
     "AcceptsFeedback": true
@@ -91,7 +91,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 10,
     "DownloadCount": 332,
-    "LastUpdate": 1720429940,
+    "LastUpdate": 1720435147,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/InstanceIDViewer/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/InstanceIDViewer/download",
     "AcceptsFeedback": true
