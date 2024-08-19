@@ -18,7 +18,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 10,
     "DownloadCount": 13480,
-    "LastUpdate": 1724058735,
+    "LastUpdate": 1724062412,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/AetheryteLinkInChat/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/AetheryteLinkInChat/download",
     "AcceptsFeedback": true
@@ -43,7 +43,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 10,
     "DownloadCount": 238,
-    "LastUpdate": 1724058735,
+    "LastUpdate": 1724062412,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Debugger/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Debugger/download",
     "AcceptsFeedback": true
@@ -68,7 +68,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 10,
     "DownloadCount": 12246,
-    "LastUpdate": 1724058735,
+    "LastUpdate": 1724062412,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/FaloopIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/FaloopIntegration/download",
     "AcceptsFeedback": true
@@ -91,7 +91,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 10,
     "DownloadCount": 453,
-    "LastUpdate": 1724058735,
+    "LastUpdate": 1724062412,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/InstanceIDViewer/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/InstanceIDViewer/download",
     "AcceptsFeedback": true
