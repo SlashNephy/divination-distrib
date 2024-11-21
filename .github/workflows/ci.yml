@@ -44,6 +44,7 @@ jobs:
           branch-suffix: random
           delete-branch: true
           title: 🪄 Generate Plugin Master
+          labels: automerge
 
       - name: Automerge
         if: steps.create-pull-request.outputs.pull-request-number
