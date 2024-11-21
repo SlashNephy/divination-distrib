@@ -2,7 +2,7 @@
   "Author": "Horoscope developers",
   "Name": "Divination.InstanceIDViewer",
   "InternalName": "InstanceIDViewer",
-  "AssemblyVersion": "7.0.2.0",
+  "AssemblyVersion": "7.1.0.0",
   "Description": "show instance id in chat when instance changed",
   "ApplicableVersion": "any",
   "Tags": [
