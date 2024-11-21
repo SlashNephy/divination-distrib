@@ -12,13 +12,13 @@
       "utility"
     ],
     "InternalName": "AetheryteLinkInChat",
-    "AssemblyVersion": "7.0.2.0",
-    "TestingAssemblyVersion": "7.0.3.9",
+    "AssemblyVersion": "7.1.0.0",
+    "TestingAssemblyVersion": "7.1.0.0",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 11,
     "DownloadCount": 17312,
-    "LastUpdate": 1732150346,
+    "LastUpdate": 1732150441,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/AetheryteLinkInChat/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/AetheryteLinkInChat/download",
     "AcceptsFeedback": true
@@ -28,7 +28,7 @@
     "Name": "Divination.Debugger",
     "Punchline": "You don't need this unless you are developer.",
     "Description": "Tiny tool to inspect game...",
-    "Changelog": "8314022: Merge pull request #680 from Diyagi/CommandProcessorFix\n\nCommand processor fix\n40b1abe: Merge pull request #679 from Diyagi/MapLinkOption\n\nAdd option to toggle link after maplink\n7856f43: Merge pull request #676 from SlashNephy/renovate/peter-evans-create-pull-request-7.x\n\nUpdate peter-evans/create-pull-request action to v7\nc8ff3a3: Fix CommandProcessor\ne877ac4: Fix config logic\need6c17: Add option to toggle link after maplink\nab2d82a: Update peter-evans/create-pull-request action to v7\ncfa4218: OverrideActTextToSpeech\nfe366be: API 10\n92955b7: fixed a rare access violation while ExecuteTeleport\na4a0282: Merge pull request #670 from Diyagi/deathfix\n\n[FaloopIntegration] Fix ActiveMobUi death function not being called.\nd948983: [FaloopIntegration] Fix events not being removed from spawnEvents on MobDeath\n795f163: [FaloopIntegration] Fix ActiveMobUi death event not being called.\nc4117b6: no longer necessary to persist MobSpawnEvent\n80e4650: Merge pull request #665 from Diyagi/custom_payload\n\n[FaloopIntegration] Remove SpawnRelease handler and fix SpawnState search logic.\nf900480: Merge pull request #666 from Diyagi/patch-1\n\n[AetheryteLinkInChat] Change links to be placed before message\n42196df: Merge pull request #668 from SlashNephy/chore/set-flag-map-marker\n\nFaloopIntegration: Set \u003cflag\u003e without opening map\n7b70f71: proper conversion into world position\n\nCo-authored-by: Diyagi \u003cdouglas@diyagi.dev\u003e\n0d2610b: clear flag before set one\n6d53025: There was no need to call Round()\necfcc33: try using SetFlagMapMarker\n2b84f1c: add FFXIVClientStructs reference\n23d8d6c: add copy button\n0a0eafe: [AetheryteLinkInChat] Change links to be placed before message\nac3fe87: [FaloopIntegration] Remove SpawnRelease handler and fix SpawnState search logic.\n3d8ecf9: use stg branch\n394cea1: support spawn_false event\nfa86367: update Locations\n7e48c88: fix GetInstanceIcon\nccb3516: remove DiscordIntegration.IpcModel from solution",
+    "Changelog": "37ca918: Merge pull request #691 from Diyagi/api11\n\nUpdate to API 11 and Lumina 5\n6eb5d76: Improves IEnumerable Extension\n4f14499: Update README.md\n565cda2: Prevent some possible null ref errors\nd3fadf9: Fix wrong logic\ne4940d8: Remove Dalamud API Level Override\n7047607: Update Lumina\ne506051: Update ECommons\n84882d7: Update DalamudPackager\n8314022: Merge pull request #680 from Diyagi/CommandProcessorFix\n\nCommand processor fix\n40b1abe: Merge pull request #679 from Diyagi/MapLinkOption\n\nAdd option to toggle link after maplink\n7856f43: Merge pull request #676 from SlashNephy/renovate/peter-evans-create-pull-request-7.x\n\nUpdate peter-evans/create-pull-request action to v7\nc8ff3a3: Fix CommandProcessor\ne877ac4: Fix config logic\need6c17: Add option to toggle link after maplink\nab2d82a: Update peter-evans/create-pull-request action to v7\ncfa4218: OverrideActTextToSpeech\nfe366be: API 10\n92955b7: fixed a rare access violation while ExecuteTeleport\na4a0282: Merge pull request #670 from Diyagi/deathfix\n\n[FaloopIntegration] Fix ActiveMobUi death function not being called.\nd948983: [FaloopIntegration] Fix events not being removed from spawnEvents on MobDeath\n795f163: [FaloopIntegration] Fix ActiveMobUi death event not being called.\nc4117b6: no longer necessary to persist MobSpawnEvent\n80e4650: Merge pull request #665 from Diyagi/custom_payload\n\n[FaloopIntegration] Remove SpawnRelease handler and fix SpawnState search logic.\nf900480: Merge pull request #666 from Diyagi/patch-1\n\n[AetheryteLinkInChat] Change links to be placed before message\n42196df: Merge pull request #668 from SlashNephy/chore/set-flag-map-marker\n\nFaloopIntegration: Set \u003cflag\u003e without opening map\n7b70f71: proper conversion into world position\n\nCo-authored-by: Diyagi \u003cdouglas@diyagi.dev\u003e\n0d2610b: clear flag before set one\n6d53025: There was no need to call Round()\necfcc33: try using SetFlagMapMarker",
     "Tags": [
       "Development",
       "Debug"
@@ -37,13 +37,13 @@
       "utility"
     ],
     "InternalName": "Debugger",
-    "AssemblyVersion": "7.0.2.0",
-    "TestingAssemblyVersion": "7.0.2.0",
+    "AssemblyVersion": "7.1.0.0",
+    "TestingAssemblyVersion": "7.1.0.0",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 10,
     "DownloadCount": 328,
-    "LastUpdate": 1732150346,
+    "LastUpdate": 1732150441,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Debugger/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Debugger/download",
     "AcceptsFeedback": true
@@ -53,7 +53,7 @@
     "Name": "Divination.FaloopIntegration",
     "Punchline": "Faloop Notification in Chat",
     "Description": "Show Faloop mob spawn notifications in in-game chat. Type /faloop to configure the plugin.",
-    "Changelog": "8314022: Merge pull request #680 from Diyagi/CommandProcessorFix\n\nCommand processor fix\n40b1abe: Merge pull request #679 from Diyagi/MapLinkOption\n\nAdd option to toggle link after maplink\n7856f43: Merge pull request #676 from SlashNephy/renovate/peter-evans-create-pull-request-7.x\n\nUpdate peter-evans/create-pull-request action to v7\nc8ff3a3: Fix CommandProcessor\ne877ac4: Fix config logic\need6c17: Add option to toggle link after maplink\nab2d82a: Update peter-evans/create-pull-request action to v7\ncfa4218: OverrideActTextToSpeech\nfe366be: API 10\n92955b7: fixed a rare access violation while ExecuteTeleport\na4a0282: Merge pull request #670 from Diyagi/deathfix\n\n[FaloopIntegration] Fix ActiveMobUi death function not being called.\nd948983: [FaloopIntegration] Fix events not being removed from spawnEvents on MobDeath\n795f163: [FaloopIntegration] Fix ActiveMobUi death event not being called.\nc4117b6: no longer necessary to persist MobSpawnEvent\n80e4650: Merge pull request #665 from Diyagi/custom_payload\n\n[FaloopIntegration] Remove SpawnRelease handler and fix SpawnState search logic.\nf900480: Merge pull request #666 from Diyagi/patch-1\n\n[AetheryteLinkInChat] Change links to be placed before message\n42196df: Merge pull request #668 from SlashNephy/chore/set-flag-map-marker\n\nFaloopIntegration: Set \u003cflag\u003e without opening map\n7b70f71: proper conversion into world position\n\nCo-authored-by: Diyagi \u003cdouglas@diyagi.dev\u003e\n0d2610b: clear flag before set one\n6d53025: There was no need to call Round()\necfcc33: try using SetFlagMapMarker\n2b84f1c: add FFXIVClientStructs reference\n23d8d6c: add copy button\n0a0eafe: [AetheryteLinkInChat] Change links to be placed before message\nac3fe87: [FaloopIntegration] Remove SpawnRelease handler and fix SpawnState search logic.\n3d8ecf9: use stg branch\n394cea1: support spawn_false event\nfa86367: update Locations\n7e48c88: fix GetInstanceIcon\nccb3516: remove DiscordIntegration.IpcModel from solution",
+    "Changelog": "37ca918: Merge pull request #691 from Diyagi/api11\n\nUpdate to API 11 and Lumina 5\n6eb5d76: Improves IEnumerable Extension\n4f14499: Update README.md\n565cda2: Prevent some possible null ref errors\nd3fadf9: Fix wrong logic\ne4940d8: Remove Dalamud API Level Override\n7047607: Update Lumina\ne506051: Update ECommons\n84882d7: Update DalamudPackager\n8314022: Merge pull request #680 from Diyagi/CommandProcessorFix\n\nCommand processor fix\n40b1abe: Merge pull request #679 from Diyagi/MapLinkOption\n\nAdd option to toggle link after maplink\n7856f43: Merge pull request #676 from SlashNephy/renovate/peter-evans-create-pull-request-7.x\n\nUpdate peter-evans/create-pull-request action to v7\nc8ff3a3: Fix CommandProcessor\ne877ac4: Fix config logic\need6c17: Add option to toggle link after maplink\nab2d82a: Update peter-evans/create-pull-request action to v7\ncfa4218: OverrideActTextToSpeech\nfe366be: API 10\n92955b7: fixed a rare access violation while ExecuteTeleport\na4a0282: Merge pull request #670 from Diyagi/deathfix\n\n[FaloopIntegration] Fix ActiveMobUi death function not being called.\nd948983: [FaloopIntegration] Fix events not being removed from spawnEvents on MobDeath\n795f163: [FaloopIntegration] Fix ActiveMobUi death event not being called.\nc4117b6: no longer necessary to persist MobSpawnEvent\n80e4650: Merge pull request #665 from Diyagi/custom_payload\n\n[FaloopIntegration] Remove SpawnRelease handler and fix SpawnState search logic.\nf900480: Merge pull request #666 from Diyagi/patch-1\n\n[AetheryteLinkInChat] Change links to be placed before message\n42196df: Merge pull request #668 from SlashNephy/chore/set-flag-map-marker\n\nFaloopIntegration: Set \u003cflag\u003e without opening map\n7b70f71: proper conversion into world position\n\nCo-authored-by: Diyagi \u003cdouglas@diyagi.dev\u003e\n0d2610b: clear flag before set one\n6d53025: There was no need to call Round()\necfcc33: try using SetFlagMapMarker",
     "Tags": [
       "mobhunt"
     ],
@@ -62,13 +62,13 @@
       "utility"
     ],
     "InternalName": "FaloopIntegration",
-    "AssemblyVersion": "7.0.2.0",
-    "TestingAssemblyVersion": "7.0.2.0",
+    "AssemblyVersion": "7.1.0.0",
+    "TestingAssemblyVersion": "7.1.0.0",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
-    "DalamudApiLevel": 10,
+    "DalamudApiLevel": 11,
     "DownloadCount": 15285,
-    "LastUpdate": 1732150346,
+    "LastUpdate": 1732150441,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/FaloopIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/FaloopIntegration/download",
     "AcceptsFeedback": true
@@ -77,7 +77,7 @@
     "Author": "Horoscope developers",
     "Name": "Divination.InstanceIDViewer",
     "Description": "show instance id in chat when instance changed",
-    "Changelog": "8314022: Merge pull request #680 from Diyagi/CommandProcessorFix\n\nCommand processor fix\n40b1abe: Merge pull request #679 from Diyagi/MapLinkOption\n\nAdd option to toggle link after maplink\n7856f43: Merge pull request #676 from SlashNephy/renovate/peter-evans-create-pull-request-7.x\n\nUpdate peter-evans/create-pull-request action to v7\nc8ff3a3: Fix CommandProcessor\ne877ac4: Fix config logic\need6c17: Add option to toggle link after maplink\nab2d82a: Update peter-evans/create-pull-request action to v7\ncfa4218: OverrideActTextToSpeech\nfe366be: API 10\n92955b7: fixed a rare access violation while ExecuteTeleport\na4a0282: Merge pull request #670 from Diyagi/deathfix\n\n[FaloopIntegration] Fix ActiveMobUi death function not being called.\nd948983: [FaloopIntegration] Fix events not being removed from spawnEvents on MobDeath\n795f163: [FaloopIntegration] Fix ActiveMobUi death event not being called.\nc4117b6: no longer necessary to persist MobSpawnEvent\n80e4650: Merge pull request #665 from Diyagi/custom_payload\n\n[FaloopIntegration] Remove SpawnRelease handler and fix SpawnState search logic.\nf900480: Merge pull request #666 from Diyagi/patch-1\n\n[AetheryteLinkInChat] Change links to be placed before message\n42196df: Merge pull request #668 from SlashNephy/chore/set-flag-map-marker\n\nFaloopIntegration: Set \u003cflag\u003e without opening map\n7b70f71: proper conversion into world position\n\nCo-authored-by: Diyagi \u003cdouglas@diyagi.dev\u003e\n0d2610b: clear flag before set one\n6d53025: There was no need to call Round()\necfcc33: try using SetFlagMapMarker\n2b84f1c: add FFXIVClientStructs reference\n23d8d6c: add copy button\n0a0eafe: [AetheryteLinkInChat] Change links to be placed before message\nac3fe87: [FaloopIntegration] Remove SpawnRelease handler and fix SpawnState search logic.\n3d8ecf9: use stg branch\n394cea1: support spawn_false event\nfa86367: update Locations\n7e48c88: fix GetInstanceIcon\nccb3516: remove DiscordIntegration.IpcModel from solution",
+    "Changelog": "37ca918: Merge pull request #691 from Diyagi/api11\n\nUpdate to API 11 and Lumina 5\n6eb5d76: Improves IEnumerable Extension\n4f14499: Update README.md\n565cda2: Prevent some possible null ref errors\nd3fadf9: Fix wrong logic\ne4940d8: Remove Dalamud API Level Override\n7047607: Update Lumina\ne506051: Update ECommons\n84882d7: Update DalamudPackager\n8314022: Merge pull request #680 from Diyagi/CommandProcessorFix\n\nCommand processor fix\n40b1abe: Merge pull request #679 from Diyagi/MapLinkOption\n\nAdd option to toggle link after maplink\n7856f43: Merge pull request #676 from SlashNephy/renovate/peter-evans-create-pull-request-7.x\n\nUpdate peter-evans/create-pull-request action to v7\nc8ff3a3: Fix CommandProcessor\ne877ac4: Fix config logic\need6c17: Add option to toggle link after maplink\nab2d82a: Update peter-evans/create-pull-request action to v7\ncfa4218: OverrideActTextToSpeech\nfe366be: API 10\n92955b7: fixed a rare access violation while ExecuteTeleport\na4a0282: Merge pull request #670 from Diyagi/deathfix\n\n[FaloopIntegration] Fix ActiveMobUi death function not being called.\nd948983: [FaloopIntegration] Fix events not being removed from spawnEvents on MobDeath\n795f163: [FaloopIntegration] Fix ActiveMobUi death event not being called.\nc4117b6: no longer necessary to persist MobSpawnEvent\n80e4650: Merge pull request #665 from Diyagi/custom_payload\n\n[FaloopIntegration] Remove SpawnRelease handler and fix SpawnState search logic.\nf900480: Merge pull request #666 from Diyagi/patch-1\n\n[AetheryteLinkInChat] Change links to be placed before message\n42196df: Merge pull request #668 from SlashNephy/chore/set-flag-map-marker\n\nFaloopIntegration: Set \u003cflag\u003e without opening map\n7b70f71: proper conversion into world position\n\nCo-authored-by: Diyagi \u003cdouglas@diyagi.dev\u003e\n0d2610b: clear flag before set one\n6d53025: There was no need to call Round()\necfcc33: try using SetFlagMapMarker",
     "Tags": [
       "Discord"
     ],
@@ -86,12 +86,12 @@
     ],
     "InternalName": "InstanceIDViewer",
     "AssemblyVersion": "7.0.2.0",
-    "TestingAssemblyVersion": "7.0.2.0",
+    "TestingAssemblyVersion": "7.0.3.9",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 10,
     "DownloadCount": 649,
-    "LastUpdate": 1732150346,
+    "LastUpdate": 1732150441,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/InstanceIDViewer/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/InstanceIDViewer/download",
     "AcceptsFeedback": true
