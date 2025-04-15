@@ -17,8 +17,8 @@
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 12,
-    "DownloadCount": 20575,
-    "LastUpdate": 1744732573,
+    "DownloadCount": 20602,
+    "LastUpdate": 1744736253,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/AetheryteLinkInChat/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/AetheryteLinkInChat/download",
     "AcceptsFeedback": true
@@ -43,7 +43,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 12,
     "DownloadCount": 359,
-    "LastUpdate": 1744732573,
+    "LastUpdate": 1744736253,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Debugger/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Debugger/download",
     "AcceptsFeedback": true
@@ -67,8 +67,8 @@
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 12,
-    "DownloadCount": 17778,
-    "LastUpdate": 1744732573,
+    "DownloadCount": 17810,
+    "LastUpdate": 1744736253,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/FaloopIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/FaloopIntegration/download",
     "AcceptsFeedback": true
@@ -77,7 +77,7 @@
     "Author": "Horoscope developers",
     "Name": "Divination.InstanceIDViewer",
     "Description": "show instance id in chat when instance changed",
-    "Changelog": "c0e5091: upgrade GitVersion to 6\n70f3e84: use global TargetFramework\n98c8b30: migrate to Dalamud.NET.Sdk\n\nhttps://dalamud.dev/plugin-development/how-tos/v12-sdk-migration\n1b1fd1f: upgrade solution to .NET 9\n8ad3ade: fix ECommons reference in Horoscope\nc6c36e1: remove ClickLib reference\n3faf60a: Merge pull request #692 from Diyagi/master\n\nAPI 12  and .NET 9 Update\n763f80b: More SocketIO Fixes\n1011668: Fix SocketIO Client for SocketIO Update\nea504c8: Fixes for API 12\nc920db5: API 12 and NET 9 Update\nd5549a3: Update ECommons\n37ca918: Merge pull request #691 from Diyagi/api11\n\nUpdate to API 11 and Lumina 5\n6eb5d76: Improves IEnumerable Extension\n4f14499: Update README.md\n565cda2: Prevent some possible null ref errors\nd3fadf9: Fix wrong logic\ne4940d8: Remove Dalamud API Level Override\n7047607: Update Lumina\ne506051: Update ECommons\n84882d7: Update DalamudPackager\n8314022: Merge pull request #680 from Diyagi/CommandProcessorFix\n\nCommand processor fix\n40b1abe: Merge pull request #679 from Diyagi/MapLinkOption\n\nAdd option to toggle link after maplink\n7856f43: Merge pull request #676 from SlashNephy/renovate/peter-evans-create-pull-request-7.x\n\nUpdate peter-evans/create-pull-request action to v7\nc8ff3a3: Fix CommandProcessor\ne877ac4: Fix config logic\need6c17: Add option to toggle link after maplink\nab2d82a: Update peter-evans/create-pull-request action to v7\ncfa4218: OverrideActTextToSpeech\nfe366be: API 10",
+    "Changelog": "ab83a11: wrap TeleportToPaths with RunOnTick\n1024a06: wrap with IFramework.RunOnFrameworkThread\n5fb1d60: DalamudApiLevel 12\nc0e5091: upgrade GitVersion to 6\n70f3e84: use global TargetFramework\n98c8b30: migrate to Dalamud.NET.Sdk\n\nhttps://dalamud.dev/plugin-development/how-tos/v12-sdk-migration\n1b1fd1f: upgrade solution to .NET 9\n8ad3ade: fix ECommons reference in Horoscope\nc6c36e1: remove ClickLib reference\n3faf60a: Merge pull request #692 from Diyagi/master\n\nAPI 12  and .NET 9 Update\n763f80b: More SocketIO Fixes\n1011668: Fix SocketIO Client for SocketIO Update\nea504c8: Fixes for API 12\nc920db5: API 12 and NET 9 Update\nd5549a3: Update ECommons\n37ca918: Merge pull request #691 from Diyagi/api11\n\nUpdate to API 11 and Lumina 5\n6eb5d76: Improves IEnumerable Extension\n4f14499: Update README.md\n565cda2: Prevent some possible null ref errors\nd3fadf9: Fix wrong logic\ne4940d8: Remove Dalamud API Level Override\n7047607: Update Lumina\ne506051: Update ECommons\n84882d7: Update DalamudPackager\n8314022: Merge pull request #680 from Diyagi/CommandProcessorFix\n\nCommand processor fix\n40b1abe: Merge pull request #679 from Diyagi/MapLinkOption\n\nAdd option to toggle link after maplink\n7856f43: Merge pull request #676 from SlashNephy/renovate/peter-evans-create-pull-request-7.x\n\nUpdate peter-evans/create-pull-request action to v7\nc8ff3a3: Fix CommandProcessor\ne877ac4: Fix config logic\need6c17: Add option to toggle link after maplink",
     "Tags": [
       "Discord"
     ],
@@ -85,13 +85,13 @@
       "social"
     ],
     "InternalName": "InstanceIDViewer",
-    "AssemblyVersion": "7.0.2.0",
-    "TestingAssemblyVersion": "7.2.1.60000",
+    "AssemblyVersion": "7.2.2.60000",
+    "TestingAssemblyVersion": "7.2.2.60000",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 10,
     "DownloadCount": 750,
-    "LastUpdate": 1744732573,
+    "LastUpdate": 1744736253,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/InstanceIDViewer/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/InstanceIDViewer/download",
     "AcceptsFeedback": true
