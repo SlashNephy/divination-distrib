@@ -12,13 +12,13 @@
       "utility"
     ],
     "InternalName": "AetheryteLinkInChat",
-    "AssemblyVersion": "7.2.4.0",
-    "TestingAssemblyVersion": "7.3.0.10",
+    "AssemblyVersion": "7.3.1.0",
+    "TestingAssemblyVersion": "7.3.1.0",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "DownloadCount": 23181,
-    "LastUpdate": 1758078722,
+    "LastUpdate": 1758079317,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/AetheryteLinkInChat/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/AetheryteLinkInChat/download",
     "AcceptsFeedback": true
@@ -43,7 +43,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 12,
     "DownloadCount": 396,
-    "LastUpdate": 1758078722,
+    "LastUpdate": 1758079317,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Debugger/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Debugger/download",
     "AcceptsFeedback": true
@@ -53,7 +53,7 @@
     "Name": "Divination.FaloopIntegration",
     "Punchline": "Faloop Notification in Chat",
     "Description": "Show Faloop mob spawn notifications in in-game chat. Type /faloop to configure the plugin.",
-    "Changelog": "2586174: remove Common publish step\nc08d05f: delete workflows\n43993c7: update GitVersion strategies\n7656484: maybe it should be awaited\n9ca32ad: System.Net.Http.Json 9.0.4\nab83a11: wrap TeleportToPaths with RunOnTick\n1024a06: wrap with IFramework.RunOnFrameworkThread\n5fb1d60: DalamudApiLevel 12\nc0e5091: upgrade GitVersion to 6\n70f3e84: use global TargetFramework\n98c8b30: migrate to Dalamud.NET.Sdk\n\nhttps://dalamud.dev/plugin-development/how-tos/v12-sdk-migration\n1b1fd1f: upgrade solution to .NET 9\n8ad3ade: fix ECommons reference in Horoscope\nc6c36e1: remove ClickLib reference\n3faf60a: Merge pull request #692 from Diyagi/master\n\nAPI 12  and .NET 9 Update\n763f80b: More SocketIO Fixes\n1011668: Fix SocketIO Client for SocketIO Update\nea504c8: Fixes for API 12\nc920db5: API 12 and NET 9 Update\nd5549a3: Update ECommons\n37ca918: Merge pull request #691 from Diyagi/api11\n\nUpdate to API 11 and Lumina 5\n6eb5d76: Improves IEnumerable Extension\n4f14499: Update README.md\n565cda2: Prevent some possible null ref errors\nd3fadf9: Fix wrong logic\ne4940d8: Remove Dalamud API Level Override\n7047607: Update Lumina\ne506051: Update ECommons\n84882d7: Update DalamudPackager\n8314022: Merge pull request #680 from Diyagi/CommandProcessorFix\n\nCommand processor fix",
+    "Changelog": "0222da0: add ECommons reference via Nuget\n368a77f: remove ECommons submodule\n153fae4: Merge pull request #697 from SlashNephy/renovate/gitversion.msbuild-6.x\n\nUpdate dependency GitVersion.MsBuild to 6.4.0\na3a2e35: Merge pull request #698 from SlashNephy/renovate/gitversion.tool-6.x\n\nUpdate dependency gitversion.tool to v6.4.0\n66caede: Merge pull request #701 from SlashNephy/renovate/major-github-artifact-actions\n\nUpdate actions/download-artifact action to v5\n43477da: Merge pull request #705 from SlashNephy/renovate/actions-checkout-5.x\n\nUpdate actions/checkout action to v5\nd85d7b3: Update dependency gitversion.tool to 6.4.0\nd172ecd: Update dependency GitVersion.MsBuild to 6.4.0\nc3428f2: Update dependency DiscordRichPresence to 1.6.1.70 (#700)\n\nCo-authored-by: renovate[bot] \u003c29139614+renovate[bot]@users.noreply.github.com\u003e\nb7d6f6e: Merge pull request #703 from a1hena/api13\n\nApi13\nc739f46: Update DivinationApi.cs\n5dd082c: Update DivinationApi.cs\n1a47467: Delete NetworkDataParser.cs\na1068ab: rollback import\n32dfd49: Delete INetworkInterceptor\nb4e1e98: disable InstanceIDViewer\nc02c5eb: Update ECommons\na6b32aa: Update DivinationApi.cs\ncedcb74: (wip) disable  ImGui.InputScalar\n444bdb6: Update build-Common.yml\n7488f24: ECommons.DalamudServices.Legacy.IGameNetwork\nb46dda7: Update actions/checkout action to v5\nda5db62: Merge branch 'api13' of https://github.com/a1hena/Divination into api13\n28525bd: move IChatGui\ndcbd7f4: Dalamud.Bindings.ImGui\n9d651dc: comment agent-\u003eIsFlagMarkerSet\nede7b24: comment agent-\u003eIsFlagMarkerSet\n13022cc: Dalamud.Bindings.ImGui\n51b6443: Replace Condition Gathering42 and Crafting40\nd1230a4: Dalamud.NET.Sdk 13.0.0",
     "Tags": [
       "mobhunt"
     ],
@@ -62,13 +62,13 @@
       "utility"
     ],
     "InternalName": "FaloopIntegration",
-    "AssemblyVersion": "7.2.3.0",
-    "TestingAssemblyVersion": "7.2.3.0",
+    "AssemblyVersion": "7.3.1.0",
+    "TestingAssemblyVersion": "7.3.1.0",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
-    "DalamudApiLevel": 12,
+    "DalamudApiLevel": 13,
     "DownloadCount": 19881,
-    "LastUpdate": 1758078722,
+    "LastUpdate": 1758079317,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/FaloopIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/FaloopIntegration/download",
     "AcceptsFeedback": true
@@ -91,7 +91,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 10,
     "DownloadCount": 765,
-    "LastUpdate": 1758078722,
+    "LastUpdate": 1758079317,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/InstanceIDViewer/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/InstanceIDViewer/download",
     "AcceptsFeedback": true
