@@ -26,7 +26,7 @@ jobs:
         with:
           go-version: 1.22
 
-      - uses: chetan/git-restore-mtime-action@v2
+      - uses: chetan/git-restore-mtime-action@cbf8161ddb4e9b162409104954fb540e8a38c1da # v2.1.1
 
       - name: Generate Plugin Master
         run: |
