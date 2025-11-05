@@ -18,7 +18,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "DownloadCount": 24707,
-    "LastUpdate": 1762353662,
+    "LastUpdate": 1762353707,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/AetheryteLinkInChat/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/AetheryteLinkInChat/download",
     "AcceptsFeedback": true
@@ -43,7 +43,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 12,
     "DownloadCount": 397,
-    "LastUpdate": 1762353662,
+    "LastUpdate": 1762353707,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Debugger/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Debugger/download",
     "AcceptsFeedback": true
@@ -53,7 +53,7 @@
     "Name": "Divination.FaloopIntegration",
     "Punchline": "Faloop Notification in Chat",
     "Description": "Show Faloop mob spawn notifications in in-game chat. Type /faloop to configure the plugin.",
-    "Changelog": "0222da0: add ECommons reference via Nuget\n368a77f: remove ECommons submodule\n153fae4: Merge pull request #697 from SlashNephy/renovate/gitversion.msbuild-6.x\n\nUpdate dependency GitVersion.MsBuild to 6.4.0\na3a2e35: Merge pull request #698 from SlashNephy/renovate/gitversion.tool-6.x\n\nUpdate dependency gitversion.tool to v6.4.0\n66caede: Merge pull request #701 from SlashNephy/renovate/major-github-artifact-actions\n\nUpdate actions/download-artifact action to v5\n43477da: Merge pull request #705 from SlashNephy/renovate/actions-checkout-5.x\n\nUpdate actions/checkout action to v5\nd85d7b3: Update dependency gitversion.tool to 6.4.0\nd172ecd: Update dependency GitVersion.MsBuild to 6.4.0\nc3428f2: Update dependency DiscordRichPresence to 1.6.1.70 (#700)\n\nCo-authored-by: renovate[bot] \u003c29139614+renovate[bot]@users.noreply.github.com\u003e\nb7d6f6e: Merge pull request #703 from a1hena/api13\n\nApi13\nc739f46: Update DivinationApi.cs\n5dd082c: Update DivinationApi.cs\n1a47467: Delete NetworkDataParser.cs\na1068ab: rollback import\n32dfd49: Delete INetworkInterceptor\nb4e1e98: disable InstanceIDViewer\nc02c5eb: Update ECommons\na6b32aa: Update DivinationApi.cs\ncedcb74: (wip) disable  ImGui.InputScalar\n444bdb6: Update build-Common.yml\n7488f24: ECommons.DalamudServices.Legacy.IGameNetwork\nb46dda7: Update actions/checkout action to v5\nda5db62: Merge branch 'api13' of https://github.com/a1hena/Divination into api13\n28525bd: move IChatGui\ndcbd7f4: Dalamud.Bindings.ImGui\n9d651dc: comment agent-\u003eIsFlagMarkerSet\nede7b24: comment agent-\u003eIsFlagMarkerSet\n13022cc: Dalamud.Bindings.ImGui\n51b6443: Replace Condition Gathering42 and Crafting40\nd1230a4: Dalamud.NET.Sdk 13.0.0",
+    "Changelog": "fa4724b: Merge pull request #710 from SlashNephy/renovate/actions-upload-artifact-4.x\n\nUpdate actions/upload-artifact action to v4.6.2\n57507df: Merge pull request #709 from SlashNephy/renovate/peter-evans-create-pull-request-7.0.x\n\nUpdate peter-evans/create-pull-request action to v7.0.8\n9469cd5: Merge pull request #699 from SlashNephy/renovate/patch-dotnet-monorepo\n\nUpdate dependency System.Net.Http.Json to 9.0.10\n61683ff: Merge pull request #707 from SlashNephy/renovate/ecommons-3.0.x\n\nUpdate dependency ECommons to 3.0.1.26\n97f3939: Merge pull request #702 from SlashNephy/renovate/dalamud.net.sdk-13.x\n\nUpdate dependency Dalamud.NET.Sdk to v13.1.0\naedd1ad: Update dependency ECommons to 3.0.1.26\n8e569ef: Update actions/upload-artifact action to v4.6.2\n88d9e72: Update peter-evans/create-pull-request action to v7.0.8\ndca0504: Update dependency System.Net.Http.Json to 9.0.10\n3cafcd1: Merge pull request #708 from SlashNephy/renovate/pin-dependencies\n\nPin dependencies\n652672f: Pin dependencies\nfc97414: Update dependency Dalamud.NET.Sdk to v13.1.0\n0222da0: add ECommons reference via Nuget\n368a77f: remove ECommons submodule\n153fae4: Merge pull request #697 from SlashNephy/renovate/gitversion.msbuild-6.x\n\nUpdate dependency GitVersion.MsBuild to 6.4.0\na3a2e35: Merge pull request #698 from SlashNephy/renovate/gitversion.tool-6.x\n\nUpdate dependency gitversion.tool to v6.4.0\n66caede: Merge pull request #701 from SlashNephy/renovate/major-github-artifact-actions\n\nUpdate actions/download-artifact action to v5\n43477da: Merge pull request #705 from SlashNephy/renovate/actions-checkout-5.x\n\nUpdate actions/checkout action to v5\nd85d7b3: Update dependency gitversion.tool to 6.4.0\nd172ecd: Update dependency GitVersion.MsBuild to 6.4.0\nc3428f2: Update dependency DiscordRichPresence to 1.6.1.70 (#700)\n\nCo-authored-by: renovate[bot] \u003c29139614+renovate[bot]@users.noreply.github.com\u003e\nb7d6f6e: Merge pull request #703 from a1hena/api13\n\nApi13\nc739f46: Update DivinationApi.cs\n5dd082c: Update DivinationApi.cs\n1a47467: Delete NetworkDataParser.cs\na1068ab: rollback import\n32dfd49: Delete INetworkInterceptor\nb4e1e98: disable InstanceIDViewer\nc02c5eb: Update ECommons\na6b32aa: Update DivinationApi.cs",
     "Tags": [
       "mobhunt"
     ],
@@ -63,12 +63,12 @@
     ],
     "InternalName": "FaloopIntegration",
     "AssemblyVersion": "7.3.1.0",
-    "TestingAssemblyVersion": "7.3.1.0",
+    "TestingAssemblyVersion": "7.3.1.8",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
     "DownloadCount": 21184,
-    "LastUpdate": 1762353662,
+    "LastUpdate": 1762353707,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/FaloopIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/FaloopIntegration/download",
     "AcceptsFeedback": true
@@ -91,7 +91,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 10,
     "DownloadCount": 766,
-    "LastUpdate": 1762353662,
+    "LastUpdate": 1762353707,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/InstanceIDViewer/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/InstanceIDViewer/download",
     "AcceptsFeedback": true
