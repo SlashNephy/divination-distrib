@@ -17,8 +17,8 @@
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
-    "DownloadCount": 25981,
-    "LastUpdate": 1765808356,
+    "DownloadCount": 25982,
+    "LastUpdate": 1765811946,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/AetheryteLinkInChat/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/AetheryteLinkInChat/download",
     "AcceptsFeedback": true
@@ -43,7 +43,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 12,
     "DownloadCount": 397,
-    "LastUpdate": 1765808356,
+    "LastUpdate": 1765811946,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/Debugger/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/Debugger/download",
     "AcceptsFeedback": true
@@ -67,8 +67,8 @@
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 13,
-    "DownloadCount": 22302,
-    "LastUpdate": 1765808356,
+    "DownloadCount": 22303,
+    "LastUpdate": 1765811946,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/FaloopIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/FaloopIntegration/download",
     "AcceptsFeedback": true
@@ -91,7 +91,7 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 10,
     "DownloadCount": 767,
-    "LastUpdate": 1765808356,
+    "LastUpdate": 1765811946,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/InstanceIDViewer/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/InstanceIDViewer/download",
     "AcceptsFeedback": true
