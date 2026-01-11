@@ -2,7 +2,7 @@
   "Author": "Asteria Nocturna",
   "Name": "Divination.FaloopIntegration",
   "InternalName": "FaloopIntegration",
-  "AssemblyVersion": "7.3.1.14",
+  "AssemblyVersion": "7.4.0.0",
   "Description": "Show Faloop mob spawn notifications in in-game chat. Type /faloop to configure the plugin.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -12,11 +12,12 @@
     "social",
     "utility"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Faloop Notification in Chat",
-  "AcceptsFeedback": true
+  "AcceptsFeedback": true,
+  "TestingDalamudApiLevel": 14
 }
