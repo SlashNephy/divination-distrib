@@ -2,7 +2,7 @@
   "Author": "Asteria Nocturna",
   "Name": "Divination.AetheryteLinkInChat",
   "InternalName": "AetheryteLinkInChat",
-  "AssemblyVersion": "7.3.1.14",
+  "AssemblyVersion": "7.4.0.0",
   "Description": "Display a teleport link to the nearest aetherite for the map link from the in-game chat. Type /alic to configure the plugin.",
   "ApplicableVersion": "any",
   "Tags": [
@@ -11,11 +11,12 @@
   "CategoryTags": [
     "utility"
   ],
-  "DalamudApiLevel": 13,
+  "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Quick teleport for mob hunts and treasure hunts!",
-  "AcceptsFeedback": true
+  "AcceptsFeedback": true,
+  "TestingDalamudApiLevel": 14
 }
