@@ -18,8 +18,8 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 14,
     "TestingDalamudApiLevel": 14,
-    "DownloadCount": 28072,
-    "LastUpdate": 1771876492,
+    "DownloadCount": 28074,
+    "LastUpdate": 1771879082,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/AetheryteLinkInChat/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/AetheryteLinkInChat/download",
     "AcceptsFeedback": true
@@ -45,7 +45,7 @@
     "DalamudApiLevel": 14,
     "TestingDalamudApiLevel": 14,
     "DownloadCount": 24065,
-    "LastUpdate": 1771876492,
+    "LastUpdate": 1771879082,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/FaloopIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/FaloopIntegration/download",
     "AcceptsFeedback": true
