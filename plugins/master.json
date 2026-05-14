@@ -18,8 +18,8 @@
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
     "TestingDalamudApiLevel": 15,
-    "DownloadCount": 28552,
-    "LastUpdate": 1778753346,
+    "DownloadCount": 28553,
+    "LastUpdate": 1778769721,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/AetheryteLinkInChat/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/AetheryteLinkInChat/download",
     "AcceptsFeedback": true
@@ -29,7 +29,7 @@
     "Name": "Divination.FaloopIntegration",
     "Punchline": "Faloop Notification in Chat",
     "Description": "Show Faloop mob spawn notifications in in-game chat. Type /faloop to configure the plugin.",
-    "Changelog": "350e975: adjust ignorePaths\n\nAdded ignorePaths to exclude specific packages from Renovate updates.\nb6b437b: chore(renovate): update config\n5b7fb4a: update packages.lock.json\n527cee5: Patch TestingDalamudApiLevel\n104b522: Merge branch 'master' of https://github.com/SlashNephy/Divination\n2872e7b: TestingDalamudApiLevel\n9bd07df: Merge pull request #725 from SlashNephy/renovate/ecommons-3.1.x\n\nUpdate dependency ECommons to 3.1.0.10\n806c64b: Update dependency ECommons to 3.1.0.10\nd22d5a2: Merge pull request #724 from SlashNephy/renovate/dalamud.net.sdk-14.x\n\nUpdate dependency Dalamud.NET.Sdk to v14\n6d0d727: Update dependency Dalamud.NET.Sdk to v14\n23f598d: v14/net10\n0e026cf: Merge pull request #722 from SlashNephy/renovate/major-github-artifact-actions\n\nUpdate GitHub Artifact Actions (major)\nb7929bb: Merge pull request #721 from SlashNephy/renovate/peter-evans-create-pull-request-8.x\n\nUpdate peter-evans/create-pull-request action to v8\nd41e3e5: Merge pull request #719 from SlashNephy/renovate/actions-checkout-6.x\n\nUpdate actions/checkout action to v6\n277a7ab: Merge pull request #713 from SlashNephy/renovate/gitversion.tool-6.x\n\nUpdate dependency gitversion.tool to v6.5.1\nf5159f6: Merge pull request #712 from SlashNephy/renovate/gitversion.msbuild-6.x\n\nUpdate dependency GitVersion.MsBuild to 6.5.1\n8e11d6d: Update GitHub Artifact Actions\nd053e45: Update peter-evans/create-pull-request action to v8\nb701ff4: Update actions/checkout action to v6\n4eb8200: Update dependency gitversion.tool to v6.5.1\nd3888a1: Update dependency GitVersion.MsBuild to 6.5.1\nff7656d: Merge pull request #711 from SlashNephy/renovate/major-github-artifact-actions\n\nUpdate GitHub Artifact Actions (major)\nbd519d4: Update GitHub Artifact Actions\nfa4724b: Merge pull request #710 from SlashNephy/renovate/actions-upload-artifact-4.x\n\nUpdate actions/upload-artifact action to v4.6.2\n57507df: Merge pull request #709 from SlashNephy/renovate/peter-evans-create-pull-request-7.0.x\n\nUpdate peter-evans/create-pull-request action to v7.0.8\n9469cd5: Merge pull request #699 from SlashNephy/renovate/patch-dotnet-monorepo\n\nUpdate dependency System.Net.Http.Json to 9.0.10\n61683ff: Merge pull request #707 from SlashNephy/renovate/ecommons-3.0.x\n\nUpdate dependency ECommons to 3.0.1.26\n97f3939: Merge pull request #702 from SlashNephy/renovate/dalamud.net.sdk-13.x\n\nUpdate dependency Dalamud.NET.Sdk to v13.1.0\naedd1ad: Update dependency ECommons to 3.0.1.26\n8e569ef: Update actions/upload-artifact action to v4.6.2",
+    "Changelog": "1ee92ce: api15\n17e73c5: Merge pull request #739 from SlashNephy/renovate/gitversion.tool-6.x\n\nUpdate dependency gitversion.tool to v6.7.0\n5465f48: Merge pull request #741 from SlashNephy/renovate/actions-download-artifact-8.x\n\nUpdate actions/download-artifact action to v8.0.1\n495d5fb: Merge pull request #745 from SlashNephy/renovate/actions-upload-artifact-7.x\n\nUpdate actions/upload-artifact action to v7.0.1\nca18991: Merge pull request #744 from SlashNephy/renovate/peter-evans-create-pull-request-8.x\n\nUpdate peter-evans/create-pull-request action to v8.1.1\nab2633c: Update actions/upload-artifact action to v7.0.1\n7a41ac8: Update peter-evans/create-pull-request action to v8.1.1\nd92a045: chore(deps): update dependency gitversion.tool to v6.7.0\nce0a761: chore(deps): update actions/download-artifact action to v8.0.1\nd1eb739: Merge pull request #740 from SlashNephy/renovate/major-github-artifact-actions\n\nchore(deps): update github artifact actions (major)\n53bc1e8: chore(deps): update github artifact actions\n7a99714: chore(deps): update peter-evans/create-pull-request action to v8.1.0 (#734)\n\nCo-authored-by: renovate[bot] \u003c29139614+renovate[bot]@users.noreply.github.com\u003e\nb93b015: chore(deps): update actions/checkout action to v6.0.2 (#735)\n\nCo-authored-by: renovate[bot] \u003c29139614+renovate[bot]@users.noreply.github.com\u003e\n923acf1: adjust CI trigger\n1b3387d: Merge pull request #733 from SlashNephy/chore/ignore-abandoned-projects\n\nRenovate: ignore abandoned projects\n1058fe1: fix typo\n\nCo-authored-by: Copilot \u003c175728472+Copilot@users.noreply.github.com\u003e\n9e2b7dd: also track .csproj\n0e86a4a: upgrade Horoscope\n9cb4877: ignore abandoned projects\n5f322b5: Merge pull request #731 from SlashNephy/chore/track-dalamud-api-level\n\nuse goatcorp/Dalamud tags to track DalamudApiLevel updates\nad009d4: use goatcorp/Dalamud tags to track DalamudApiLevel updates\n7997300: Merge pull request #730 from SlashNephy/cleanup\n\nCleanup\n11e94ef: track TargetFramework with Renovate\n53e4cf1: configure TargetFramework via Directory.Build.props\na5707a2: no longer submodules do not exist\n375eaa9: format\n5bd517d: should stage packages.lock.json\n1e48f42: remove Debugger, Voiceroid2Talker from solution\n3ab9c4e: Visual Studio 2026\n55a885d: Update README with disclaimer and installation steps\n\nAdded disclaimer and installation instructions for plugins.",
     "Tags": [
       "mobhunt"
     ],
@@ -38,14 +38,14 @@
       "utility"
     ],
     "InternalName": "FaloopIntegration",
-    "AssemblyVersion": "7.4.0.0",
-    "TestingAssemblyVersion": "7.4.0.0",
+    "AssemblyVersion": "7.5.0.0",
+    "TestingAssemblyVersion": "7.5.0.0",
     "RepoUrl": "https://github.com/SlashNephy/Divination",
     "ApplicableVersion": "any",
-    "DalamudApiLevel": 14,
-    "TestingDalamudApiLevel": 14,
-    "DownloadCount": 24277,
-    "LastUpdate": 1778753346,
+    "DalamudApiLevel": 15,
+    "TestingDalamudApiLevel": 15,
+    "DownloadCount": 24278,
+    "LastUpdate": 1778769721,
     "DownloadLinkInstall": "https://xiv.starry.blue/plugins/stable/FaloopIntegration/download",
     "DownloadLinkTesting": "https://xiv.starry.blue/plugins/testing/FaloopIntegration/download",
     "AcceptsFeedback": true
