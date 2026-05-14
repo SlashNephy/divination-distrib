@@ -17,3 +17,4 @@ jobs:
           close-pr-label: automerge
           days-before-pr-close: 1
           delete-branch: true
+          repo-token: ${{ secrets.BOT_GITHUB_TOKEN }}
