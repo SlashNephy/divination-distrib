@@ -34,7 +34,7 @@ jobs:
 
       - uses: actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16 # v6.5.0
         with:
-          go-version: 1.26
+          go-version: 1.27
 
       - uses: chetan/git-restore-mtime-action@cbf8161ddb4e9b162409104954fb540e8a38c1da # v2.1.1
 
