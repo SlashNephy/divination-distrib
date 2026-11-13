@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "description": "Run Functions only for the download counter. Without this, the generated routes include /plugins/*, so every request for master.json invoked a function.",
+  "include": [
+    "/",
+    "/plugins/*"
+  ],
+  "exclude": [
+    "/plugins/master.json",
+    "/plugins/api13.json"
+  ]
+}
