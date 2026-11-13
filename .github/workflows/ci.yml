@@ -16,6 +16,11 @@ on:
 concurrency:
   group: ci
 
+permissions:
+  # to dispatch this workflow again when the push is rejected
+  actions: write
+  contents: read
+
 jobs:
   update-plugin-master:
     runs-on: ubuntu-latest
@@ -28,9 +33,13 @@ jobs:
           client-id: Iv23liyjT3RUuzI5oVIL # divination-deploy
           private-key: ${{ secrets.DEPLOY_APP_PRIVATE_KEY }}
           permission-contents: write
-          permission-pull-requests: write
 
+      # Generate from the latest master rather than the commit that triggered this run, so that a run never pushes a
+      # master.json older than the plugins already on master. Runs are serialized by the concurrency group.
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          ref: master
+          token: ${{ steps.app-token.outputs.token }}
 
       - uses: actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16 # v6.5.0
         with:
@@ -43,22 +52,24 @@ jobs:
           go install github.com/SlashNephy/divination-plugin-master-generator@latest
           divination-plugin-master-generator
 
-      - name: Create Pull Request
-        id: create-pull-request
-        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
-        with:
-          token: ${{ steps.app-token.outputs.token }}
-          commit-message: 🪄 Generate Plugin Master
-          branch: ci/update-plugin-master
-          branch-suffix: random
-          delete-branch: true
-          title: 🪄 Generate Plugin Master
-          labels: automerge
+      # Push directly instead of opening a pull request: pull requests generated from different commits conflicted
+      # with each other on master.json, and the later one was left unmerged.
+      - name: Push Plugin Master
+        run: |
+          git add plugins/master.json
+          if git diff --cached --quiet; then
+            echo "master.json is up to date."
+            exit 0
+          fi
 
-      - name: Automerge
-        if: steps.create-pull-request.outputs.pull-request-number
-        continue-on-error: true
-        uses: peter-evans/enable-pull-request-automerge@a660677d5469627102a1c1e11409dd063606628d # v3
-        with:
-          token: ${{ steps.app-token.outputs.token }}
-          pull-request-number: ${{  steps.create-pull-request.outputs.pull-request-number }}
+          git config user.name 'divination-deploy[bot]'
+          git config user.email '331637559+divination-deploy[bot]@users.noreply.github.com'
+          git commit -m '🪄 Generate Plugin Master'
+
+          if ! git push origin HEAD:master; then
+            # master moved while generating. Generate again from the new master, after this run.
+            echo "::warning::Push was rejected. Dispatching this workflow again."
+            gh workflow run ci.yml --repo "$GITHUB_REPOSITORY" --ref master
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
