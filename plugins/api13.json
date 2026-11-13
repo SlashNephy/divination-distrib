@@ -1,0 +1,24 @@
+[
+  {
+    "Author": "Asteria Nocturna",
+    "Name": "Divination.AetheryteLinkInChat",
+    "Punchline": "Quick teleport for mob hunts and treasure hunts!",
+    "Description": "Display a teleport link to the nearest aetherite for the map link from the in-game chat. Type /alic to configure the plugin.\n\nThis is a frozen build for Dalamud API 13 (e.g. the Traditional Chinese client) and will not receive further updates.",
+    "Changelog": "Frozen build of 7.3.1.14 for Dalamud API 13.",
+    "Tags": [
+      "teleporter"
+    ],
+    "CategoryTags": [
+      "utility"
+    ],
+    "InternalName": "AetheryteLinkInChat",
+    "AssemblyVersion": "7.3.1.14",
+    "RepoUrl": "https://github.com/SlashNephy/Divination",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 13,
+    "LastUpdate": 1762356305,
+    "DownloadLinkInstall": "https://xiv.starry.blue/plugins/api13/AetheryteLinkInChat/latest.zip",
+    "DownloadLinkUpdate": "https://xiv.starry.blue/plugins/api13/AetheryteLinkInChat/latest.zip",
+    "AcceptsFeedback": true
+  }
+]
